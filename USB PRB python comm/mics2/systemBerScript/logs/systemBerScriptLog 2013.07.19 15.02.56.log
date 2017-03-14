@@ -1,0 +1,13 @@
+2013/07/19 15:02:56:684  INFO:   Loaded Symbol File C:\ISV System\Config\FirmwareSymbols\build178.sym for firmware Build #178
+2013/07/19 15:02:56:699  INFO:   CommunicationSystemLog properties: .\CommunicationSystem.logger.properties
+2013/07/19 15:02:56:699  INFO:   CommunicationSystemLog log       : .\logs\systemBerScriptLog 2013.07.19 15.02.56_CommunicationSystem.Log
+2013/07/19 15:03:00:457  INFO:   Setting the event sink for ScriptEngineProcedure
+2013/07/19 15:03:00:457  INFO:   Program parameters checks are enabled
+2013/07/19 15:03:00:462  INFO:   ********************************************************************************
+2013/07/19 15:03:00:462  INFO:   Starting ScriptEngineProcedure, Assembly  version 
+2013/07/19 15:03:00:466  INFO:   Config: ICD (NCommunicationSystem ver: nCommunicationSystem, Version=1.8.2.1, Culture=neutral, PublicKeyToken=56b5378c99c0bcfd; FTDI Driver ver: 2.08.24.0; PRB FPGA ver: 18)
+2013/07/19 15:03:00:467  INFO:   Setting the radio board transmit power to level 0x7.
+2013/07/19 15:03:00:470  INFO:   Radio board power level set to 7.
+2013/07/19 15:03:00:470  INFO:   ECG Timeout Interval set to 10 seconds.
+2013/07/19 15:03:00:471  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/07/19 15:03:00:471  INFO:   FwDvtSystem Started the event processing thread

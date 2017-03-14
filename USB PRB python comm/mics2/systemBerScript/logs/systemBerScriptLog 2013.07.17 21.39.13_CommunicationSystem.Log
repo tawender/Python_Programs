@@ -1,0 +1,145 @@
+<<<<< Log Header: 07/17/2013 21:39:13 >>>>>
+2013/07/17 21:39:13:901 [001012] INFO [NCommunicationSystem.cpp, 108] - nCommunicationSystem, Version=1.8.2.1, Culture=neutral, PublicKeyToken=56b5378c99c0bcfd
+2013/07/17 21:39:13:918 [001012] INFO [ExceptionCatchingThread.cpp, 257] - Created the timer thread with id 6828 (0x1aac).
+2013/07/17 21:39:13:920 [006828] INFO [ExceptionCatchingThread.cpp, 168] - Executing the timer thread procedure...
+2013/07/17 21:39:13:924 [001012] INFO [ExceptionCatchingThread.cpp, 257] - Created the dispatch thread with id 6840 (0x1ab8).
+2013/07/17 21:39:13:924 [006840] INFO [ExceptionCatchingThread.cpp, 168] - Executing the dispatch thread procedure...
+2013/07/17 21:39:16:926 [001012] DEBUG [Prb.cpp, 252] - PRB logging started.
+2013/07/17 21:39:16:933 [001012] DEBUG [Prb.cpp, 130] - Number of FTDI devices: 1
+2013/07/17 21:39:16:933 [001012] DEBUG [Prb.cpp, 158] - FTDI Device[0]: ID=67330069
+2013/07/17 21:39:16:937 [001012] DEBUG [Prb.cpp, 169] - FTDI handle=169098536
+2013/07/17 21:39:16:937 [001012] INFO [Prb.cpp, 179] - FTDI Driver Version 2.08.24.0
+2013/07/17 21:39:17:197 [001012] INFO [Prb.cpp, 205] - FTDI Configuration: MaxCurrent=200, CBus5=21, CBus6=0x4
+2013/07/17 21:39:17:448 [001012] INFO [Prb.cpp, 246] - PRB driver initialized.
+2013/07/17 21:39:17:448 [001012] TRACE [Prb.cpp, 448] - Writing FPGA, Address=0x1008, Data=0x08
+2013/07/17 21:39:17:449 [001012] TRACE [Prb.cpp, 1035] - WriteFPGAPacket(0x1008, 0x08):01 00 0D 00 81 00 03 10 08 08 25 D5 0D 
+2013/07/17 21:39:17:449 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0B 6A 06 00 00 00 A2 39 0D 
+2013/07/17 21:39:17:450 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0B 6A 06 00 00 00 A2 39 0D 
+2013/07/17 21:39:17:451 [001012] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1008, Data=0x08
+2013/07/17 21:39:17:467 [001012] TRACE [Prb.cpp, 493] - Reading FPGA, Address=0x300A
+2013/07/17 21:39:17:467 [001012] TRACE [Prb.cpp, 1035] - ReadFPGAPacket(0x300A):01 00 0C 01 82 00 02 30 0A E8 24 0D 
+2013/07/17 21:39:17:467 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0C 6B 06 01 00 01 00 D7 BF 0D 
+2013/07/17 21:39:17:468 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0C 6B 06 01 00 01 00 D7 BF 0D 
+2013/07/17 21:39:17:469 [001012] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x300A, Data=0x00
+2013/07/17 21:39:17:470 [001012] TRACE [Prb.cpp, 448] - Writing FPGA, Address=0x300A, Data=0x03
+2013/07/17 21:39:17:470 [001012] TRACE [Prb.cpp, 1035] - WriteFPGAPacket(0x300A, 0x03):01 00 0D 02 81 00 03 30 0A 03 29 4F 0D 
+2013/07/17 21:39:17:470 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0B 6C 06 02 00 00 23 02 0D 
+2013/07/17 21:39:17:471 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0B 6C 06 02 00 00 23 02 0D 
+2013/07/17 21:39:17:472 [001012] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x300A, Data=0x03
+2013/07/17 21:39:17:485 [001012] INFO [CrossTalkDetector.cpp, 14] - EnterCrossTalkThreshold = 8
+2013/07/17 21:39:17:486 [001012] INFO [CrossTalkDetector.cpp, 21] - LeaveCrossTalkThreshold = 4
+2013/07/17 21:39:17:487 [001012] INFO [CrossTalkDetector.cpp, 28] - LinkThreshold = 8
+2013/07/17 21:39:17:489 [001012] INFO [ExceptionCatchingThread.cpp, 257] - Created the interrupt thread with id 6624 (0x19e0).
+2013/07/17 21:39:17:489 [001012] DEBUG [Prb.cpp, 252] - PRB logging started.
+2013/07/17 21:39:17:489 [006624] INFO [ExceptionCatchingThread.cpp, 168] - Executing the interrupt thread procedure...
+2013/07/17 21:39:17:491 [001012] INFO [CommunicationSystem.cpp, 640] - Calibrating the PRB CC1020.
+2013/07/17 21:39:17:491 [001012] TRACE [Prb.cpp, 448] - Writing FPGA, Address=0x1008, Data=0x01
+2013/07/17 21:39:17:492 [001012] TRACE [Prb.cpp, 1035] - WriteFPGAPacket(0x1008, 0x01):01 00 0D 03 81 00 03 10 08 01 26 D3 0D 
+2013/07/17 21:39:17:492 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0B 6D 06 03 00 00 23 6E 0D 
+2013/07/17 21:39:17:494 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0B 6D 06 03 00 00 23 6E 0D 
+2013/07/17 21:39:17:494 [001012] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1008, Data=0x01
+2013/07/17 21:39:17:576 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0D 6E 00 00 00 02 09 00 8E E6 0D 
+2013/07/17 21:39:17:579 [006624] DEBUG [CommunicationSystem.cpp, 1120] - Calibration complete.
+2013/07/17 21:39:17:579 [001012] TRACE [Prb.cpp, 493] - Reading FPGA, Address=0x2012
+2013/07/17 21:39:17:580 [001012] TRACE [Prb.cpp, 1035] - ReadFPGAPacket(0x2012):01 00 0C 04 82 00 02 20 12 10 72 0D 
+2013/07/17 21:39:17:580 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0C 6F 06 04 00 01 00 73 B9 0D 
+2013/07/17 21:39:17:581 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0C 6F 06 04 00 01 00 73 B9 0D 
+2013/07/17 21:39:17:582 [001012] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x2012, Data=0x00
+2013/07/17 21:39:17:582 [001012] INFO [CommunicationSystem.cpp, 653] - CC1020 Calibration succeeded.
+2013/07/17 21:39:17:583 [001012] TRACE [Prb.cpp, 448] - Writing FPGA, Address=0x1006, Data=0x08
+2013/07/17 21:39:17:584 [001012] TRACE [Prb.cpp, 1035] - WriteFPGAPacket(0x1006, 0x08):01 00 0D 05 81 00 03 10 06 08 84 86 0D 
+2013/07/17 21:39:17:584 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0B 70 06 05 00 00 26 CE 0D 
+2013/07/17 21:39:17:585 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0B 70 06 05 00 00 26 CE 0D 
+2013/07/17 21:39:17:585 [001012] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1006, Data=0x08
+2013/07/17 21:39:17:586 [001012] TRACE [Prb.cpp, 493] - Reading FPGA, Address=0x3000
+2013/07/17 21:39:17:586 [001012] TRACE [Prb.cpp, 1035] - ReadFPGAPacket(0x3000):01 00 0C 06 82 00 02 30 00 80 1E 0D 
+2013/07/17 21:39:17:586 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0C 71 06 06 00 01 07 0B B5 0D 
+2013/07/17 21:39:17:588 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0C 71 06 06 00 01 07 0B B5 0D 
+2013/07/17 21:39:17:588 [001012] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3000, Data=0x07
+2013/07/17 21:39:17:589 [001012] INFO [CommunicationSystem.cpp, 613] - FPGA Revision 7.
+2013/07/17 21:39:17:589 [001012] TRACE [Prb.cpp, 584] - Reading CC1020, Address=0x0004
+2013/07/17 21:39:17:590 [001012] TRACE [Prb.cpp, 1035] - ReadCC1020Packet(0x04):01 00 0C 07 84 00 02 00 04 59 16 0D 
+2013/07/17 21:39:17:590 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0C 72 06 07 00 01 35 97 19 0D 
+2013/07/17 21:39:17:591 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0C 72 06 07 00 01 35 97 19 0D 
+2013/07/17 21:39:17:592 [001012] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0004, Data=0x35
+2013/07/17 21:39:17:592 [001012] INFO [CommunicationSystem.cpp, 614] - CC1020 Frequency 2A 0x35.
+2013/07/17 21:39:17:593 [001012] TRACE [Prb.cpp, 584] - Reading CC1020, Address=0x0005
+2013/07/17 21:39:17:593 [001012] TRACE [Prb.cpp, 1035] - ReadCC1020Packet(0x05):01 00 0C 08 84 00 02 00 05 F1 1C 0D 
+2013/07/17 21:39:17:593 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0C 73 06 08 00 01 F0 A1 84 0D 
+2013/07/17 21:39:17:594 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0C 73 06 08 00 01 F0 A1 84 0D 
+2013/07/17 21:39:17:595 [001012] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0005, Data=0xF0
+2013/07/17 21:39:17:595 [001012] INFO [CommunicationSystem.cpp, 615] - CC1020 Frequency 1A 0xf0.
+2013/07/17 21:39:17:596 [001012] TRACE [Prb.cpp, 584] - Reading CC1020, Address=0x0006
+2013/07/17 21:39:17:596 [001012] TRACE [Prb.cpp, 1035] - ReadCC1020Packet(0x06):01 00 0C 09 84 00 02 00 06 09 15 0D 
+2013/07/17 21:39:17:596 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0C 74 06 09 00 01 21 5F 67 0D 
+2013/07/17 21:39:17:597 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0C 74 06 09 00 01 21 5F 67 0D 
+2013/07/17 21:39:17:598 [001012] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0006, Data=0x21
+2013/07/17 21:39:17:599 [001012] INFO [CommunicationSystem.cpp, 616] - CC1020 Frequency 0A 0x21.
+2013/07/17 21:39:17:599 [001012] TRACE [Prb.cpp, 584] - Reading CC1020, Address=0x0008
+2013/07/17 21:39:17:600 [001012] TRACE [Prb.cpp, 1035] - ReadCC1020Packet(0x08):01 00 0C 0A 84 00 02 00 08 01 32 0D 
+2013/07/17 21:39:17:600 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0C 75 06 0A 00 01 35 9B 1C 0D 
+2013/07/17 21:39:17:601 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0C 75 06 0A 00 01 35 9B 1C 0D 
+2013/07/17 21:39:17:601 [001012] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0008, Data=0x35
+2013/07/17 21:39:17:602 [001012] INFO [CommunicationSystem.cpp, 617] - CC1020 Frequency 2B 0x35.
+2013/07/17 21:39:17:602 [001012] TRACE [Prb.cpp, 584] - Reading CC1020, Address=0x0009
+2013/07/17 21:39:17:603 [001012] TRACE [Prb.cpp, 1035] - ReadCC1020Packet(0x09):01 00 0C 0B 84 00 02 00 09 79 34 0D 
+2013/07/17 21:39:17:603 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0C 76 06 0B 00 01 FA 85 BD 0D 
+2013/07/17 21:39:17:604 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0C 76 06 0B 00 01 FA 85 BD 0D 
+2013/07/17 21:39:17:604 [001012] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0009, Data=0xFA
+2013/07/17 21:39:17:605 [001012] INFO [CommunicationSystem.cpp, 618] - CC1020 Frequency 1B 0xfa.
+2013/07/17 21:39:17:605 [001012] TRACE [Prb.cpp, 584] - Reading CC1020, Address=0x000A
+2013/07/17 21:39:17:606 [001012] TRACE [Prb.cpp, 1035] - ReadCC1020Packet(0x0A):01 00 0C 0C 84 00 02 00 0A 11 38 0D 
+2013/07/17 21:39:17:606 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0C 77 06 0C 00 01 CB 11 18 0D 
+2013/07/17 21:39:17:607 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0C 77 06 0C 00 01 CB 11 18 0D 
+2013/07/17 21:39:17:608 [001012] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x000A, Data=0xCB
+2013/07/17 21:39:17:608 [001012] INFO [CommunicationSystem.cpp, 619] - CC1020 Frequency 0B 0xcb.
+2013/07/17 21:39:17:609 [001012] DEBUG [Prb.cpp, 650] - Read EEPROM completed, Address=0x060A, Data=0x00
+2013/07/17 21:39:17:609 [001012] INFO [CommunicationSystem.cpp, 620] - RSSI Calibration Reference Center Channel 0.
+2013/07/17 21:39:17:610 [001012] TRACE [Prb.cpp, 493] - Reading FPGA, Address=0x3054
+2013/07/17 21:39:17:610 [001012] TRACE [Prb.cpp, 1035] - ReadFPGAPacket(0x3054):01 00 0C 0D 82 00 02 30 54 C9 EC 0D 
+2013/07/17 21:39:17:611 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0C 78 06 0D 00 01 07 AF BC 0D 
+2013/07/17 21:39:17:611 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0C 78 06 0D 00 01 07 AF BC 0D 
+2013/07/17 21:39:17:612 [001012] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3054, Data=0x07
+2013/07/17 21:39:17:612 [001012] INFO [CommunicationSystem.cpp, 621] - CC1020 PA_POWER 0x7.
+2013/07/17 21:39:17:613 [001012] TRACE [Prb.cpp, 584] - Reading CC1020, Address=0x001C
+2013/07/17 21:39:17:613 [001012] TRACE [Prb.cpp, 1035] - ReadCC1020Packet(0x1C):01 00 0C 0E 84 00 02 00 1C E1 4C 0D 
+2013/07/17 21:39:17:613 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0C 79 06 0E 00 01 07 6B BF 0D 
+2013/07/17 21:39:17:614 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0C 79 06 0E 00 01 07 6B BF 0D 
+2013/07/17 21:39:17:615 [001012] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x001C, Data=0x07
+2013/07/17 21:39:17:615 [001012] INFO [CommunicationSystem.cpp, 622] - CC1020 Transmit Power 0x7.
+2013/07/17 21:39:17:616 [001012] TRACE [Prb.cpp, 493] - Reading FPGA, Address=0x3014
+2013/07/17 21:39:17:616 [001012] TRACE [Prb.cpp, 1035] - ReadFPGAPacket(0x3014):01 00 0C 0F 82 00 02 30 14 38 6C 0D 
+2013/07/17 21:39:17:616 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0C 7A 06 0F 00 01 00 F7 AD 0D 
+2013/07/17 21:39:17:617 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0C 7A 06 0F 00 01 00 F7 AD 0D 
+2013/07/17 21:39:17:618 [001012] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3014, Data=0x00
+2013/07/17 21:39:17:619 [001012] INFO [CommunicationSystem.cpp, 623] - Low Noise Amplifier Circumvented 0.
+2013/07/17 21:39:17:619 [001012] TRACE [Prb.cpp, 584] - Reading CC1020, Address=0x0001
+2013/07/17 21:39:17:620 [001012] TRACE [Prb.cpp, 1035] - ReadCC1020Packet(0x01):01 00 0C 10 84 00 02 00 01 B1 1C 0D 
+2013/07/17 21:39:17:620 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0C 7B 06 10 00 01 0F 83 8A 0D 
+2013/07/17 21:39:17:621 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0C 7B 06 10 00 01 0F 83 8A 0D 
+2013/07/17 21:39:17:621 [001012] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0001, Data=0x0F
+2013/07/17 21:39:17:622 [001012] INFO [CommunicationSystem.cpp, 624] - Low Noise Amplifier 0xf.
+2013/07/17 21:39:17:622 [001012] TRACE [Prb.cpp, 493] - Reading FPGA, Address=0x1006
+2013/07/17 21:39:17:623 [001012] TRACE [Prb.cpp, 1035] - ReadFPGAPacket(0x1006):01 00 0C 11 82 00 02 10 06 28 1D 0D 
+2013/07/17 21:39:17:623 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0C 7C 06 11 00 01 08 FF 9E 0D 
+2013/07/17 21:39:17:624 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0C 7C 06 11 00 01 08 FF 9E 0D 
+2013/07/17 21:39:17:624 [001012] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x1006, Data=0x08
+2013/07/17 21:39:17:625 [001012] INFO [CommunicationSystem.cpp, 625] - Allowed Framing Errors 8.
+2013/07/17 21:39:17:627 [001012] INFO [CrossTalkDetector.cpp, 28] - LinkThreshold = 8
+2013/07/17 21:39:17:628 [001012] INFO [CrossTalkDetector.cpp, 14] - EnterCrossTalkThreshold = 8
+2013/07/17 21:39:17:628 [001012] INFO [CrossTalkDetector.cpp, 21] - LeaveCrossTalkThreshold = 4
+2013/07/17 21:39:17:637 [006988] TRACE [Prb.cpp, 493] - Reading FPGA, Address=0x3000
+2013/07/17 21:39:17:638 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0C 7D 06 12 00 01 07 3B BF 0D 
+2013/07/17 21:39:17:638 [006988] TRACE [Prb.cpp, 1035] - ReadFPGAPacket(0x3000):01 00 0C 12 82 00 02 30 00 E0 0A 0D 
+2013/07/17 21:39:17:639 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0C 7D 06 12 00 01 07 3B BF 0D 
+2013/07/17 21:39:17:640 [006988] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3000, Data=0x07
+2013/07/17 21:39:17:641 [006988] TRACE [Prb.cpp, 539] - Writing CC1020, Address=0x001C, Data=0x07
+2013/07/17 21:39:17:641 [006988] TRACE [Prb.cpp, 1035] - WriteCC1020Packet(0x1C, 0x07):01 00 0D 13 83 00 03 00 1C 07 3E 84 0D 
+2013/07/17 21:39:17:641 [001088] TRACE [Prb.cpp, 835] - RxStream contents:01 00 0B 7E 06 13 00 00 25 26 0D 
+2013/07/17 21:39:17:642 [001088] TRACE [Prb.cpp, 943] - RadioBoardPacket(ACK):01 00 0B 7E 06 13 00 00 25 26 0D 
+2013/07/17 21:39:17:643 [006988] DEBUG [Prb.cpp, 557] - Write CC1020 completed, Address=0x001C, Data=0x07
+2013/07/17 21:40:41:334 [003316] INFO [CrossAppDomainEventMarshaller.cpp, 44] - Disposing: 0
+2013/07/17 21:40:41:335 [003316] INFO [CrossAppDomainEventMarshaller.cpp, 155] - abortGetNextEvent called
+2013/07/17 21:40:41:336 [003316] INFO [CrossAppDomainEventMarshaller.cpp, 110] - EventHandler dtor
+2013/07/17 21:40:41:337 [003316] INFO [CrossAppDomainEventMarshaller.cpp, 60] - Disposed.
+2013/07/17 21:40:41:339 [003316] INFO [NCommunicationSystem.cpp, 747] - Disposing: 0

@@ -1,0 +1,542 @@
+<<<<< Log Header: 08/02/2013 21:11:08 >>>>>
+2013/08/02 21:11:08:162 [006780] INFO [NCommunicationSystem.cpp, 108] - nCommunicationSystem, Version=1.8.2.1, Culture=neutral, PublicKeyToken=56b5378c99c0bcfd
+2013/08/02 21:11:08:177 [006780] INFO [ExceptionCatchingThread.cpp, 257] - Created the timer thread with id 2388 (0x954).
+2013/08/02 21:11:08:179 [002388] INFO [ExceptionCatchingThread.cpp, 168] - Executing the timer thread procedure...
+2013/08/02 21:11:08:183 [006780] INFO [ExceptionCatchingThread.cpp, 257] - Created the dispatch thread with id 7180 (0x1c0c).
+2013/08/02 21:11:08:183 [007180] INFO [ExceptionCatchingThread.cpp, 168] - Executing the dispatch thread procedure...
+2013/08/02 21:11:11:185 [006780] DEBUG [Prb.cpp, 252] - PRB logging started.
+2013/08/02 21:11:11:192 [006780] DEBUG [Prb.cpp, 130] - Number of FTDI devices: 1
+2013/08/02 21:11:11:193 [006780] DEBUG [Prb.cpp, 158] - FTDI Device[0]: ID=67330069
+2013/08/02 21:11:11:194 [006780] DEBUG [Prb.cpp, 169] - FTDI handle=165022280
+2013/08/02 21:11:11:195 [006780] INFO [Prb.cpp, 179] - FTDI Driver Version 2.08.24.0
+2013/08/02 21:11:11:450 [006780] INFO [Prb.cpp, 205] - FTDI Configuration: MaxCurrent=200, CBus5=21, CBus6=0x4
+2013/08/02 21:11:11:701 [006780] INFO [Prb.cpp, 246] - PRB driver initialized.
+2013/08/02 21:11:11:702 [006780] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1008, Data=0x08
+2013/08/02 21:11:11:718 [006780] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x300A, Data=0x00
+2013/08/02 21:11:11:719 [006780] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x300A, Data=0x03
+2013/08/02 21:11:11:731 [006780] INFO [CrossTalkDetector.cpp, 14] - EnterCrossTalkThreshold = 8
+2013/08/02 21:11:11:732 [006780] INFO [CrossTalkDetector.cpp, 21] - LeaveCrossTalkThreshold = 4
+2013/08/02 21:11:11:733 [006780] INFO [CrossTalkDetector.cpp, 28] - LinkThreshold = 8
+2013/08/02 21:11:11:735 [006780] INFO [ExceptionCatchingThread.cpp, 257] - Created the interrupt thread with id 7512 (0x1d58).
+2013/08/02 21:11:11:735 [006780] DEBUG [Prb.cpp, 252] - PRB logging started.
+2013/08/02 21:11:11:735 [007512] INFO [ExceptionCatchingThread.cpp, 168] - Executing the interrupt thread procedure...
+2013/08/02 21:11:11:737 [006780] INFO [CommunicationSystem.cpp, 640] - Calibrating the PRB CC1020.
+2013/08/02 21:11:11:738 [006780] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1008, Data=0x01
+2013/08/02 21:11:11:830 [007512] DEBUG [CommunicationSystem.cpp, 1120] - Calibration complete.
+2013/08/02 21:11:11:830 [006780] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x2012, Data=0x00
+2013/08/02 21:11:11:831 [006780] INFO [CommunicationSystem.cpp, 653] - CC1020 Calibration succeeded.
+2013/08/02 21:11:11:832 [006780] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1006, Data=0x08
+2013/08/02 21:11:11:833 [006780] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3000, Data=0x07
+2013/08/02 21:11:11:833 [006780] INFO [CommunicationSystem.cpp, 613] - FPGA Revision 7.
+2013/08/02 21:11:11:834 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0004, Data=0x35
+2013/08/02 21:11:11:835 [006780] INFO [CommunicationSystem.cpp, 614] - CC1020 Frequency 2A 0x35.
+2013/08/02 21:11:11:836 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0005, Data=0xF0
+2013/08/02 21:11:11:836 [006780] INFO [CommunicationSystem.cpp, 615] - CC1020 Frequency 1A 0xf0.
+2013/08/02 21:11:11:837 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0006, Data=0x21
+2013/08/02 21:11:11:838 [006780] INFO [CommunicationSystem.cpp, 616] - CC1020 Frequency 0A 0x21.
+2013/08/02 21:11:11:838 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0008, Data=0x35
+2013/08/02 21:11:11:839 [006780] INFO [CommunicationSystem.cpp, 617] - CC1020 Frequency 2B 0x35.
+2013/08/02 21:11:11:839 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0009, Data=0xFA
+2013/08/02 21:11:11:840 [006780] INFO [CommunicationSystem.cpp, 618] - CC1020 Frequency 1B 0xfa.
+2013/08/02 21:11:11:840 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x000A, Data=0xCB
+2013/08/02 21:11:11:841 [006780] INFO [CommunicationSystem.cpp, 619] - CC1020 Frequency 0B 0xcb.
+2013/08/02 21:11:11:842 [006780] DEBUG [Prb.cpp, 650] - Read EEPROM completed, Address=0x060A, Data=0x00
+2013/08/02 21:11:11:842 [006780] INFO [CommunicationSystem.cpp, 620] - RSSI Calibration Reference Center Channel 0.
+2013/08/02 21:11:11:843 [006780] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3054, Data=0x07
+2013/08/02 21:11:11:843 [006780] INFO [CommunicationSystem.cpp, 621] - CC1020 PA_POWER 0x7.
+2013/08/02 21:11:11:844 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x001C, Data=0x07
+2013/08/02 21:11:11:844 [006780] INFO [CommunicationSystem.cpp, 622] - CC1020 Transmit Power 0x7.
+2013/08/02 21:11:11:845 [006780] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3014, Data=0x00
+2013/08/02 21:11:11:846 [006780] INFO [CommunicationSystem.cpp, 623] - Low Noise Amplifier Circumvented 0.
+2013/08/02 21:11:11:846 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0001, Data=0x0F
+2013/08/02 21:11:11:847 [006780] INFO [CommunicationSystem.cpp, 624] - Low Noise Amplifier 0xf.
+2013/08/02 21:11:11:847 [006780] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x1006, Data=0x08
+2013/08/02 21:11:11:848 [006780] INFO [CommunicationSystem.cpp, 625] - Allowed Framing Errors 8.
+2013/08/02 21:11:11:851 [006780] INFO [CrossTalkDetector.cpp, 28] - LinkThreshold = 8
+2013/08/02 21:11:11:851 [006780] INFO [CrossTalkDetector.cpp, 14] - EnterCrossTalkThreshold = 8
+2013/08/02 21:11:11:852 [006780] INFO [CrossTalkDetector.cpp, 21] - LeaveCrossTalkThreshold = 4
+2013/08/02 21:11:11:861 [007496] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3000, Data=0x07
+2013/08/02 21:11:11:862 [007496] DEBUG [Prb.cpp, 557] - Write CC1020 completed, Address=0x001C, Data=0x07
+2013/08/02 21:11:11:895 [006780] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3000, Data=0x07
+2013/08/02 21:11:11:903 [006780] INFO [CommunicationSystem.cpp, 640] - Calibrating the PRB CC1020.
+2013/08/02 21:11:11:904 [006780] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1008, Data=0x01
+2013/08/02 21:11:11:990 [007512] DEBUG [CommunicationSystem.cpp, 1120] - Calibration complete.
+2013/08/02 21:11:11:990 [006780] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x2012, Data=0x00
+2013/08/02 21:11:11:991 [006780] INFO [CommunicationSystem.cpp, 653] - CC1020 Calibration succeeded.
+2013/08/02 21:11:11:997 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0004, Data=0x35
+2013/08/02 21:11:12:000 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0005, Data=0xF0
+2013/08/02 21:11:12:001 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0006, Data=0x21
+2013/08/02 21:11:12:003 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0007, Data=0x38
+2013/08/02 21:11:12:004 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0008, Data=0x35
+2013/08/02 21:11:12:005 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0009, Data=0xFA
+2013/08/02 21:11:12:007 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x000A, Data=0xCB
+2013/08/02 21:11:12:008 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x000B, Data=0x38
+2013/08/02 21:11:12:009 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x001D, Data=0x00
+2013/08/02 21:11:12:011 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0045, Data=0x4C
+2013/08/02 21:11:12:012 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0046, Data=0x66
+2013/08/02 21:11:12:013 [006780] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0047, Data=0x44
+2013/08/02 21:11:12:021 [006780] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x305E, Data=0x00
+2013/08/02 21:11:12:022 [006780] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3060, Data=0x00
+2013/08/02 21:11:12:023 [006780] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3062, Data=0x00
+2013/08/02 21:11:12:028 [006780] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3066, Data=0x00
+2013/08/02 21:11:12:029 [006780] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3068, Data=0x00
+2013/08/02 21:11:12:030 [006780] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x306A, Data=0x00
+2013/08/02 21:11:12:033 [006780] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1026, Data=0x00
+2013/08/02 21:11:12:041 [007496] DEBUG [Prb.cpp, 557] - Write CC1020 completed, Address=0x001C, Data=0x07
+2013/08/02 21:11:12:043 [007496] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x3012, Data=0x01
+2013/08/02 21:11:12:044 [007496] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x1004, Data=0x00
+2013/08/02 21:11:12:045 [007496] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1004, Data=0x00
+2013/08/02 21:11:12:047 [007180] INFO [CommunicationSystemStates.cpp, 130] - Scan requested. Preamble Burst Duration: 9 seconds. Preamble Burst Data Rate: 2.
+2013/08/02 21:11:12:049 [007180] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1002, Data=0x09
+2013/08/02 21:11:12:050 [007180] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x1004, Data=0x00
+2013/08/02 21:11:12:051 [007180] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1004, Data=0x08
+2013/08/02 21:11:12:052 [007180] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1008, Data=0x02
+2013/08/02 21:11:23:178 [007512] INFO [CommunicationSystemStates.cpp, 168] - Scan complete
+2013/08/02 21:11:23:180 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0004, Data=0x35
+2013/08/02 21:11:23:180 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0005, Data=0xF0
+2013/08/02 21:11:23:181 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0006, Data=0x21
+2013/08/02 21:11:23:182 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0008, Data=0x35
+2013/08/02 21:11:23:183 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0009, Data=0xFA
+2013/08/02 21:11:23:184 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x000A, Data=0xCB
+2013/08/02 21:11:23:184 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x000F, Data=0xDF
+2013/08/02 21:11:23:185 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0010, Data=0x80
+2013/08/02 21:11:23:186 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0013, Data=0x33
+2013/08/02 21:11:23:187 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0014, Data=0x3D
+2013/08/02 21:11:23:187 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0043, Data=0x00
+2013/08/02 21:11:23:188 [007512] DEBUG [ComSysDiagnostics.cpp, 63] - CC1020 [Scan complete] FREQ_2A: 0x35 FREQ_1A: 0xf0 FREQ_0A: 0x21
+2013/08/02 21:11:23:189 [007512] DEBUG [ComSysDiagnostics.cpp, 67] - CC1020 [Scan complete] FREQ_2B: 0x35 FREQ_1B: 0xfa FREQ_0B: 0xcb
+2013/08/02 21:11:23:189 [007512] DEBUG [ComSysDiagnostics.cpp, 72] - CC1020 [Scan complete] AFC_CONTROL: 0xdf FILTER: 0x80 VGA3: 0x33 VGA4: 0x3d AFC: 0x00
+2013/08/02 21:11:23:190 [007512] INFO [CommunicationSystemStates.cpp, 173] - Found 0 valid ids during the scan operation.
+2013/08/02 21:11:23:191 [007512] INFO [CommunicationSystemStates.cpp, 198] - Found 0 invalid ids during the scan operation.
+2013/08/02 21:11:23:194 [007180] INFO [CommunicationSystemStates.cpp, 130] - Scan requested. Preamble Burst Duration: 2 seconds. Preamble Burst Data Rate: 0.
+2013/08/02 21:11:23:195 [007180] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1002, Data=0x02
+2013/08/02 21:11:23:196 [007180] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x1004, Data=0x08
+2013/08/02 21:11:23:197 [007180] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1004, Data=0x00
+2013/08/02 21:11:23:197 [007180] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1008, Data=0x02
+2013/08/02 21:11:27:308 [007512] INFO [CommunicationSystemStates.cpp, 168] - Scan complete
+2013/08/02 21:11:27:308 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0004, Data=0x35
+2013/08/02 21:11:27:309 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0005, Data=0xF0
+2013/08/02 21:11:27:310 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0006, Data=0x21
+2013/08/02 21:11:27:311 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0008, Data=0x35
+2013/08/02 21:11:27:311 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0009, Data=0xFA
+2013/08/02 21:11:27:312 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x000A, Data=0xCB
+2013/08/02 21:11:27:313 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x000F, Data=0xDF
+2013/08/02 21:11:27:313 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0010, Data=0x80
+2013/08/02 21:11:27:314 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0013, Data=0x33
+2013/08/02 21:11:27:315 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0014, Data=0x3D
+2013/08/02 21:11:27:315 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0043, Data=0x00
+2013/08/02 21:11:27:316 [007512] DEBUG [ComSysDiagnostics.cpp, 63] - CC1020 [Scan complete] FREQ_2A: 0x35 FREQ_1A: 0xf0 FREQ_0A: 0x21
+2013/08/02 21:11:27:316 [007512] DEBUG [ComSysDiagnostics.cpp, 67] - CC1020 [Scan complete] FREQ_2B: 0x35 FREQ_1B: 0xfa FREQ_0B: 0xcb
+2013/08/02 21:11:27:316 [007512] DEBUG [ComSysDiagnostics.cpp, 72] - CC1020 [Scan complete] AFC_CONTROL: 0xdf FILTER: 0x80 VGA3: 0x33 VGA4: 0x3d AFC: 0x00
+2013/08/02 21:11:27:317 [007512] INFO [CommunicationSystemStates.cpp, 173] - Found 1 valid ids during the scan operation.
+2013/08/02 21:11:27:319 [007512] INFO [CommunicationSystemStates.cpp, 190] - Id: 0x801c0094.
+2013/08/02 21:11:27:320 [007512] INFO [CommunicationSystemStates.cpp, 198] - Found 0 invalid ids during the scan operation.
+2013/08/02 21:11:27:357 [007496] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x1004, Data=0x00
+2013/08/02 21:11:27:358 [007496] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1004, Data=0x00
+2013/08/02 21:11:27:359 [007180] INFO [CrossTalkDetectorStates.cpp, 98] - LinkTimeout = 4523 ms
+2013/08/02 21:11:27:360 [007180] INFO [CrossTalkDetector.cpp, 68] - CrossTalkDetector state changing from IdleState to LinkingState
+2013/08/02 21:11:27:361 [007180] INFO [CommunicationSystemStates.cpp, 147] - Link requested. Id: 0x801c0094. Preamble Burst Duration: 2 seconds. Preamble Burst Data Rate: 0.
+2013/08/02 21:11:27:362 [007180] DEBUG [ComSysDiagnostics.cpp, 95] - Resetting FPGA Frame Error Counter
+2013/08/02 21:11:27:363 [007180] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x301C, Data=0x00
+2013/08/02 21:11:27:363 [007180] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x2000, Data=0x80
+2013/08/02 21:11:27:364 [007180] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x2002, Data=0x1C
+2013/08/02 21:11:27:365 [007180] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x2004, Data=0x00
+2013/08/02 21:11:27:366 [007180] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x2006, Data=0x94
+2013/08/02 21:11:27:366 [007180] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1002, Data=0x02
+2013/08/02 21:11:27:367 [007180] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x1004, Data=0x00
+2013/08/02 21:11:27:368 [007180] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1004, Data=0x00
+2013/08/02 21:11:27:368 [007180] DEBUG [Prb.cpp, 466] - Write FPGA completed, Address=0x1008, Data=0x04
+2013/08/02 21:11:30:326 [007512] INFO [CrossTalkDetectorStates.cpp, 174] - Invalid frame while linking
+2013/08/02 21:11:30:327 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3F
+2013/08/02 21:11:30:328 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:30:329 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0xF8
+2013/08/02 21:11:30:330 [007512] DEBUG [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Linking(invalid frame)] linkedRSSI:63 linkedAFC:0 AFC:248
+2013/08/02 21:11:30:341 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3C
+2013/08/02 21:11:30:342 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0xFE
+2013/08/02 21:11:30:342 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0xFE
+2013/08/02 21:11:30:343 [007512] DEBUG [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Linking(valid frame)] linkedRSSI:60 linkedAFC:254 AFC:254
+2013/08/02 21:11:30:358 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3B
+2013/08/02 21:11:30:359 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:30:360 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:30:360 [007512] DEBUG [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Linking(valid frame)] linkedRSSI:59 linkedAFC:0 AFC:0
+2013/08/02 21:11:30:371 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3F
+2013/08/02 21:11:30:372 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x01
+2013/08/02 21:11:30:373 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:30:373 [007512] DEBUG [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Linking(valid frame)] linkedRSSI:63 linkedAFC:1 AFC:0
+2013/08/02 21:11:30:389 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3C
+2013/08/02 21:11:30:390 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x01
+2013/08/02 21:11:30:390 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0xFF
+2013/08/02 21:11:30:391 [007512] DEBUG [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Linking(valid frame)] linkedRSSI:60 linkedAFC:1 AFC:255
+2013/08/02 21:11:30:406 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3C
+2013/08/02 21:11:30:407 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:30:408 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0xFF
+2013/08/02 21:11:30:408 [007512] DEBUG [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Linking(valid frame)] linkedRSSI:60 linkedAFC:0 AFC:255
+2013/08/02 21:11:30:419 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x39
+2013/08/02 21:11:30:420 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:30:420 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:30:421 [007512] DEBUG [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Linking(valid frame)] linkedRSSI:57 linkedAFC:0 AFC:0
+2013/08/02 21:11:30:436 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3B
+2013/08/02 21:11:30:437 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:30:438 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:30:438 [007512] DEBUG [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Linking(valid frame)] linkedRSSI:59 linkedAFC:0 AFC:0
+2013/08/02 21:11:30:449 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3C
+2013/08/02 21:11:30:450 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x01
+2013/08/02 21:11:30:450 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:30:451 [007512] DEBUG [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Linking(valid frame)] linkedRSSI:60 linkedAFC:1 AFC:0
+2013/08/02 21:11:30:479 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0004, Data=0x35
+2013/08/02 21:11:30:495 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0005, Data=0xEF
+2013/08/02 21:11:30:510 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0006, Data=0xBD
+2013/08/02 21:11:30:526 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0008, Data=0x35
+2013/08/02 21:11:30:542 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0009, Data=0xFA
+2013/08/02 21:11:30:557 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x000A, Data=0x67
+2013/08/02 21:11:30:573 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x000F, Data=0xDF
+2013/08/02 21:11:30:589 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0010, Data=0x22
+2013/08/02 21:11:30:604 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0013, Data=0x2F
+2013/08/02 21:11:30:620 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0014, Data=0x2F
+2013/08/02 21:11:30:635 [007512] DEBUG [Prb.cpp, 603] - Read CC1020 completed, Address=0x0043, Data=0xFF
+2013/08/02 21:11:30:636 [007512] DEBUG [ComSysDiagnostics.cpp, 63] - CC1020 [Link complete] FREQ_2A: 0x35 FREQ_1A: 0xef FREQ_0A: 0xbd
+2013/08/02 21:11:30:637 [007512] DEBUG [ComSysDiagnostics.cpp, 67] - CC1020 [Link complete] FREQ_2B: 0x35 FREQ_1B: 0xfa FREQ_0B: 0x67
+2013/08/02 21:11:30:637 [007512] DEBUG [ComSysDiagnostics.cpp, 72] - CC1020 [Link complete] AFC_CONTROL: 0xdf FILTER: 0x22 VGA3: 0x2f VGA4: 0x2f AFC: 0xff
+2013/08/02 21:11:30:638 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3E
+2013/08/02 21:11:30:639 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0xFF
+2013/08/02 21:11:30:640 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0xFF
+2013/08/02 21:11:30:640 [007512] DEBUG [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Link complete] linkedRSSI:62 linkedAFC:255 AFC:255
+2013/08/02 21:11:30:641 [007512] INFO [ComSysDiagnostics.cpp, 79] - Status Counters [Link complete] FrameErrorsInLastSecond:1 EcgErrorsInLastSecond:0 MarkerOrImplantIdErrorsInLastSecond:0 TotalFrameErrors:1 TotalEcgErrors:0 TotalMarkerOrImplantIdErrors:0 TotalSentCommands:0 TotalGoodResponses:0 TotalBadResponses:0 TotalResponseTimeouts:0
+2013/08/02 21:11:30:642 [007512] DEBUG [Prb.cpp, 512] - Read FPGA completed, Address=0x301C, Data=0x01
+2013/08/02 21:11:30:643 [007512] DEBUG [ComSysDiagnostics.cpp, 89] - FPGA Frame Error Counter [Link complete]:1
+2013/08/02 21:11:30:644 [007512] INFO [CrossTalkDetector.cpp, 68] - CrossTalkDetector state changing from LinkingState to LinkedState
+2013/08/02 21:11:30:644 [007512] INFO [CommunicationSystemStates.cpp, 221] - Link complete.
+2013/08/02 21:11:30:655 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 3. Timeout: 78 ms.
+2013/08/02 21:11:30:658 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:82 04 F5 6C 17 08 
+2013/08/02 21:11:30:659 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x40
+2013/08/02 21:11:30:660 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:30:661 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:30:661 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:64 linkedAFC:0 AFC:0
+2013/08/02 21:11:30:662 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x82
+2013/08/02 21:11:30:708 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:82 B0 E6 9C A3 FE FF 98 
+2013/08/02 21:11:30:709 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 14 frames.
+2013/08/02 21:11:30:722 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x60. Retries: 3. Timeout: 500 ms.
+2013/08/02 21:11:30:722 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:70 04 00 1E C0 
+2013/08/02 21:11:30:723 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3C
+2013/08/02 21:11:30:724 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0xFF
+2013/08/02 21:11:30:725 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:30:725 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:60 linkedAFC:255 AFC:0
+2013/08/02 21:11:30:726 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x70
+2013/08/02 21:11:30:747 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:70 82 80 1C 00 94 3E 73 
+2013/08/02 21:11:30:747 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 1 frames.
+2013/08/02 21:11:30:749 [007512] INFO 0x801C0094 [CommunicationSystem.cpp, 360] - Marker:9D 00 40 F1 2A 
+2013/08/02 21:11:30:754 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x60. Retries: 3. Timeout: 500 ms.
+2013/08/02 21:11:30:755 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:60 04 00 9F 83 
+2013/08/02 21:11:30:756 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3C
+2013/08/02 21:11:30:756 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:30:757 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:30:757 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:60 linkedAFC:0 AFC:0
+2013/08/02 21:11:30:758 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x60
+2013/08/02 21:11:30:780 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:60 82 80 1C 00 94 BE 61 
+2013/08/02 21:11:30:780 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 1 frames.
+2013/08/02 21:11:30:783 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 3. Timeout: 78 ms.
+2013/08/02 21:11:30:784 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:92 04 F5 6C 57 0E 
+2013/08/02 21:11:30:784 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3B
+2013/08/02 21:11:30:785 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x01
+2013/08/02 21:11:30:786 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:30:786 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:59 linkedAFC:1 AFC:0
+2013/08/02 21:11:30:787 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x92
+2013/08/02 21:11:30:826 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:92 B0 E6 9C A3 FE 7F 8A 
+2013/08/02 21:11:30:826 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:30:828 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x60. Retries: 3. Timeout: 500 ms.
+2013/08/02 21:11:30:828 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:60 04 00 9F 83 
+2013/08/02 21:11:30:829 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3B
+2013/08/02 21:11:30:830 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:30:831 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:30:832 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:59 linkedAFC:0 AFC:0
+2013/08/02 21:11:30:832 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x60
+2013/08/02 21:11:30:857 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:60 92 80 1C 00 94 39 E2 
+2013/08/02 21:11:30:857 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 1 frames.
+2013/08/02 21:11:30:860 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 3. Timeout: 78 ms.
+2013/08/02 21:11:30:860 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:92 04 F5 6C 57 0E 
+2013/08/02 21:11:30:861 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3C
+2013/08/02 21:11:30:862 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:30:863 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:30:863 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:60 linkedAFC:0 AFC:0
+2013/08/02 21:11:30:864 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x92
+2013/08/02 21:11:30:903 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:92 B0 E6 9C A3 FE 7F 8A 
+2013/08/02 21:11:30:903 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:30:905 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x60. Retries: 3. Timeout: 500 ms.
+2013/08/02 21:11:30:905 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:60 04 00 9F 83 
+2013/08/02 21:11:30:906 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3C
+2013/08/02 21:11:30:907 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x01
+2013/08/02 21:11:30:908 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0xFF
+2013/08/02 21:11:30:908 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:60 linkedAFC:1 AFC:255
+2013/08/02 21:11:30:909 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x60
+2013/08/02 21:11:30:934 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:60 92 80 1C 00 94 39 E2 
+2013/08/02 21:11:30:934 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 1 frames.
+2013/08/02 21:11:30:937 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 3. Timeout: 78 ms.
+2013/08/02 21:11:30:937 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:92 04 F5 6C 57 0E 
+2013/08/02 21:11:30:938 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3C
+2013/08/02 21:11:30:939 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0xFF
+2013/08/02 21:11:30:939 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:30:940 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:60 linkedAFC:255 AFC:0
+2013/08/02 21:11:30:941 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x92
+2013/08/02 21:11:30:985 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:92 B0 E6 9C A3 FE 7F 8A 
+2013/08/02 21:11:30:985 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:30:987 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x60. Retries: 3. Timeout: 500 ms.
+2013/08/02 21:11:30:987 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:60 04 00 9F 83 
+2013/08/02 21:11:30:988 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3F
+2013/08/02 21:11:30:989 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:30:990 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:30:990 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:63 linkedAFC:0 AFC:0
+2013/08/02 21:11:30:991 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x60
+2013/08/02 21:11:31:016 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:60 92 80 1C 00 94 39 E2 
+2013/08/02 21:11:31:016 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 1 frames.
+2013/08/02 21:11:31:026 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x81. Retries: 3. Timeout: 109 ms.
+2013/08/02 21:11:31:026 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:91 00 F1 C0 07 B7 32 
+2013/08/02 21:11:31:027 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3F
+2013/08/02 21:11:31:029 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:31:030 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:31:031 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:63 linkedAFC:0 AFC:0
+2013/08/02 21:11:31:031 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x91
+2013/08/02 21:11:31:077 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:91 83 65 
+2013/08/02 21:11:31:077 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 3 frames.
+2013/08/02 21:11:31:079 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x60. Retries: 3. Timeout: 500 ms.
+2013/08/02 21:11:31:080 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:60 04 00 9F 83 
+2013/08/02 21:11:31:081 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3E
+2013/08/02 21:11:31:081 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0xFF
+2013/08/02 21:11:31:082 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:31:083 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:62 linkedAFC:255 AFC:0
+2013/08/02 21:11:31:084 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x60
+2013/08/02 21:11:31:108 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:60 91 80 1C 00 94 39 6A 
+2013/08/02 21:11:31:108 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 1 frames.
+2013/08/02 21:11:31:111 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x81. Retries: 3. Timeout: 109 ms.
+2013/08/02 21:11:31:112 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:91 00 F1 C0 07 B7 32 
+2013/08/02 21:11:31:112 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3F
+2013/08/02 21:11:31:113 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0xFF
+2013/08/02 21:11:31:114 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0xFF
+2013/08/02 21:11:31:114 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:63 linkedAFC:255 AFC:255
+2013/08/02 21:11:31:115 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x91
+2013/08/02 21:11:31:154 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:91 83 65 
+2013/08/02 21:11:31:154 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:31:155 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x60. Retries: 3. Timeout: 500 ms.
+2013/08/02 21:11:31:156 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:60 04 00 9F 83 
+2013/08/02 21:11:31:157 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3F
+2013/08/02 21:11:31:158 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:31:158 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:31:159 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:63 linkedAFC:0 AFC:0
+2013/08/02 21:11:31:160 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x60
+2013/08/02 21:11:31:185 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:60 91 80 1C 00 94 39 6A 
+2013/08/02 21:11:31:185 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 1 frames.
+2013/08/02 21:11:31:188 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x81. Retries: 3. Timeout: 109 ms.
+2013/08/02 21:11:31:188 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:91 00 F1 C0 07 B7 32 
+2013/08/02 21:11:31:189 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3B
+2013/08/02 21:11:31:190 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0xFF
+2013/08/02 21:11:31:190 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:31:191 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:59 linkedAFC:255 AFC:0
+2013/08/02 21:11:31:191 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x91
+2013/08/02 21:11:31:231 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:91 83 65 
+2013/08/02 21:11:31:231 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:31:232 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x60. Retries: 3. Timeout: 500 ms.
+2013/08/02 21:11:31:233 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:60 04 00 9F 83 
+2013/08/02 21:11:31:234 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x40
+2013/08/02 21:11:31:235 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0xFF
+2013/08/02 21:11:31:236 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0xFF
+2013/08/02 21:11:31:236 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:64 linkedAFC:255 AFC:255
+2013/08/02 21:11:31:237 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x60
+2013/08/02 21:11:31:267 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:60 91 80 1C 00 94 39 6A 
+2013/08/02 21:11:31:267 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 1 frames.
+2013/08/02 21:11:31:269 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 3. Timeout: 78 ms.
+2013/08/02 21:11:31:270 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:92 04 F5 6C 57 0E 
+2013/08/02 21:11:31:270 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3B
+2013/08/02 21:11:31:271 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x01
+2013/08/02 21:11:31:272 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:31:272 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:59 linkedAFC:1 AFC:0
+2013/08/02 21:11:31:273 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x92
+2013/08/02 21:11:31:313 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:92 B0 E6 9C A3 FE 7F 8A 
+2013/08/02 21:11:31:313 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:31:315 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x60. Retries: 3. Timeout: 500 ms.
+2013/08/02 21:11:31:316 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:60 04 00 9F 83 
+2013/08/02 21:11:31:317 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3B
+2013/08/02 21:11:31:317 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:31:318 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:31:318 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:59 linkedAFC:0 AFC:0
+2013/08/02 21:11:31:319 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x60
+2013/08/02 21:11:31:344 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:60 92 80 1C 00 94 39 E2 
+2013/08/02 21:11:31:344 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 1 frames.
+2013/08/02 21:11:31:348 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 0. Timeout: 78 ms.
+2013/08/02 21:11:31:349 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:92 04 F5 6C 57 0E 
+2013/08/02 21:11:31:349 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3C
+2013/08/02 21:11:31:350 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:31:351 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:31:351 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:60 linkedAFC:0 AFC:0
+2013/08/02 21:11:31:352 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x92
+2013/08/02 21:11:31:390 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:92 B0 E6 9C A3 FE 7F 8A 
+2013/08/02 21:11:31:390 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:31:392 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 0. Timeout: 78 ms.
+2013/08/02 21:11:31:392 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:82 04 F5 6C 17 08 
+2013/08/02 21:11:31:393 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3E
+2013/08/02 21:11:31:393 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0xFF
+2013/08/02 21:11:31:394 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:31:395 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:62 linkedAFC:255 AFC:0
+2013/08/02 21:11:31:395 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x82
+2013/08/02 21:11:31:436 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:82 B0 E6 9C A3 FE FF 98 
+2013/08/02 21:11:31:436 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:31:438 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 0. Timeout: 78 ms.
+2013/08/02 21:11:31:438 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:92 04 F5 6C 57 0E 
+2013/08/02 21:11:31:439 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3C
+2013/08/02 21:11:31:440 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0xFF
+2013/08/02 21:11:31:441 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:31:441 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:60 linkedAFC:255 AFC:0
+2013/08/02 21:11:31:442 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x92
+2013/08/02 21:11:31:482 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:92 B0 E6 9C A3 FE 7F 8A 
+2013/08/02 21:11:31:482 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:31:487 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 3. Timeout: 78 ms.
+2013/08/02 21:11:31:488 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:82 05 F5 6C 97 1F 
+2013/08/02 21:11:31:489 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3C
+2013/08/02 21:11:31:490 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:31:490 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:31:491 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:60 linkedAFC:0 AFC:0
+2013/08/02 21:11:31:491 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x82
+2013/08/02 21:11:31:533 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:82 B0 40 2C 3F 02 28 6B 68 
+2013/08/02 21:11:31:533 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:31:536 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 3. Timeout: 78 ms.
+2013/08/02 21:11:31:537 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:92 04 FA 00 74 66 
+2013/08/02 21:11:31:537 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3D
+2013/08/02 21:11:31:538 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0xFF
+2013/08/02 21:11:31:539 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:31:540 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:61 linkedAFC:255 AFC:0
+2013/08/02 21:11:31:540 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x92
+2013/08/02 21:11:31:579 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:92 9F 4D 4D 9E A7 EF 90 
+2013/08/02 21:11:31:579 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:31:581 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 3. Timeout: 78 ms.
+2013/08/02 21:11:31:581 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:82 04 FA 01 B4 65 
+2013/08/02 21:11:31:582 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3F
+2013/08/02 21:11:31:583 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0xFE
+2013/08/02 21:11:31:584 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:31:584 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:63 linkedAFC:254 AFC:0
+2013/08/02 21:11:31:585 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x82
+2013/08/02 21:11:31:625 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:82 5E A1 2E 6C 81 16 B0 
+2013/08/02 21:11:31:625 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:31:627 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 3. Timeout: 78 ms.
+2013/08/02 21:11:31:627 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:92 04 FA 02 F4 69 
+2013/08/02 21:11:31:628 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3C
+2013/08/02 21:11:31:629 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0xFF
+2013/08/02 21:11:31:630 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:31:630 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:60 linkedAFC:255 AFC:0
+2013/08/02 21:11:31:631 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x92
+2013/08/02 21:11:31:671 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:92 DE 4C 96 EF A1 CD 26 
+2013/08/02 21:11:31:671 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:31:673 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 3. Timeout: 78 ms.
+2013/08/02 21:11:31:673 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:82 04 FA 03 34 6A 
+2013/08/02 21:11:31:674 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3F
+2013/08/02 21:11:31:675 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x01
+2013/08/02 21:11:31:675 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:31:676 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:63 linkedAFC:1 AFC:0
+2013/08/02 21:11:31:677 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x82
+2013/08/02 21:11:31:717 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:82 F9 E9 9C 5A CA B8 97 
+2013/08/02 21:11:31:717 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:31:718 [007512] INFO 0x801C0094 [CommunicationSystem.cpp, 360] - Marker:9D 00 40 6E FE 
+2013/08/02 21:11:31:718 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 3. Timeout: 78 ms.
+2013/08/02 21:11:31:719 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:92 04 FA 04 F4 7D 
+2013/08/02 21:11:31:719 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3F
+2013/08/02 21:11:31:720 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0xFF
+2013/08/02 21:11:31:721 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:31:721 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:63 linkedAFC:255 AFC:0
+2013/08/02 21:11:31:722 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x92
+2013/08/02 21:11:31:768 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:92 0E CA 45 3D 75 70 12 
+2013/08/02 21:11:31:768 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:31:769 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 3. Timeout: 78 ms.
+2013/08/02 21:11:31:770 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:82 04 FA 05 34 7E 
+2013/08/02 21:11:31:770 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3E
+2013/08/02 21:11:31:771 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:31:772 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0xFF
+2013/08/02 21:11:31:772 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:62 linkedAFC:0 AFC:255
+2013/08/02 21:11:31:773 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x82
+2013/08/02 21:11:31:814 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:82 29 6F 4F 88 1E 05 A3 
+2013/08/02 21:11:31:814 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:31:815 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 3. Timeout: 78 ms.
+2013/08/02 21:11:31:816 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:92 04 FA 06 74 72 
+2013/08/02 21:11:31:817 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3E
+2013/08/02 21:11:31:817 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:31:818 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:31:819 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:62 linkedAFC:0 AFC:0
+2013/08/02 21:11:31:819 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x92
+2013/08/02 21:11:31:860 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:92 D9 D2 F2 7A 02 2E 64 
+2013/08/02 21:11:31:860 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:31:862 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 3. Timeout: 78 ms.
+2013/08/02 21:11:31:862 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:82 04 FA 07 B4 71 
+2013/08/02 21:11:31:863 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3F
+2013/08/02 21:11:31:864 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:31:865 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:31:865 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:63 linkedAFC:0 AFC:0
+2013/08/02 21:11:31:866 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x82
+2013/08/02 21:11:31:906 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:82 C9 CF 45 6A 66 65 04 
+2013/08/02 21:11:31:906 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:31:907 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 3. Timeout: 78 ms.
+2013/08/02 21:11:31:908 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:92 04 FA 08 F4 55 
+2013/08/02 21:11:31:909 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x40
+2013/08/02 21:11:31:910 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:31:910 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:31:911 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:64 linkedAFC:0 AFC:0
+2013/08/02 21:11:31:912 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x92
+2013/08/02 21:11:31:952 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:92 98 D3 29 0B 04 0C D2 
+2013/08/02 21:11:31:952 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:31:953 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 3. Timeout: 78 ms.
+2013/08/02 21:11:31:954 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:82 04 FA 09 34 56 
+2013/08/02 21:11:31:955 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3D
+2013/08/02 21:11:31:956 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0xFF
+2013/08/02 21:11:31:956 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0xFF
+2013/08/02 21:11:31:957 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:61 linkedAFC:255 AFC:255
+2013/08/02 21:11:31:958 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x82
+2013/08/02 21:11:32:003 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:82 B0 E6 9C A3 FE FF 98 
+2013/08/02 21:11:32:003 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 2 frames.
+2013/08/02 21:11:32:006 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0x82. Retries: 3. Timeout: 94 ms.
+2013/08/02 21:11:32:007 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:92 0D FA 00 74 D2 
+2013/08/02 21:11:32:008 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3F
+2013/08/02 21:11:32:009 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:32:010 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:32:010 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:63 linkedAFC:0 AFC:0
+2013/08/02 21:11:32:011 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0x92
+2013/08/02 21:11:32:064 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 773] - Command Completed:92 9F 5E DE F9 0E 29 D9 C9 98 B0 35 34 01 6A E7 CB 
+2013/08/02 21:11:32:065 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 3 frames.
+2013/08/02 21:11:32:072 [006780] DEBUG 0x801C0094 [Prb.cpp, 650] - Read EEPROM completed, Address=0x0080, Data=0x00
+2013/08/02 21:11:32:073 [006780] DEBUG 0x801C0094 [Prb.cpp, 650] - Read EEPROM completed, Address=0x0081, Data=0x00
+2013/08/02 21:11:32:074 [006780] DEBUG 0x801C0094 [Prb.cpp, 650] - Read EEPROM completed, Address=0x0082, Data=0x00
+2013/08/02 21:11:32:075 [006780] DEBUG 0x801C0094 [Prb.cpp, 650] - Read EEPROM completed, Address=0x0083, Data=0x00
+2013/08/02 21:11:32:076 [006780] DEBUG 0x801C0094 [Prb.cpp, 650] - Read EEPROM completed, Address=0x0084, Data=0x00
+2013/08/02 21:11:32:077 [006780] DEBUG 0x801C0094 [Prb.cpp, 650] - Read EEPROM completed, Address=0x0085, Data=0x00
+2013/08/02 21:11:32:078 [006780] DEBUG 0x801C0094 [Prb.cpp, 650] - Read EEPROM completed, Address=0x0086, Data=0x00
+2013/08/02 21:11:32:079 [006780] DEBUG 0x801C0094 [Prb.cpp, 650] - Read EEPROM completed, Address=0x0087, Data=0x00
+2013/08/02 21:11:32:080 [006780] DEBUG 0x801C0094 [Prb.cpp, 650] - Read EEPROM completed, Address=0x0088, Data=0x00
+2013/08/02 21:11:32:081 [006780] DEBUG 0x801C0094 [Prb.cpp, 650] - Read EEPROM completed, Address=0x0089, Data=0x00
+2013/08/02 21:11:32:082 [006780] DEBUG 0x801C0094 [Prb.cpp, 650] - Read EEPROM completed, Address=0x008A, Data=0x00
+2013/08/02 21:11:32:082 [006780] DEBUG 0x801C0094 [Prb.cpp, 650] - Read EEPROM completed, Address=0x008B, Data=0x00
+2013/08/02 21:11:32:083 [006780] DEBUG 0x801C0094 [Prb.cpp, 650] - Read EEPROM completed, Address=0x008C, Data=0x00
+2013/08/02 21:11:32:084 [006780] DEBUG 0x801C0094 [Prb.cpp, 650] - Read EEPROM completed, Address=0x00A8, Data=0x00
+2013/08/02 21:11:32:085 [006780] DEBUG 0x801C0094 [Prb.cpp, 650] - Read EEPROM completed, Address=0x00A9, Data=0x00
+2013/08/02 21:11:32:089 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 237] - Command: 0xe4. Retries: 3. Timeout: 500 ms.
+2013/08/02 21:11:32:089 [007180] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 252] - Send Command:E4 02 58 
+2013/08/02 21:11:32:090 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3018, Data=0x3F
+2013/08/02 21:11:32:091 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301A, Data=0x00
+2013/08/02 21:11:32:091 [007180] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x3070, Data=0x00
+2013/08/02 21:11:32:092 [007180] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 31] - FPGA RSSI/AFC [Send Command] linkedRSSI:63 linkedAFC:0 AFC:0
+2013/08/02 21:11:32:093 [007180] DEBUG 0x801C0094 [Prb.cpp, 402] - Send Command completed, Command=0xe4
+2013/08/02 21:11:32:250 [007512] INFO 0x801C0094 [ComSysDiagnostics.cpp, 79] - Status Counters [Link lost] FrameErrorsInLastSecond:8 EcgErrorsInLastSecond:0 MarkerOrImplantIdErrorsInLastSecond:0 TotalFrameErrors:9 TotalEcgErrors:0 TotalMarkerOrImplantIdErrors:0 TotalSentCommands:33 TotalGoodResponses:32 TotalBadResponses:0 TotalResponseTimeouts:0
+2013/08/02 21:11:32:251 [007512] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x301C, Data=0x0A
+2013/08/02 21:11:32:251 [007512] DEBUG 0x801C0094 [ComSysDiagnostics.cpp, 89] - FPGA Frame Error Counter [Link lost]:10
+2013/08/02 21:11:32:252 [007512] INFO 0x801C0094 [CommunicationSystemStateMachine.cpp, 769] - Command Completed
+2013/08/02 21:11:32:252 [007512] DEBUG 0x801C0094 [CommunicationSystemStateMachine.cpp, 330] - ... after 10 frames.
+2013/08/02 21:11:32:254 [007512] DEBUG 0x801C0094 [Prb.cpp, 466] - Write FPGA completed, Address=0x1008, Data=0x08
+2013/08/02 21:11:32:270 [007512] DEBUG 0x801C0094 [Prb.cpp, 512] - Read FPGA completed, Address=0x300A, Data=0x00
+2013/08/02 21:11:32:271 [007512] DEBUG 0x801C0094 [Prb.cpp, 466] - Write FPGA completed, Address=0x300A, Data=0x03
+2013/08/02 21:11:37:452 [006780] INFO [NCommunicationSystem.cpp, 747] - Disposing: 1
+2013/08/02 21:11:37:454 [006780] INFO [CrossAppDomainEventMarshaller.cpp, 44] - Disposing: 1
+2013/08/02 21:11:37:455 [006780] INFO [CrossAppDomainEventMarshaller.cpp, 155] - abortGetNextEvent called
+2013/08/02 21:11:37:456 [006780] INFO [CrossAppDomainEventMarshaller.cpp, 48] - Waiting for CrossDomainEventTranslator::m_pHandleEventsThread to stop
+2013/08/02 21:11:37:456 [007188] INFO [CrossAppDomainEventMarshaller.cpp, 80] - handleEventsThread exiting (thread aborted)
+2013/08/02 21:11:37:457 [006780] INFO [CrossAppDomainEventMarshaller.cpp, 54] - CrossDomainEventTranslator::m_pHandleEventsThread stopped
+2013/08/02 21:11:37:458 [006780] INFO [CrossAppDomainEventMarshaller.cpp, 110] - EventHandler dtor
+2013/08/02 21:11:37:459 [006780] INFO [CrossAppDomainEventMarshaller.cpp, 60] - Disposed.
+2013/08/02 21:11:37:460 [005100] DEBUG [Prb.cpp, 867] - Prb receive thread terminated.
+2013/08/02 21:11:37:463 [007512] INFO [ExceptionCatchingThread.cpp, 170] - Exited the interrupt thread procedure with return value 0.
+2013/08/02 21:11:37:563 [007180] INFO [ExceptionCatchingThread.cpp, 170] - Exited the dispatch thread procedure with return value 0.
+2013/08/02 21:11:37:564 [002388] INFO [ExceptionCatchingThread.cpp, 170] - Exited the timer thread procedure with return value 0.
+2013/08/02 21:11:37:668 [006780] INFO [NCommunicationSystem.cpp, 779] - Disposed.
+<<<<< Log Footer: 08/02/2013 21:11:37 >>>>>

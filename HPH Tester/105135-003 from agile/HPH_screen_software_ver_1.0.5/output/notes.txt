@@ -1,0 +1,10 @@
+VBAT side is also referred to as Anode side.
+VSS side is also referred to as Cathode side.
+R_Probe_1-2 impacts CCHRG1_VBAT_(mohms)
+R_Probe_10-11 impacts CCHRG1_VSS_(mohms)
+R_Probe_3-4 impacts CCHRG1_VBAT_(mohms)
+R_Probe_12-13 impacts CCHRG1_VSS_(mohms)
+R_Probe_5-6 impacts CCHRG1_VBAT_(mohms)
+R_Probe_14-15 impacts CCHRG1_VSS_(mohms)
+R_Probe_P2-P3 impacts all measurements on VBAT side of caps
+R_Probe_P4-P5 impacts all measurements on VSS side of caps

@@ -1,0 +1,25 @@
+2013/07/02 11:02:14:405  INFO:   Loaded Symbol File C:\ISV System\Config\FirmwareSymbols\build33136.sym for firmware Build #33136
+2013/07/02 11:02:14:514  INFO:   CommunicationSystemLog properties: .\CommunicationSystem.logger.properties
+2013/07/02 11:02:14:514  INFO:   CommunicationSystemLog log       : .\logs\prbRssiScriptLog 2013.07.02 11.02.14_CommunicationSystem.Log
+2013/07/02 11:02:22:015  INFO:   Setting the event sink for ScriptEngineProcedure
+2013/07/02 11:02:22:015  INFO:   Program parameters checks are enabled
+2013/07/02 11:02:22:030  INFO:   ********************************************************************************
+2013/07/02 11:02:22:030  INFO:   Starting ScriptEngineProcedure, Assembly  version 
+2013/07/02 11:02:22:046  INFO:   Config: ICD (NCommunicationSystem ver: nCommunicationSystem, Version=1.8.2.1, Culture=neutral, PublicKeyToken=56b5378c99c0bcfd; FTDI Driver ver: 2.08.28.0; PRB FPGA ver: 18)
+2013/07/02 11:02:22:046  INFO:   Setting the radio board transmit power to level 0x7.
+2013/07/02 11:02:22:046  INFO:   Radio board power level set to 7.
+2013/07/02 11:02:22:046  INFO:   ECG Timeout Interval set to 10 seconds.
+2013/07/02 11:02:22:062  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/07/02 11:02:22:062  INFO:   FwDvtSystem Started the event processing thread
+2013/07/02 11:02:22:124  ACTION: Read PRB FPGA: Address=0x3000 Data=0x12
+2013/07/02 11:02:22:187  RESULT: FPGA 0x3000 Expected: 18 Actual: 18
+2013/07/02 11:02:27:828  EVENT:  SCRIPT-EXEC:EXIT - TES.Dvt.ScriptExecStateMachine, ID[8]
+2013/07/02 11:02:27:828  INFO:   Terminating ScriptEngineProcedure
+2013/07/02 11:02:27:828  EVENT:  Terminate Dispatch, ID[15]
+2013/07/02 11:02:27:828  EVENT:  TES.Dvt.ScriptExecStateMachine.DoneEvent, ID[6]
+2013/07/02 11:02:27:828  STATE:  Changing state to ScriptExecStateMachine.IdleState, ID[6]
+2013/07/02 11:02:27:843  INFO:   ScriptEngineProcedure Completed
+2013/07/02 11:02:27:843  INFO:   Testcase Summary:
+2013/07/02 11:02:27:843  RESULT: Test Procedure ScriptEngineProcedure (FAILED)
+2013/07/02 11:02:27:843  INFO:   Procedure Runtime = 00:00:05
+2013/07/02 11:02:27:859  INFO:   The event dispatch thread ScriptEngineProcedure exited.

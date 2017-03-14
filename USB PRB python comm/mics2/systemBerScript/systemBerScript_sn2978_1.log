@@ -1,0 +1,26 @@
+PRB CC1020 FREQ_2A =  53
+PRB CC1020 FREQ_1A =  240
+PRB CC1020 FREQ_0A =  33
+PRB CC1020 CLOCK_A =  56
+PRB CC1020 FREQ_2B =  53
+PRB CC1020 FREQ_1B =  250
+PRB CC1020 FREQ_0B =  203
+PRB CC1020 CLOCK_B =  56
+PRB CC1020 MATCH =  0
+PRB CC1020 STATUS1 =  108
+PRB CC1020 STATUS2 =  102
+PRB CC1020 STATUS3 =  68
+Loop Index =  0
+  Test time = 00:00.000
+  PRB FREQ_A =  3528725
+  PRB FREQ_B =  3531455
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[32]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[1] : ID 0x80200C3A (Model 0, Serial 3130, SW Version 8, Is Implanted)
+  Channel Selection =  1
+  Data inversion =  0
+  PRB Init Frame Error Count =  0
+Candidate Frequency = 402.8183MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0

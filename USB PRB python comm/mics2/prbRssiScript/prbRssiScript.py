@@ -1,0 +1,377 @@
+#-------------------------------------------------------------------------------
+# Name:        
+# Purpose:     
+#	       
+#
+# Author:      
+#
+#-------------------------------------------------------------------------------
+#!/usr/bin/env python
+
+import sys
+import time
+from ConfigParser import ConfigParser
+
+sys.path.append(r'..\..\PyTES')
+from PyTES import *
+
+sys.path.append(r'c:\Program Files\Python 2.7.5\Lib\site-packages')
+
+# a modified pyvisa
+sys.path.append(r'c:\Program Files\Python 2.7.5\Lib\site-packages\pyvisa')
+
+# path to common files
+sys.path.append(r'c:\python_programs\mics2')
+
+from Instruments import HP_8648_sig_gen as sig_gen
+
+import watlowF4ipy 
+
+import clr
+clr.AddReference("System")
+from System import *
+
+clr.AddReferenceToFile("Config.dll")
+import Config
+
+
+class plotter(object):
+    """this class will use a system call to py
+    """
+    def __init__(self,sa,plot_path):
+        self.sa = sa        #spectrum analyzer instance
+        self.path = plot_path
+
+        self.conv_fact = 1000000.0 #work in MHz not Hz
+        self.plot_num = 1   #increment plot number
+
+    def set_conversion_factor(self,c):
+        self.freq_conversion_factor = c
+
+    def make_plot(self,title,y_data,x_units,y_units):
+
+        plotname = "%d_"%(self.plot_num)+title
+        self.plot_num += 1
+
+        self.make_temp_file('tmp_data.txt',y_data)
+
+        x_scale_min = self.sa.get_startf()
+        x_scale_max = self.sa.get_stopf()
+
+        y_scale= self.sa.get_y_scale()
+        y_scale_min = y_scale[0]
+        y_scale_max = y_scale[1]
+
+#        os.system('python plot_spec_an.py' + \
+        os.system('python c:\python_programs\mics2\plot_spec_an.py' + \
+                    ' "%s"'%self.path + \
+                    ' "%s"'%plotname + \
+                    ' tmp_data.txt' + \
+                    ' "%s" "%s"'%(x_units,y_units) + \
+                    " %f %f"%(x_scale_min,x_scale_max) + \
+                    " %f %f"%(y_scale_min,y_scale_max))
+
+        os.remove('tmp_data.txt')
+        print 'temporary files deleted'
+
+    def make_temp_file(self,f_name,data):
+        f = open(f_name,'w')
+        for item in data:
+            f.write("%f\n"%item)
+        f.close()
+
+
+class WaitForDisconnectedEventState(IScriptExecState):
+    def __init__(self, key, data):
+        self.key = key
+        self.data = data
+
+    def doEntryAction(self, sm):
+        sm.ICD.breakLink()
+        return
+
+    def processEvent(self, sm, ev):
+        return type(ev)==DisconnectedEvent
+
+class prbRssiScript(PyScript):
+    def __init__(self, optionsPath, configPath):
+        # Read configuration
+        config = ConfigParser()
+        config.read(configPath)
+
+        logDir = config.get('Location', 'log_dir')
+        logName = 'prbRssiScriptLog ' + DateTime.Now.ToString('yyyy.MM.dd HH.mm.ss') + '.log'
+        buildNumber = int(config.get('Firmware', 'build_num'), 0)
+
+        super(prbRssiScript, self).__init__(optionsPath, buildNumber, Path.Combine(logDir, logName))
+
+        self.loop_count = int(config.get('Sampling', 'loop_count'))
+
+    def script(self):
+        # Read FPGA address 0x3000 and verify the response is 0x12.
+        val = self.TestProcedure.ICD.readPrbFpga(0x3000)
+        self.verify("FPGA 0x3000", 0x12, val)
+        if val != 0x12:
+            self.verify("ERROR", 0x12, val)
+
+        sg=sig_gen("GPIB::18",'SIG_GEN')
+
+        # read the MATCH value from EEPROM and write to the PRB
+#need to add read here...
+        # write the legacy frequency to PRB channel 0 registers
+        self.TestProcedure.ICD.writePrbFpga(0x3024, 0x35)
+        self.TestProcedure.ICD.writePrbFpga(0x3026, 0xF0)
+        self.TestProcedure.ICD.writePrbFpga(0x3028, 0x21)
+        self.TestProcedure.ICD.writePrbFpga(0x302C, 0x35)
+        self.TestProcedure.ICD.writePrbFpga(0x302E, 0xFA)
+        self.TestProcedure.ICD.writePrbFpga(0x3030, 0xCB)
+        # calibrate once on channel 0
+        self.TestProcedure.ICD.calibrateCc1020()
+        time.sleep(0.300)
+        val = self.TestProcedure.ICD.readPrbFpga(0x2012)
+        print "  PRB badCal = ", val
+        val = self.TestProcedure.ICD.readCC1020(int(CC1020Register.STATUS))
+        print "  PRB STATUS register = ", val
+        self.DumpCalResult()
+
+        # log the filter setting 
+        val = self.TestProcedure.ICD.readCC1020(int(CC1020Register.FILTER))
+        print "  CC1020 FILTER = ", val
+        time.sleep(0.080)
+
+        #45-5 5 degree steps
+        temperatures = range(45,4,-5)
+        stabilization_mins = 10
+        chamber = watlowF4ipy.WatlowF4_temp_window(3,debug=True)
+
+        for temperature in temperatures:
+
+            chamber.set_temperature_and_time(temperature,temperature-0.3,
+                                            temperature+0.3,stabilization_mins)
+
+            while chamber.dwelltime_endpoint_reached() == False:
+                #pause before checking the flag again
+                time.sleep(2)
+
+            for index in range(0, self.loop_count):
+                test_time = time.clock() 
+                print "Loop Index = ", index
+                print "Test time = %.2d:%06.3f"%(test_time/60,test_time%60.0)
+
+                if index%9 == 0:
+                    print "Candidate Frequency = 402.8183MHz, LSI"
+                    sg.set_output_frequency(402818300)
+                elif index%9 == 1:
+                    print "Candidate Frequency = 403.5108MHz, HSI"
+                    sg.set_output_frequency(403510800)
+                elif index%9 == 2:
+                    print "Candidate Frequency = 402.4942MHz, LSI"
+                    sg.set_output_frequency(402494200)
+                elif index%9 == 3:
+                    print "Candidate Frequency = 404.6167MHz, HSI"
+                    sg.set_output_frequency(404616700)
+                elif index%9 == 4:
+                    print "Candidate Frequency = 402.7209MHz, HSI"
+                    sg.set_output_frequency(402720900)
+                elif index%9 == 5:
+                    print "Candidate Frequency = 402.4049MHz, HSI"
+                    sg.set_output_frequency(402404900)
+                elif index%9 == 6:
+                    print "Candidate Frequency = 404.5197MHz, LSI"
+                    sg.set_output_frequency(404519700)
+                elif index%9 == 7:
+                    print "Candidate Frequency = 402.7049MHz, LSI"
+                    sg.set_output_frequency(402704900)
+                else:
+                    print "Candidate Frequency = 403.5108MHz, HSI"
+                    sg.set_output_frequency(403510800)
+
+                # write the candidate frequency to CC1020 registers
+                self.writeFreqToCC1020(index)
+
+                sg.output_on()
+    
+                for pwr in range(0, 13):
+                    if pwr == 0:
+                        print "  RF Generator = -55dBm"
+                        sg.set_output_power_dBm(-55)
+                    elif pwr == 1:
+                        print "  RF Generator = -60dBm"
+                        sg.set_output_power_dBm(-60)
+                    elif pwr == 2:
+                        print "  RF Generator = -65dBm"
+                        sg.set_output_power_dBm(-65)
+                    elif pwr == 3:
+                        print "  RF Generator = -70dBm"
+                        sg.set_output_power_dBm(-70)
+                    elif pwr == 4:
+                        print "  RF Generator = -75dBm"
+                        sg.set_output_power_dBm(-75)
+                    elif pwr == 5:
+                        print "  RF Generator = -80dBm"
+                        sg.set_output_power_dBm(-80)
+                    elif pwr == 6:
+                        print "  RF Generator = -85dBm"
+                        sg.set_output_power_dBm(-85)
+                    elif pwr == 7:
+                        print "  RF Generator = -90"
+                        sg.set_output_power_dBm(-90)
+                    elif pwr == 8:
+                        print "  RF Generator = -95"
+                        sg.set_output_power_dBm(-95)
+                    elif pwr == 9:
+                        print "  RF Generator = -100"
+                        sg.set_output_power_dBm(-100)
+                    elif pwr == 10:
+                        print "  RF Generator = -105"
+                        sg.set_output_power_dBm(-105)
+                    elif pwr == 11:
+                        print "  RF Generator = -110"
+                        sg.set_output_power_dBm(-110)
+                    else:
+                        print "  RF Generator = -115"
+                        sg.set_output_power_dBm(-115)
+
+                    time.sleep(5)
+                    # place the CC1020 into receive mode 
+                    self.TestProcedure.ICD.writeCC1020(int(CC1020Register.MAIN), 0x01)
+                    time.sleep(0.080)
+                    val = self.TestProcedure.ICD.readCC1020(int(CC1020Register.STATUS))
+                    print "  PRB STATUS register = ", val
+
+                    # read RSSI 10 times and compute the average
+                    val_0 = 0
+                    val_1 = 0
+                    for iter in range(0, 10):
+                        val_0 = self.TestProcedure.ICD.readCC1020(int(CC1020Register.RSSI))
+                        print "  CC1020 RSSI = ",val_0
+                        val_1 = val_1 + val_0
+                    print "  CC1020 Average RSSI = ",val_1/10.0
+
+                    # place the CC1020 into standby mode 
+                    self.TestProcedure.ICD.writeCC1020(int(CC1020Register.MAIN), 0x1F)
+                    time.sleep(0.080)
+                sg.output_off()
+
+            self.passed = True
+
+    def verify(self, parameter, expVal, actVal):
+        self.TestProcedure.Log.addResult(parameter + " Expected: " + str(expVal) + " Actual: " + str(actVal))
+
+    def DumpCalResult(self):
+        val = self.TestProcedure.ICD.readCC1020(int(CC1020Register.FREQ_2A))
+        print "PRB CC1020 FREQ_2A = ",val
+        val = self.TestProcedure.ICD.readCC1020(int(CC1020Register.FREQ_1A))
+        print "PRB CC1020 FREQ_1A = ",val
+        val = self.TestProcedure.ICD.readCC1020(int(CC1020Register.FREQ_0A))
+        print "PRB CC1020 FREQ_0A = ",val
+        val = self.TestProcedure.ICD.readCC1020(int(CC1020Register.CLOCK_A))
+        print "PRB CC1020 CLOCK_A = ",val
+        val = self.TestProcedure.ICD.readCC1020(int(CC1020Register.FREQ_2B))
+        print "PRB CC1020 FREQ_2B = ",val
+        val = self.TestProcedure.ICD.readCC1020(int(CC1020Register.FREQ_1B))
+        print "PRB CC1020 FREQ_1B = ",val
+        val = self.TestProcedure.ICD.readCC1020(int(CC1020Register.FREQ_0B))
+        print "PRB CC1020 FREQ_0B = ",val
+        val = self.TestProcedure.ICD.readCC1020(int(CC1020Register.CLOCK_B))
+        print "PRB CC1020 CLOCK_B = ",val
+        val = self.TestProcedure.ICD.readCC1020(int(CC1020Register.MATCH))
+        print "PRB CC1020 MATCH = ",val
+        val = self.TestProcedure.ICD.readCC1020(int(CC1020Register.STATUS1))
+        print "PRB CC1020 STATUS1 = ",val
+        val = self.TestProcedure.ICD.readCC1020(int(CC1020Register.STATUS2))
+        print "PRB CC1020 STATUS2 = ",val
+        val = self.TestProcedure.ICD.readCC1020(int(CC1020Register.STATUS3))
+        print "PRB CC1020 STATUS3 = ",val
+
+    def writeFreqToCC1020(self, index):
+        # Write the frequency update locations in S-ICD RAM and the PRB 
+        if index%9 == 0:
+            #Candidate Frequency = 402.8183MHz settings
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_2A), 0x35)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_1A), 0xD8)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_0A), 0x15)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_2B), 0x35)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_1B), 0xE2)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_0B), 0xBF)
+
+        elif index%9 == 1:
+            #Candidate Frequency = 403.5108MHz settings
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_2A), 0x35)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_1A), 0xF0)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_0A), 0x21)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_2B), 0x35)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_1B), 0xFA)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_0B), 0xCB)
+
+        elif index%9 == 2:
+            #Candidate Frequency = 402.4942MHz settings
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_2A), 0x35)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_1A), 0xCC)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_0A), 0xD3)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_2B), 0x35)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_1B), 0xD7)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_0B), 0x7F)
+
+        elif index%9 == 3:
+            #Candidate Frequency = 404.6167MHz settings
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_2A), 0x36)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_1A), 0x16)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_0A), 0x87)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_2B), 0x36)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_1B), 0x21)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_0B), 0x31)
+
+        elif index%9 == 4:
+            #Candidate Frequency = 402.7209MHz, settings
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_2A), 0x35)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_1A), 0xD4)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_0A), 0xB3)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_2B), 0x35)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_1B), 0xDF)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_0B), 0x5D)
+
+        elif index%9 == 5:
+            #Candidate Frequency = 402.4049MHz settings
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_2A), 0x35)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_1A), 0xC9)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_0A), 0xB9)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_2B), 0x35)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_1B), 0xD4)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_0B), 0x65)
+
+        elif index%9 == 6:
+            #Candidate Frequency = 404.5197MHz settings
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_2A), 0x36)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_1A), 0x13)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_0A), 0x29)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_2B), 0x36)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_1B), 0x1D)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_0B), 0xD3)
+
+        elif index%9 == 7:
+            #Candidate Frequency = 402.7049MHz settings
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_2A), 0x35)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_1A), 0xD4)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_0A), 0x25)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_2B), 0x35)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_1B), 0xDE)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_0B), 0xCF)
+
+	else:
+            #Candidate Frequency = 403.5108MHz settings
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_2A), 0x35)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_1A), 0xF0)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_0A), 0x21)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_2B), 0x35)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_1B), 0xFA)
+            self.TestProcedure.ICD.writeCC1020(int(CC1020Register.FREQ_0B), 0xCB)
+
+def main():
+    optionsPath = ".\options.xml"
+    configPath = ".\settings.cfg"
+    psScript = prbRssiScript(optionsPath, configPath)
+    psScript.run()
+
+if __name__ == '__main__':
+    main()

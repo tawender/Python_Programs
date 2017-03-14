@@ -1,0 +1,189 @@
+2013/07/19 14:55:50:783  INFO:   Loaded Symbol File C:\ISV System\Config\FirmwareSymbols\build178.sym for firmware Build #178
+2013/07/19 14:55:50:797  INFO:   CommunicationSystemLog properties: .\CommunicationSystem.logger.properties
+2013/07/19 14:55:50:797  INFO:   CommunicationSystemLog log       : .\logs\systemBerScriptLog 2013.07.19 14.55.50_CommunicationSystem.Log
+2013/07/19 14:55:54:557  INFO:   Setting the event sink for ScriptEngineProcedure
+2013/07/19 14:55:54:557  INFO:   Program parameters checks are enabled
+2013/07/19 14:55:54:561  INFO:   ********************************************************************************
+2013/07/19 14:55:54:561  INFO:   Starting ScriptEngineProcedure, Assembly  version 
+2013/07/19 14:55:54:566  INFO:   Config: ICD (NCommunicationSystem ver: nCommunicationSystem, Version=1.8.2.1, Culture=neutral, PublicKeyToken=56b5378c99c0bcfd; FTDI Driver ver: 2.08.24.0; PRB FPGA ver: 18)
+2013/07/19 14:55:54:566  INFO:   Setting the radio board transmit power to level 0x7.
+2013/07/19 14:55:54:569  INFO:   Radio board power level set to 7.
+2013/07/19 14:55:54:570  INFO:   ECG Timeout Interval set to 10 seconds.
+2013/07/19 14:55:54:571  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/07/19 14:55:54:571  INFO:   FwDvtSystem Started the event processing thread
+2013/07/19 14:55:54:602  ACTION: Read PRB FPGA: Address=0x3000 Data=0x12
+2013/07/19 14:55:54:606  RESULT: FPGA 0x3000 Expected: 18 Actual: 18
+2013/07/19 14:55:54:609  ACTION: Calibrate CC1020
+2013/07/19 14:55:54:696  INFO:   CC1020 calibration passed
+2013/07/19 14:55:54:704  ACTION: Read C1020: Address 0x04 Data=0x35
+2013/07/19 14:55:54:709  ACTION: Read C1020: Address 0x05 Data=0xF0
+2013/07/19 14:55:54:713  ACTION: Read C1020: Address 0x06 Data=0x21
+2013/07/19 14:55:54:716  ACTION: Read C1020: Address 0x07 Data=0x38
+2013/07/19 14:55:54:720  ACTION: Read C1020: Address 0x08 Data=0x35
+2013/07/19 14:55:54:724  ACTION: Read C1020: Address 0x09 Data=0xFA
+2013/07/19 14:55:54:727  ACTION: Read C1020: Address 0x0A Data=0xCB
+2013/07/19 14:55:54:731  ACTION: Read C1020: Address 0x0B Data=0x38
+2013/07/19 14:55:54:734  ACTION: Read C1020: Address 0x1D Data=0x00
+2013/07/19 14:55:54:738  ACTION: Read C1020: Address 0x45 Data=0x6A
+2013/07/19 14:55:54:741  ACTION: Read C1020: Address 0x46 Data=0x66
+2013/07/19 14:55:54:745  ACTION: Read C1020: Address 0x47 Data=0x44
+2013/07/19 14:55:54:755  ACTION: Read PRB FPGA: Address=0x305E Data=0x35
+2013/07/19 14:55:54:758  ACTION: Read PRB FPGA: Address=0x3060 Data=0xD8
+2013/07/19 14:55:54:761  ACTION: Read PRB FPGA: Address=0x3062 Data=0x15
+2013/07/19 14:55:54:768  ACTION: Read PRB FPGA: Address=0x3066 Data=0x35
+2013/07/19 14:55:54:771  ACTION: Read PRB FPGA: Address=0x3068 Data=0xE2
+2013/07/19 14:55:54:774  ACTION: Read PRB FPGA: Address=0x306A Data=0xBF
+2013/07/19 14:55:54:776  ACTION: Write PRB FPGA: Address=0x1026 Data=0x01
+2013/07/19 14:55:54:783  INFO:   EXECUTING STATE: SMLibrary.Dvt.IcdCmd+ScanState Timeout: 00:00:30
+2013/07/19 14:55:54:784  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/07/19 14:55:54:785  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/07/19 14:55:54:785  INFO:   Setting the radio board transmit power to level 0x7.
+2013/07/19 14:55:54:788  INFO:   Radio board power level set to 7.
+2013/07/19 14:55:54:790  ACTION: Setting radio board configuration for hybrid.
+2013/07/19 14:55:54:790  ACTION: Set radio board to DIO inverting mode.
+2013/07/19 14:55:54:790  ACTION: Write PRB FPGA: Address=0x3012 Data=0x01
+2013/07/19 14:55:54:793  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:55:54:795  ACTION: Read PRB FPGA: Address=0x1004 Data=0x08
+2013/07/19 14:55:54:795  ACTION: Write PRB FPGA: Address=0x1004 Data=0x08
+2013/07/19 14:55:54:798  ACTION: Scanning for devices, primary scan duration = 9 sec, secondary scan duration = 2 sec
+2013/07/19 14:56:05:973  INFO:   Primary scan device IDs: No devices found
+2013/07/19 14:56:10:127  INFO:   Secondary scan device IDs: 0x802004F2 
+2013/07/19 14:56:10:130  EVENT:  Device ID List, ID[17]
+                                 DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:56:10:130  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/07/19 14:56:10:130  INFO:   STATE EXITED: SMLibrary.Dvt.IcdCmd+ScanState
+2013/07/19 14:56:10:142  INFO:   EXECUTING STATE: SMLibrary.Dvt.IcdCmd+ConnectState Timeout: 00:00:24
+2013/07/19 14:56:10:142  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/07/19 14:56:10:142  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/07/19 14:56:10:142  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:56:10:145  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:10:145  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:10:153  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:56:14:768  EVENT:  Connect Failed, ID[19]
+2013/07/19 14:56:14:768  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:56:14:772  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:14:772  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:14:774  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:56:19:371  EVENT:  Connect Failed, ID[20]
+2013/07/19 14:56:19:371  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:56:19:374  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:19:374  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:19:377  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:56:23:965  EVENT:  Connect Failed, ID[21]
+2013/07/19 14:56:23:965  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:56:23:968  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:23:968  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:23:971  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:56:28:564  EVENT:  Connect Failed, ID[22]
+2013/07/19 14:56:28:564  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/07/19 14:56:28:564  INFO:   STATE EXITED: SMLibrary.Dvt.IcdCmd+ConnectState
+2013/07/19 14:56:28:570  INFO:   EXECUTING STATE: SMLibrary.Dvt.IcdCmd+ConnectState Timeout: 00:00:24
+2013/07/19 14:56:28:570  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/07/19 14:56:28:570  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/07/19 14:56:28:570  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:56:28:573  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:28:573  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:28:576  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:56:33:170  EVENT:  Connect Failed, ID[24]
+2013/07/19 14:56:33:170  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:56:33:173  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:33:173  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:33:176  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:56:37:792  EVENT:  Connect Failed, ID[25]
+2013/07/19 14:56:37:793  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:56:37:796  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:37:796  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:37:798  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:56:42:391  EVENT:  Connect Failed, ID[26]
+2013/07/19 14:56:42:391  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:56:42:394  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:42:394  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:42:397  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:56:46:994  EVENT:  Connect Failed, ID[27]
+2013/07/19 14:56:46:994  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/07/19 14:56:46:994  INFO:   STATE EXITED: SMLibrary.Dvt.IcdCmd+ConnectState
+2013/07/19 14:56:46:997  INFO:   EXECUTING STATE: SMLibrary.Dvt.IcdCmd+ConnectState Timeout: 00:00:24
+2013/07/19 14:56:46:997  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/07/19 14:56:46:997  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/07/19 14:56:46:997  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:56:47:000  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:47:000  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:47:003  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:56:51:170  EVENT:  Connect Failed, ID[29]
+2013/07/19 14:56:51:170  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:56:51:173  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:51:173  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:51:176  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:56:55:776  EVENT:  Connect Failed, ID[30]
+2013/07/19 14:56:55:776  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:56:55:779  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:55:779  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:56:55:782  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:57:00:376  EVENT:  Connect Failed, ID[31]
+2013/07/19 14:57:00:376  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:57:00:379  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:57:00:379  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:57:00:382  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:57:04:543  EVENT:  Connect Failed, ID[32]
+2013/07/19 14:57:04:543  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/07/19 14:57:04:543  INFO:   STATE EXITED: SMLibrary.Dvt.IcdCmd+ConnectState
+2013/07/19 14:57:04:547  INFO:   EXECUTING STATE: SMLibrary.Dvt.IcdCmd+ConnectState Timeout: 00:00:24
+2013/07/19 14:57:04:547  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/07/19 14:57:04:547  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/07/19 14:57:04:547  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:57:04:550  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:57:04:550  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:57:04:552  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:57:08:724  EVENT:  Connect Failed, ID[34]
+2013/07/19 14:57:08:724  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:57:08:727  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:57:08:727  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:57:08:730  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:57:12:895  EVENT:  Connect Failed, ID[35]
+2013/07/19 14:57:12:895  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:57:12:898  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:57:12:898  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:57:12:901  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:57:17:062  EVENT:  Connect Failed, ID[36]
+2013/07/19 14:57:17:062  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:57:17:065  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:57:17:065  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:57:17:068  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:57:21:228  EVENT:  Connect Failed, ID[37]
+2013/07/19 14:57:21:228  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/07/19 14:57:21:228  INFO:   STATE EXITED: SMLibrary.Dvt.IcdCmd+ConnectState
+2013/07/19 14:57:21:231  INFO:   EXECUTING STATE: SMLibrary.Dvt.IcdCmd+ConnectState Timeout: 00:00:24
+2013/07/19 14:57:21:231  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/07/19 14:57:21:231  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/07/19 14:57:21:231  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:57:21:234  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:57:21:234  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:57:21:237  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:57:25:400  EVENT:  Connect Failed, ID[39]
+2013/07/19 14:57:25:400  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:57:25:403  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:57:25:403  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:57:25:406  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:57:29:566  EVENT:  Connect Failed, ID[40]
+2013/07/19 14:57:29:566  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:57:29:569  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:57:29:569  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:57:29:572  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:57:33:738  EVENT:  Connect Failed, ID[41]
+2013/07/19 14:57:33:738  ACTION: PRB Set Link Data Rate: Slow
+2013/07/19 14:57:33:741  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:57:33:741  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/19 14:57:33:744  ACTION: Connecting to device ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+2013/07/19 14:57:37:904  EVENT:  Connect Failed, ID[42]
+2013/07/19 14:57:37:904  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/07/19 14:57:37:904  INFO:   STATE EXITED: SMLibrary.Dvt.IcdCmd+ConnectState
+2013/07/19 14:57:37:910  EVENT:  SCRIPT-EXEC:EXIT - TES.Dvt.ScriptExecStateMachine, ID[8]
+2013/07/19 14:57:37:911  INFO:   Terminating ScriptEngineProcedure
+2013/07/19 14:57:37:911  EVENT:  Terminate Dispatch, ID[43]
+2013/07/19 14:57:37:911  EVENT:  TES.Dvt.ScriptExecStateMachine.DoneEvent, ID[6]
+2013/07/19 14:57:37:911  STATE:  Changing state to ScriptExecStateMachine.IdleState, ID[6]
+2013/07/19 14:57:37:921  INFO:   ScriptEngineProcedure Completed
+2013/07/19 14:57:37:922  INFO:   Testcase Summary:
+2013/07/19 14:57:37:923  RESULT: Test Procedure ScriptEngineProcedure (FAILED)
+2013/07/19 14:57:37:923  INFO:   Procedure Runtime = 00:01:43
+2013/07/19 14:57:37:933  INFO:   The event dispatch thread ScriptEngineProcedure exited.

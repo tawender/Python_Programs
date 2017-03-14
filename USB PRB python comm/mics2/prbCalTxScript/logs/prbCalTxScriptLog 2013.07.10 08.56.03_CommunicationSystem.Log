@@ -1,0 +1,11 @@
+<<<<< Log Header: 07/10/2013 08:56:03 >>>>>
+2013/07/10 08:56:03:983 [001636] INFO [NCommunicationSystem.cpp, 108] - nCommunicationSystem, Version=1.8.2.1, Culture=neutral, PublicKeyToken=56b5378c99c0bcfd
+2013/07/10 08:56:04:015 [001636] INFO [ExceptionCatchingThread.cpp, 257] - Created the timer thread with id 2088 (0x828).
+2013/07/10 08:56:04:015 [002088] INFO [ExceptionCatchingThread.cpp, 168] - Executing the timer thread procedure...
+2013/07/10 08:56:04:015 [004008] INFO [ExceptionCatchingThread.cpp, 168] - Executing the dispatch thread procedure...
+2013/07/10 08:56:04:015 [001636] INFO [ExceptionCatchingThread.cpp, 257] - Created the dispatch thread with id 4008 (0xfa8).
+2013/07/10 08:56:07:015 [001636] DEBUG [Prb.cpp, 252] - PRB logging started.
+2013/07/10 08:56:07:046 [001636] DEBUG [Prb.cpp, 130] - Number of FTDI devices: 1
+2013/07/10 08:56:07:046 [001636] DEBUG [Prb.cpp, 158] - FTDI Device[0]: ID=67330069
+2013/07/10 08:56:07:061 [001636] DEBUG [Prb.cpp, 169] - FTDI handle=194330792
+2013/07/10 08:56:07:061 [001636] INFO [Prb.cpp, 179] - FTDI Driver Version 2.08.28.0

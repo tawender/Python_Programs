@@ -1,0 +1,46 @@
+2013/07/09 20:53:40:199  INFO:   Loaded Symbol File C:\ISV System\Config\FirmwareSymbols\build33136.sym for firmware Build #33136
+2013/07/09 20:53:40:277  INFO:   CommunicationSystemLog properties: .\CommunicationSystem.logger.properties
+2013/07/09 20:53:40:277  INFO:   CommunicationSystemLog log       : .\logs\prbRssiScriptLog 2013.07.09 20.53.40_CommunicationSystem.Log
+2013/07/09 20:53:47:996  INFO:   Setting the event sink for ScriptEngineProcedure
+2013/07/09 20:53:47:996  INFO:   Program parameters checks are enabled
+2013/07/09 20:53:48:012  INFO:   ********************************************************************************
+2013/07/09 20:53:48:012  INFO:   Starting ScriptEngineProcedure, Assembly  version 
+2013/07/09 20:53:48:027  INFO:   Config: ICD (NCommunicationSystem ver: nCommunicationSystem, Version=1.8.2.1, Culture=neutral, PublicKeyToken=56b5378c99c0bcfd; FTDI Driver ver: 2.08.28.0; PRB FPGA ver: 18)
+2013/07/09 20:53:48:027  INFO:   Setting the radio board transmit power to level 0x7.
+2013/07/09 20:53:48:027  INFO:   Radio board power level set to 7.
+2013/07/09 20:53:48:027  INFO:   ECG Timeout Interval set to 10 seconds.
+2013/07/09 20:53:48:027  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/07/09 20:53:48:043  INFO:   FwDvtSystem Started the event processing thread
+2013/07/09 20:53:48:090  ACTION: Read PRB FPGA: Address=0x3000 Data=0x12
+2013/07/09 20:53:48:121  RESULT: FPGA 0x3000 Expected: 18 Actual: 18
+2013/07/09 20:53:50:324  ACTION: Write PRB FPGA: Address=0x3024 Data=0x35
+2013/07/09 20:53:50:355  ACTION: Write PRB FPGA: Address=0x3026 Data=0xF0
+2013/07/09 20:53:50:355  ACTION: Write PRB FPGA: Address=0x3028 Data=0x21
+2013/07/09 20:53:50:371  ACTION: Write PRB FPGA: Address=0x302C Data=0x35
+2013/07/09 20:53:50:371  ACTION: Write PRB FPGA: Address=0x302E Data=0xFA
+2013/07/09 20:53:50:371  ACTION: Write PRB FPGA: Address=0x3030 Data=0xCB
+2013/07/09 20:53:50:371  ACTION: Calibrate CC1020
+2013/07/09 20:53:50:465  INFO:   CC1020 calibration passed
+2013/07/09 20:53:50:465  ACTION: Read C1020: Address 0x04 Data=0x35
+2013/07/09 20:53:50:480  ACTION: Read C1020: Address 0x05 Data=0xF0
+2013/07/09 20:53:50:480  ACTION: Read C1020: Address 0x06 Data=0x21
+2013/07/09 20:53:50:496  ACTION: Read C1020: Address 0x07 Data=0x38
+2013/07/09 20:53:50:496  ACTION: Read C1020: Address 0x08 Data=0x35
+2013/07/09 20:53:50:496  ACTION: Read C1020: Address 0x09 Data=0xFA
+2013/07/09 20:53:50:496  ACTION: Read C1020: Address 0x0A Data=0xCB
+2013/07/09 20:53:50:512  ACTION: Read C1020: Address 0x0B Data=0x38
+2013/07/09 20:53:50:512  ACTION: Read C1020: Address 0x1D Data=0x00
+2013/07/09 20:53:50:512  ACTION: Read C1020: Address 0x45 Data=0x6C
+2013/07/09 20:53:50:527  ACTION: Read C1020: Address 0x46 Data=0x66
+2013/07/09 20:53:50:527  ACTION: Read C1020: Address 0x47 Data=0x44
+2013/07/09 20:53:50:527  ACTION: Read C1020: Address 0x10 Data=0x22
+2013/07/09 20:53:51:105  EVENT:  SCRIPT-EXEC:EXIT - TES.Dvt.ScriptExecStateMachine, ID[8]
+2013/07/09 20:53:51:121  INFO:   Terminating ScriptEngineProcedure
+2013/07/09 20:53:51:121  EVENT:  Terminate Dispatch, ID[15]
+2013/07/09 20:53:51:121  EVENT:  TES.Dvt.ScriptExecStateMachine.DoneEvent, ID[6]
+2013/07/09 20:53:51:121  STATE:  Changing state to ScriptExecStateMachine.IdleState, ID[6]
+2013/07/09 20:53:51:121  INFO:   ScriptEngineProcedure Completed
+2013/07/09 20:53:51:121  INFO:   Testcase Summary:
+2013/07/09 20:53:51:121  RESULT: Test Procedure ScriptEngineProcedure (FAILED)
+2013/07/09 20:53:51:121  INFO:   Procedure Runtime = 00:00:03
+2013/07/09 20:53:51:121  INFO:   The event dispatch thread ScriptEngineProcedure exited.

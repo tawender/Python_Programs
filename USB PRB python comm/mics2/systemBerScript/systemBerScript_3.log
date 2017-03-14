@@ -1,0 +1,2898 @@
+PRB CC1020 FREQ_2A =  53
+PRB CC1020 FREQ_1A =  240
+PRB CC1020 FREQ_0A =  33
+PRB CC1020 CLOCK_A =  56
+PRB CC1020 FREQ_2B =  53
+PRB CC1020 FREQ_1B =  250
+PRB CC1020 FREQ_0B =  203
+PRB CC1020 CLOCK_B =  56
+PRB CC1020 MATCH =  0
+PRB CC1020 STATUS1 =  108
+PRB CC1020 STATUS2 =  102
+PRB CC1020 STATUS3 =  68
+PRB FREQ_A =  3528725
+PRB FREQ_B =  3531455
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[17]
+DeviceID[0] : ID 0x80200C3A (Model 0, Serial 3130, SW Version 8, Is Implanted)
+DeviceID[1] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.8183MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  -0.1
+  PRB FREQ_A =  3528685
+  PRB FREQ_B =  3531415
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding 0 kHz Freq Offset
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  -0.1
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB Average RSSI =  63.3
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  0
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[597]
+DeviceID[0] : ID 0x80140C32 (Model 0, Serial 3122, SW Version 5, Is Implanted)
+DeviceID[1] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[3] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[4] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[5] : ID 0x00100508 (Model 0, Serial 1288, SW Version 4, Is Not Implanted)
+DeviceID[6] : ID 0x00100610 (Model 0, Serial 1552, SW Version 4, Is Not Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 403.5108MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB Average AFC =  -0.1
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding 0 kHz Freq Offset
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -2
+  PRB AFC =  -1
+  PRB Average AFC =  -0.3
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  62
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB Average RSSI =  63.1
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  0
+PRB FREQ_A =  3525843
+PRB FREQ_B =  3528575
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[1176]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.4942MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB Average AFC =  -0.5
+  PRB FREQ_A =  3525813
+  PRB FREQ_B =  3528545
+  PRB AFC_A =  -15
+  PRB AFC_B =  -15
+  PRB Adding 0 kHz Freq Offset
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -2
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB Average AFC =  -0.8
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB Average RSSI =  63.6
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  0
+PRB FREQ_A =  3544711
+PRB FREQ_B =  3547441
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[1756]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 404.6167MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB Average AFC =  -0.1
+  PRB FREQ_A =  3544671
+  PRB FREQ_B =  3547401
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding 0 kHz Freq Offset
+  PRB AFC =  -2
+  PRB AFC =  0
+  PRB AFC =  -3
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB Average AFC =  -0.5
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.5
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  2
+PRB FREQ_A =  3527859
+PRB FREQ_B =  3530589
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[2338]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.7209MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB Average AFC =  -0.7
+  PRB FREQ_A =  3527829
+  PRB FREQ_B =  3530559
+  PRB AFC_A =  -15
+  PRB AFC_B =  -15
+  PRB Adding 0 kHz Freq Offset
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -2
+  PRB Average AFC =  -0.9
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.9
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  0
+PRB FREQ_A =  3525049
+PRB FREQ_B =  3527781
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[2922]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.4049MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB Average AFC =  -0.9
+  PRB FREQ_A =  3525019
+  PRB FREQ_B =  3527751
+  PRB AFC_A =  -15
+  PRB AFC_B =  -15
+  PRB Adding 0 kHz Freq Offset
+  PRB AFC =  0
+  PRB AFC =  -2
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB Average AFC =  -0.6
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.7
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  0
+PRB FREQ_A =  3543849
+PRB FREQ_B =  3546579
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[3502]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  0
+Candidate Frequency = 404.5197MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -2
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  -0.2
+  PRB FREQ_A =  3543809
+  PRB FREQ_B =  3546539
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding 0 kHz Freq Offset
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB Average AFC =  0.1
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB Average RSSI =  63.4
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  3
+PRB FREQ_A =  3527717
+PRB FREQ_B =  3530447
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[4085]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.7049MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  -3
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB Average AFC =  -1.1
+  PRB FREQ_A =  3527687
+  PRB FREQ_B =  3530417
+  PRB AFC_A =  -15
+  PRB AFC_B =  -15
+  PRB Adding 0 kHz Freq Offset
+  PRB AFC =  -2
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB Average AFC =  -0.9
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB Average RSSI =  63.6
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  0
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[4669]
+DeviceID[0] : ID 0x80140C32 (Model 0, Serial 3122, SW Version 5, Is Implanted)
+DeviceID[1] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[2] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[3] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[4] : ID 0x00100610 (Model 0, Serial 1552, SW Version 4, Is Not Implanted)
+DeviceID[5] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[6] : ID 0x80200C3A (Model 0, Serial 3130, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 403.5108MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -2
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  -0.5
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding 0 kHz Freq Offset
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  -0.1
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB Average RSSI =  63.3
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  0
+PRB FREQ_A =  3528725
+PRB FREQ_B =  3531455
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[5248]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.8183MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -2
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB Average AFC =  -0.3
+  PRB FREQ_A =  3528685
+  PRB FREQ_B =  3531415
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding -9.6kHz Freq Offset
+  PRB AFC =  6
+  PRB AFC =  5
+  PRB AFC =  6
+  PRB AFC =  6
+  PRB AFC =  7
+  PRB AFC =  3
+  PRB AFC =  4
+  PRB AFC =  6
+  PRB AFC =  7
+  PRB AFC =  7
+  PRB Average AFC =  5.7
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  59
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB Average RSSI =  62.6
+  PRB CC1020 FILTER =  34
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[5307] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[5307]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[5327] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[5327]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[5413] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[5413]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[5509] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[5509]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[5741] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[5741]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+  S-ICD command failures =  5
+  PRB Final Frame Error Count =  129
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[5832]
+DeviceID[0] : ID 0x80140C32 (Model 0, Serial 3122, SW Version 5, Is Implanted)
+DeviceID[1] : ID 0x00100508 (Model 0, Serial 1288, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[3] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[4] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[5] : ID 0x00100610 (Model 0, Serial 1552, SW Version 4, Is Not Implanted)
+DeviceID[6] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 403.5108MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  -2
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -2
+  PRB AFC =  -3
+  PRB AFC =  -2
+  PRB Average AFC =  -1.4
+  PRB FREQ_A =  3534851
+  PRB FREQ_B =  3537581
+  PRB AFC_A =  -15
+  PRB AFC_B =  -15
+  PRB Adding -9.6kHz Freq Offset
+  PRB AFC =  4
+  PRB AFC =  4
+  PRB AFC =  5
+  PRB AFC =  6
+  PRB AFC =  5
+  PRB AFC =  3
+  PRB AFC =  5
+  PRB AFC =  6
+  PRB AFC =  6
+  PRB AFC =  4
+  PRB Average AFC =  4.8
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.4
+  PRB CC1020 FILTER =  34
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[5872] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[5872]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+  S-ICD command failures =  1
+  PRB Final Frame Error Count =  71
+PRB FREQ_A =  3525843
+PRB FREQ_B =  3528575
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[6416]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.4942MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  0.1
+  PRB FREQ_A =  3525803
+  PRB FREQ_B =  3528535
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding -9.6kHz Freq Offset
+  PRB AFC =  4
+  PRB AFC =  6
+  PRB AFC =  4
+  PRB AFC =  6
+  PRB AFC =  6
+  PRB AFC =  6
+  PRB AFC =  8
+  PRB AFC =  7
+  PRB AFC =  7
+  PRB AFC =  4
+  PRB Average AFC =  5.8
+  PRB CC1020 FILTER =  128
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  57
+  PRB RSSI =  62
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB Average RSSI =  62.5
+  PRB CC1020 FILTER =  34
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6459] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6459]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6474] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6474]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6480] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6480]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6486] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6486]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6502] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6502]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6507] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6507]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6548] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6548]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6574] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6574]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6589] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6589]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6605] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6605]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6610] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6610]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6625] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6625]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6672] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6672]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6698] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6698]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6709] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6709]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6725] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6725]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6766] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6766]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6808] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6808]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6818] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6818]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6838] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6838]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6854] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6854]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6859] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6859]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6864] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6864]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6869] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6869]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6884] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6884]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6894] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6894]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6935] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6935]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6940] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6940]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6960] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6960]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+  S-ICD command failures =  29
+  PRB Final Frame Error Count =  255
+PRB FREQ_A =  3544711
+PRB FREQ_B =  3547441
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[7004]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 404.6167MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -2
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -2
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB Average AFC =  -1.1
+  PRB FREQ_A =  3544681
+  PRB FREQ_B =  3547411
+  PRB AFC_A =  -15
+  PRB AFC_B =  -15
+  PRB Adding -9.6kHz Freq Offset
+  PRB AFC =  5
+  PRB AFC =  6
+  PRB AFC =  5
+  PRB AFC =  6
+  PRB AFC =  6
+  PRB AFC =  5
+  PRB AFC =  4
+  PRB AFC =  4
+  PRB AFC =  4
+  PRB AFC =  4
+  PRB Average AFC =  4.9
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  59
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB Average RSSI =  62.6
+  PRB CC1020 FILTER =  34
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[7049] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[7049]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[7356] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[7356]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[7500] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[7500]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+  S-ICD command failures =  3
+  PRB Final Frame Error Count =  85
+PRB FREQ_A =  3527859
+PRB FREQ_B =  3530589
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[7589]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.7209MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  -3
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB Average AFC =  -0.8
+  PRB FREQ_A =  3527829
+  PRB FREQ_B =  3530559
+  PRB AFC_A =  -15
+  PRB AFC_B =  -15
+  PRB Adding -9.6kHz Freq Offset
+  PRB AFC =  4
+  PRB AFC =  6
+  PRB AFC =  2
+  PRB AFC =  6
+  PRB AFC =  6
+  PRB AFC =  6
+  PRB AFC =  1
+  PRB AFC =  4
+  PRB AFC =  6
+  PRB AFC =  4
+  PRB Average AFC =  4.5
+  PRB CC1020 FILTER =  128
+  PRB RSSI =  62
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  60
+  PRB RSSI =  58
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  60
+  PRB RSSI =  60
+  PRB Average RSSI =  61.7
+  PRB CC1020 FILTER =  34
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[7860] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[7860]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[7997] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[7997]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+  S-ICD command failures =  2
+  PRB Final Frame Error Count =  80
+PRB FREQ_A =  3525049
+PRB FREQ_B =  3527781
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[8174]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.4049MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  0.0
+  PRB FREQ_A =  3525009
+  PRB FREQ_B =  3527741
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding -9.6kHz Freq Offset
+  PRB AFC =  7
+  PRB AFC =  5
+  PRB AFC =  6
+  PRB AFC =  7
+  PRB AFC =  7
+  PRB AFC =  7
+  PRB AFC =  6
+  PRB AFC =  3
+  PRB AFC =  5
+  PRB AFC =  7
+  PRB Average AFC =  6.0
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  60
+  PRB RSSI =  61
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB Average RSSI =  62.9
+  PRB CC1020 FILTER =  34
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8358] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8358]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+  S-ICD command failures =  1
+  PRB Final Frame Error Count =  60
+PRB FREQ_A =  3543849
+PRB FREQ_B =  3546579
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[8759]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  0
+Candidate Frequency = 404.5197MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB Average AFC =  0.5
+  PRB FREQ_A =  3543799
+  PRB FREQ_B =  3546529
+  PRB AFC_A =  -25
+  PRB AFC_B =  -25
+  PRB Adding -9.6kHz Freq Offset
+  PRB AFC =  5
+  PRB AFC =  7
+  PRB AFC =  9
+  PRB AFC =  4
+  PRB AFC =  3
+  PRB AFC =  3
+  PRB AFC =  6
+  PRB AFC =  4
+  PRB AFC =  4
+  PRB AFC =  4
+  PRB Average AFC =  4.9
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  61
+  PRB RSSI =  61
+  PRB Average RSSI =  62.5
+  PRB CC1020 FILTER =  34
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8797] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8797]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8802] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8802]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8807] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8807]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8828] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8828]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8839] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8839]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8854] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8854]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8859] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8859]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8870] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8870]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8875] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8875]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8890] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8890]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8902] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8902]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8933] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8933]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8943] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8943]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8953] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8953]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8963] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8963]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8968] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8968]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8979] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8979]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8994] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8994]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9014] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9014]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9035] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9035]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9041] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9041]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9051] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9051]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9061] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9061]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9067] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9067]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9098] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9098]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9140] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9140]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9145] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9145]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9151] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9151]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9156] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9156]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9161] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9161]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9172] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9172]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9182] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9182]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9197] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9197]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9202] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9202]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9207] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9207]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9222] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9222]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9228] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9228]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9233] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9233]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9238] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9238]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9243] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9243]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9254] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9254]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9274] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9274]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9280] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9280]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9305] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9305]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+  S-ICD command failures =  44
+  PRB Final Frame Error Count =  255
+PRB FREQ_A =  3527717
+PRB FREQ_B =  3530447
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[9349]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.7049MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  -0.1
+  PRB FREQ_A =  3527677
+  PRB FREQ_B =  3530407
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding -9.6kHz Freq Offset
+  PRB AFC =  6
+  PRB AFC =  5
+  PRB AFC =  6
+  PRB AFC =  7
+  PRB AFC =  6
+  PRB AFC =  7
+  PRB AFC =  4
+  PRB AFC =  6
+  PRB AFC =  7
+  PRB AFC =  7
+  PRB Average AFC =  6.1
+  PRB CC1020 FILTER =  128
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB Average RSSI =  63.2
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  36
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[9930]
+DeviceID[0] : ID 0x80140C32 (Model 0, Serial 3122, SW Version 5, Is Implanted)
+DeviceID[1] : ID 0x00100508 (Model 0, Serial 1288, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[3] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[4] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[5] : ID 0x00100610 (Model 0, Serial 1552, SW Version 4, Is Not Implanted)
+DeviceID[6] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[7] : ID 0x80200C3A (Model 0, Serial 3130, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 403.5108MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  -0.3
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding -9.6kHz Freq Offset
+  PRB AFC =  6
+  PRB AFC =  6
+  PRB AFC =  5
+  PRB AFC =  6
+  PRB AFC =  8
+  PRB AFC =  5
+  PRB AFC =  6
+  PRB AFC =  7
+  PRB AFC =  6
+  PRB AFC =  6
+  PRB Average AFC =  6.1
+  PRB CC1020 FILTER =  128
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  60
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.2
+  PRB CC1020 FILTER =  34
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9962] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9962]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9993] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9993]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[10122] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[10122]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[10169] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[10169]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[10179] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[10179]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[10277] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[10277]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[10282] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[10282]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[10341] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[10341]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[10407] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[10407]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[10454] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[10454]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+  S-ICD command failures =  10
+  PRB Final Frame Error Count =  167
+PRB FREQ_A =  3528725
+PRB FREQ_B =  3531455
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[10519]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.8183MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  -0.2
+  PRB FREQ_A =  3528685
+  PRB FREQ_B =  3531415
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding +9.6kHz Freq Offset
+  PRB AFC =  -7
+  PRB AFC =  -8
+  PRB AFC =  -6
+  PRB AFC =  -8
+  PRB AFC =  -7
+  PRB AFC =  -7
+  PRB AFC =  -7
+  PRB AFC =  -6
+  PRB AFC =  -6
+  PRB AFC =  -7
+  PRB Average AFC =  -6.9
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  62
+  PRB RSSI =  62
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB Average RSSI =  63.2
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  1
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[11101]
+DeviceID[0] : ID 0x80140C32 (Model 0, Serial 3122, SW Version 5, Is Implanted)
+DeviceID[1] : ID 0x00100508 (Model 0, Serial 1288, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[3] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[4] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[5] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 403.5108MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -2
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  1
+  PRB Average AFC =  -0.4
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding +9.6kHz Freq Offset
+  PRB AFC =  -7
+  PRB AFC =  -8
+  PRB AFC =  -7
+  PRB AFC =  -7
+  PRB AFC =  -7
+  PRB AFC =  -7
+  PRB AFC =  -7
+  PRB AFC =  -6
+  PRB AFC =  -6
+  PRB AFC =  -7
+  PRB Average AFC =  -6.9
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  62
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB Average RSSI =  63.2
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  1
+PRB FREQ_A =  3525843
+PRB FREQ_B =  3528575
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[11681]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.4942MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -2
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -2
+  PRB AFC =  -1
+  PRB Average AFC =  -1.0
+  PRB FREQ_A =  3525813
+  PRB FREQ_B =  3528545
+  PRB AFC_A =  -15
+  PRB AFC_B =  -15
+  PRB Adding +9.6kHz Freq Offset
+  PRB AFC =  -8
+  PRB AFC =  -7
+  PRB AFC =  -7
+  PRB AFC =  -7
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -7
+  PRB AFC =  -7
+  PRB AFC =  -7
+  PRB Average AFC =  -7.4
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  62
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.1
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  1
+PRB FREQ_A =  3544711
+PRB FREQ_B =  3547441
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[12261]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 404.6167MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -2
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB Average AFC =  -1.1
+  PRB FREQ_A =  3544681
+  PRB FREQ_B =  3547411
+  PRB AFC_A =  -15
+  PRB AFC_B =  -15
+  PRB Adding +9.6kHz Freq Offset
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -7
+  PRB AFC =  -7
+  PRB AFC =  -7
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB Average AFC =  -7.7
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  63
+  PRB RSSI =  61
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB Average RSSI =  62.8
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  0
+PRB FREQ_A =  3527859
+PRB FREQ_B =  3530589
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[12843]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.7209MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB Average AFC =  -0.9
+  PRB FREQ_A =  3527829
+  PRB FREQ_B =  3530559
+  PRB AFC_A =  -15
+  PRB AFC_B =  -15
+  PRB Adding +9.6kHz Freq Offset
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB Average AFC =  -8.0
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB Average RSSI =  63.3
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  0
+PRB FREQ_A =  3525049
+PRB FREQ_B =  3527781
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[13422]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.4049MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB Average AFC =  -0.8
+  PRB FREQ_A =  3525019
+  PRB FREQ_B =  3527751
+  PRB AFC_A =  -15
+  PRB AFC_B =  -15
+  PRB Adding +9.6kHz Freq Offset
+  PRB AFC =  -7
+  PRB AFC =  -7
+  PRB AFC =  -7
+  PRB AFC =  -8
+  PRB AFC =  -7
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB Average AFC =  -7.6
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB Average RSSI =  63.4
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  0
+PRB FREQ_A =  3543849
+PRB FREQ_B =  3546579
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[14000]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  0
+Candidate Frequency = 404.5197MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  0.1
+  PRB FREQ_A =  3543809
+  PRB FREQ_B =  3546539
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding +9.6kHz Freq Offset
+  PRB AFC =  -6
+  PRB AFC =  -6
+  PRB AFC =  -7
+  PRB AFC =  -7
+  PRB AFC =  -6
+  PRB AFC =  -6
+  PRB AFC =  -7
+  PRB AFC =  -6
+  PRB AFC =  -8
+  PRB AFC =  -7
+  PRB Average AFC =  -6.6
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  61
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  64
+  PRB RSSI =  62
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB Average RSSI =  62.7
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  0
+PRB FREQ_A =  3527717
+PRB FREQ_B =  3530447
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[14582]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.7049MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB Average AFC =  -0.9
+  PRB FREQ_A =  3527687
+  PRB FREQ_B =  3530417
+  PRB AFC_A =  -15
+  PRB AFC_B =  -15
+  PRB Adding +9.6kHz Freq Offset
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -7
+  PRB AFC =  -7
+  PRB AFC =  -8
+  PRB AFC =  -7
+  PRB AFC =  -8
+  PRB AFC =  -8
+  PRB AFC =  -7
+  PRB Average AFC =  -7.6
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  63
+  PRB Average RSSI =  63.2
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  0
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[15164]
+DeviceID[0] : ID 0x80140C32 (Model 0, Serial 3122, SW Version 5, Is Implanted)
+DeviceID[1] : ID 0x00100508 (Model 0, Serial 1288, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[3] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[4] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[5] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[6] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[7] : ID 0x80200C3A (Model 0, Serial 3130, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 403.5108MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  -1
+  PRB Average AFC =  0.7
+  PRB FREQ_A =  3534831
+  PRB FREQ_B =  3537561
+  PRB AFC_A =  -25
+  PRB AFC_B =  -25
+  PRB Adding +9.6kHz Freq Offset
+  PRB AFC =  -6
+  PRB AFC =  -6
+  PRB AFC =  -6
+  PRB AFC =  -6
+  PRB AFC =  -6
+  PRB AFC =  -6
+  PRB AFC =  -6
+  PRB AFC =  -7
+  PRB AFC =  -6
+  PRB AFC =  -6
+  PRB Average AFC =  -6.1
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  64
+  PRB Average RSSI =  63.1
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  1
+PRB FREQ_A =  3528725
+PRB FREQ_B =  3531455
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[15744]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.8183MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB Average AFC =  0.2
+  PRB FREQ_A =  3528685
+  PRB FREQ_B =  3531415
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding -4.8kHz Freq Offset
+  PRB AFC =  3
+  PRB AFC =  3
+  PRB AFC =  3
+  PRB AFC =  3
+  PRB AFC =  4
+  PRB AFC =  2
+  PRB AFC =  3
+  PRB AFC =  2
+  PRB AFC =  3
+  PRB AFC =  2
+  PRB Average AFC =  2.8
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB Average RSSI =  63.4
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  7
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[16323]
+DeviceID[0] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[1] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[2] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[3] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[4] : ID 0x00100610 (Model 0, Serial 1552, SW Version 4, Is Not Implanted)
+DeviceID[5] : ID 0x80200C3A (Model 0, Serial 3130, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 403.5108MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -2
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB Average AFC =  -0.3
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding -4.8kHz Freq Offset
+  PRB AFC =  3
+  PRB AFC =  1
+  PRB AFC =  4
+  PRB AFC =  4
+  PRB AFC =  4
+  PRB AFC =  1
+  PRB AFC =  2
+  PRB AFC =  3
+  PRB AFC =  4
+  PRB AFC =  0
+  PRB Average AFC =  2.6
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB Average RSSI =  63.6
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  12
+PRB FREQ_A =  3525843
+PRB FREQ_B =  3528575
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[16905]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.4942MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -2
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  -0.1
+  PRB FREQ_A =  3525803
+  PRB FREQ_B =  3528535
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding -4.8kHz Freq Offset
+  PRB AFC =  4
+  PRB AFC =  4
+  PRB AFC =  3
+  PRB AFC =  3
+  PRB AFC =  2
+  PRB AFC =  2
+  PRB AFC =  4
+  PRB AFC =  3
+  PRB AFC =  3
+  PRB AFC =  1
+  PRB Average AFC =  2.9
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  62
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  56
+  PRB Average RSSI =  62.9
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  20
+PRB FREQ_A =  3544711
+PRB FREQ_B =  3547441
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[17486]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 404.6167MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB Average AFC =  -0.4
+  PRB FREQ_A =  3544671
+  PRB FREQ_B =  3547401
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding -4.8kHz Freq Offset
+  PRB AFC =  3
+  PRB AFC =  2
+  PRB AFC =  3
+  PRB AFC =  4
+  PRB AFC =  4
+  PRB AFC =  2
+  PRB AFC =  4
+  PRB AFC =  2
+  PRB AFC =  2
+  PRB AFC =  3
+  PRB Average AFC =  2.9
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  63
+  PRB Average RSSI =  63.0
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  22
+PRB FREQ_A =  3527859
+PRB FREQ_B =  3530589
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[18070]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.7209MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  0.0
+  PRB FREQ_A =  3527819
+  PRB FREQ_B =  3530549
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding -4.8kHz Freq Offset
+  PRB AFC =  3
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  4
+  PRB AFC =  5
+  PRB AFC =  4
+  PRB AFC =  0
+  PRB AFC =  3
+  PRB AFC =  4
+  PRB AFC =  1
+  PRB Average AFC =  2.5
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB Average RSSI =  63.3
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  12
+PRB FREQ_A =  3525049
+PRB FREQ_B =  3527781
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[18649]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.4049MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  -0.1
+  PRB FREQ_A =  3525009
+  PRB FREQ_B =  3527741
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding -4.8kHz Freq Offset
+  PRB AFC =  2
+  PRB AFC =  4
+  PRB AFC =  3
+  PRB AFC =  4
+  PRB AFC =  4
+  PRB AFC =  2
+  PRB AFC =  3
+  PRB AFC =  3
+  PRB AFC =  3
+  PRB AFC =  4
+  PRB Average AFC =  3.2
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.6
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  8
+PRB FREQ_A =  3543849
+PRB FREQ_B =  3546579
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[19229]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  0
+Candidate Frequency = 404.5197MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -2
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -2
+  PRB Average AFC =  -1.1
+  PRB FREQ_A =  3543819
+  PRB FREQ_B =  3546549
+  PRB AFC_A =  -15
+  PRB AFC_B =  -15
+  PRB Adding -4.8kHz Freq Offset
+  PRB AFC =  2
+  PRB AFC =  0
+  PRB AFC =  2
+  PRB AFC =  3
+  PRB AFC =  2
+  PRB AFC =  2
+  PRB AFC =  -1
+  PRB AFC =  3
+  PRB AFC =  1
+  PRB AFC =  3
+  PRB Average AFC =  1.7
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  61
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  62
+  PRB RSSI =  62
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB Average RSSI =  62.6
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  13
+PRB FREQ_A =  3527717
+PRB FREQ_B =  3530447
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[19810]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.7049MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  -0.2
+  PRB FREQ_A =  3527677
+  PRB FREQ_B =  3530407
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding -4.8kHz Freq Offset
+  PRB AFC =  3
+  PRB AFC =  2
+  PRB AFC =  4
+  PRB AFC =  3
+  PRB AFC =  2
+  PRB AFC =  3
+  PRB AFC =  2
+  PRB AFC =  0
+  PRB AFC =  2
+  PRB AFC =  3
+  PRB Average AFC =  2.4
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB Average RSSI =  63.3
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  3
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[20391]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x80140C32 (Model 0, Serial 3122, SW Version 5, Is Implanted)
+DeviceID[2] : ID 0x00100508 (Model 0, Serial 1288, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[4] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[5] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[6] : ID 0x00100610 (Model 0, Serial 1552, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[8] : ID 0x80200C3A (Model 0, Serial 3130, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 403.5108MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB Average AFC =  -0.5
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding -4.8kHz Freq Offset
+  PRB AFC =  3
+  PRB AFC =  1
+  PRB AFC =  4
+  PRB AFC =  4
+  PRB AFC =  3
+  PRB AFC =  4
+  PRB AFC =  4
+  PRB AFC =  3
+  PRB AFC =  3
+  PRB AFC =  3
+  PRB Average AFC =  3.2
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  62
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB Average RSSI =  63.2
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  14
+PRB FREQ_A =  3528725
+PRB FREQ_B =  3531455
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[20971]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.8183MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB Average AFC =  -0.9
+  PRB FREQ_A =  3528695
+  PRB FREQ_B =  3531425
+  PRB AFC_A =  -15
+  PRB AFC_B =  -15
+  PRB Adding +4.8kHz Freq Offset
+  PRB AFC =  -4
+  PRB AFC =  -4
+  PRB AFC =  -4
+  PRB AFC =  -4
+  PRB AFC =  -5
+  PRB AFC =  -5
+  PRB AFC =  -4
+  PRB AFC =  -4
+  PRB AFC =  -5
+  PRB AFC =  -4
+  PRB Average AFC =  -4.3
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB Average RSSI =  63.3
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  1
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[21550]
+DeviceID[0] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[1] : ID 0x80140C32 (Model 0, Serial 3122, SW Version 5, Is Implanted)
+DeviceID[2] : ID 0x80200C3A (Model 0, Serial 3130, SW Version 8, Is Implanted)
+DeviceID[3] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 403.5108MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB Average AFC =  -0.5
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding +4.8kHz Freq Offset
+  PRB AFC =  -4
+  PRB AFC =  -4
+  PRB AFC =  -4
+  PRB AFC =  -4
+  PRB AFC =  -3
+  PRB AFC =  -3
+  PRB AFC =  -3
+  PRB AFC =  -3
+  PRB AFC =  -3
+  PRB AFC =  -4
+  PRB Average AFC =  -3.5
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB Average RSSI =  63.2
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  1
+PRB FREQ_A =  3525843
+PRB FREQ_B =  3528575
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[22130]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.4942MHz, LSI
+  Channel Selection =  1
+  Data inversion =  0
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  -2
+  PRB AFC =  -2
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB Average AFC =  -0.8
+  PRB FREQ_A =  3525813
+  PRB FREQ_B =  3528545
+  PRB AFC_A =  -15
+  PRB AFC_B =  -15
+  PRB Adding +4.8kHz Freq Offset
+  PRB AFC =  -4
+  PRB AFC =  -4
+  PRB AFC =  -5
+  PRB AFC =  -4
+  PRB AFC =  -3
+  PRB AFC =  -4
+  PRB AFC =  -4
+  PRB AFC =  -3
+  PRB AFC =  -4
+  PRB AFC =  -5
+  PRB Average AFC =  -4.0
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB Average RSSI =  63.6
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  0
+PRB FREQ_A =  3544711
+PRB FREQ_B =  3547441
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[22710]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 404.6167MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB Average AFC =  -0.3
+  PRB FREQ_A =  3544671
+  PRB FREQ_B =  3547401
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB Adding +4.8kHz Freq Offset
+  PRB AFC =  -3
+  PRB AFC =  -4
+  PRB AFC =  -3
+  PRB AFC =  -3
+  PRB AFC =  -3
+  PRB AFC =  -3
+  PRB AFC =  -4
+  PRB AFC =  -3
+  PRB AFC =  -3
+  PRB AFC =  -4
+  PRB Average AFC =  -3.3
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.2
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  1
+PRB FREQ_A =  3527859
+PRB FREQ_B =  3530589
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[23291]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  0
+Candidate Frequency = 402.7209MHz, HSI
+  Channel Selection =  1
+  Data inversion =  1
+  S-ICD PA_POW =  15
+  S-ICD RAM =  165
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB Average AFC =  -0.9
+  PRB FREQ_A =  3527829
+  PRB FREQ_B =  3530559
+  PRB AFC_A =  -15
+  PRB AFC_B =  -15
+  PRB Adding +4.8kHz Freq Offset
+  PRB AFC =  -5
+  PRB AFC =  -4
+  PRB AFC =  -4
+  PRB AFC =  -3
+  PRB AFC =  -3
+  PRB AFC =  -4
+  PRB AFC =  -4
+  PRB AFC =  -4
+  PRB AFC =  -4
+  PRB AFC =  -4
+  PRB Average AFC =  -3.9
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  62
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.5
+  PRB CC1020 FILTER =  34
+  S-ICD command failures =  0
+  PRB Final Frame Error Count =  0
+PRB FREQ_A =  3525049
+PRB FREQ_B =  3527781
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[23871]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1

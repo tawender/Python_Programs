@@ -1,0 +1,180 @@
+PRB FREQ_A =  3528725
+PRB FREQ_B =  3531455
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[17]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.8183MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD RAM =  165
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -2
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB Average AFC =  -0.2
+PRB FREQ_A =  3528685
+PRB FREQ_B =  3531415
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding 0 kHz Freq Offset
+PRB AFC =  -2
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB Average AFC =  -0.5
+PRB CC1020 FILTER =  34
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB Average RSSI =  62.5
+PRB CC1020 FILTER =  34
+S-ICD command failures =  0
+PRB Final Frame Error Count =  1
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[598]
+DeviceID[0] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x0010056D (Model 0, Serial 1389, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[4] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[5] : ID 0x001004BD (Model 0, Serial 1213, SW Version 4, Is Not Implanted)
+DeviceID[6] : ID 0x00100610 (Model 0, Serial 1552, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[8] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+Channel Selection =  1
+Data inversion =  1
+PRB Init Frame Error Count =  1
+Candidate Frequency = 403.5108MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD RAM =  165
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB Average AFC =  -0.1
+PRB FREQ_A =  3534841
+PRB FREQ_B =  3537571
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding 0 kHz Freq Offset
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB Average AFC =  0.0
+PRB CC1020 FILTER =  34
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  64
+PRB Average RSSI =  63.1
+PRB CC1020 FILTER =  34
+S-ICD command failures =  0
+PRB Final Frame Error Count =  1
+PRB FREQ_A =  3525843
+PRB FREQ_B =  3528575
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[1178]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+PRB Init Frame Error Count =  3
+Candidate Frequency = 402.4942MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD RAM =  165
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB Average AFC =  -0.3
+PRB FREQ_A =  3525803
+PRB FREQ_B =  3528535
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding 0 kHz Freq Offset
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB Average AFC =  -0.1
+PRB CC1020 FILTER =  34
+PRB RSSI =  64
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB Average RSSI =  62.6
+PRB CC1020 FILTER =  34
+S-ICD command failures =  0
+PRB Final Frame Error Count =  7
+PRB FREQ_A =  3544711
+PRB FREQ_B =  3547441
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[1756]
+No devices found during scan
+Channel Selection =  1
+Data inversion =  1

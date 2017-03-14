@@ -1,0 +1,2812 @@
+Turning on interferer in Channel 0
+PRB FREQ_A =  3528725
+PRB FREQ_B =  3531455
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[17]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.8183MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB Average AFC =  -0.3
+PRB FREQ_A =  3528685
+PRB FREQ_B =  3531415
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding 0 kHz Freq Offset
+PRB AFC =  -1
+PRB AFC =  -2
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -2
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB Average AFC =  -0.8
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB Average RSSI =  62.9
+S-ICD command failures =  0
+PRB Final Frame Error Count =  3
+Turning on interferer in Channel 0
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[614]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x0010056D (Model 0, Serial 1389, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[4] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[5] : ID 0x00100610 (Model 0, Serial 1552, SW Version 4, Is Not Implanted)
+DeviceID[6] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[7] : ID 0x001004BD (Model 0, Serial 1213, SW Version 4, Is Not Implanted)
+DeviceID[8] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[9] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 403.5108MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -2
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB Average AFC =  -1.1
+PRB FREQ_A =  3534841
+PRB FREQ_B =  3537571
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding 0 kHz Freq Offset
+PRB AFC =  -1
+PRB AFC =  -2
+PRB AFC =  -3
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB Average AFC =  -1.3
+PRB CC1020 FILTER =  34
+PRB RSSI =  64
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  64
+PRB Average RSSI =  62.9
+S-ICD command failures =  0
+PRB Final Frame Error Count =  1
+Turning on interferer in Channel 0
+PRB FREQ_A =  3525843
+PRB FREQ_B =  3528575
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[1209]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.4942MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -2
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  1
+PRB AFC =  0
+PRB Average AFC =  -0.4
+PRB FREQ_A =  3525803
+PRB FREQ_B =  3528535
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding 0 kHz Freq Offset
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  1
+PRB AFC =  1
+PRB AFC =  -2
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB Average AFC =  -0.1
+PRB CC1020 FILTER =  34
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  62
+PRB Average RSSI =  62.5
+S-ICD command failures =  0
+PRB Final Frame Error Count =  3
+Turning on interferer in Channel 0
+PRB FREQ_A =  3544711
+PRB FREQ_B =  3547441
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[1804]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 404.6167MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB Average AFC =  -0.6
+PRB FREQ_A =  3544671
+PRB FREQ_B =  3547401
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding 0 kHz Freq Offset
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB Average AFC =  -0.7
+PRB CC1020 FILTER =  34
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  61
+PRB RSSI =  64
+PRB RSSI =  63
+PRB Average RSSI =  63.0
+S-ICD command failures =  0
+PRB Final Frame Error Count =  1
+Turning on interferer in Channel 0
+PRB FREQ_A =  3527859
+PRB FREQ_B =  3530589
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[2398]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.7209MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB Average AFC =  -0.1
+PRB FREQ_A =  3527819
+PRB FREQ_B =  3530549
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding 0 kHz Freq Offset
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -3
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB Average AFC =  -0.6
+PRB CC1020 FILTER =  34
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB Average RSSI =  63.0
+S-ICD command failures =  0
+PRB Final Frame Error Count =  1
+Turning on interferer in Channel 0
+PRB FREQ_A =  3525049
+PRB FREQ_B =  3527781
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[2993]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.4049MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -3
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB Average AFC =  -0.5
+PRB FREQ_A =  3525009
+PRB FREQ_B =  3527741
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding 0 kHz Freq Offset
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB Average AFC =  -0.2
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  64
+PRB RSSI =  62
+PRB RSSI =  64
+PRB Average RSSI =  63.1
+S-ICD command failures =  0
+PRB Final Frame Error Count =  1
+Turning on interferer in Channel 0
+PRB FREQ_A =  3544711
+PRB FREQ_B =  3547441
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[3588]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  2
+Candidate Frequency = 404.5197MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -4
+PRB AFC =  0
+PRB AFC =  -2
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -2
+PRB Average AFC =  -1.0
+PRB FREQ_A =  3543811
+PRB FREQ_B =  3546541
+PRB AFC_A =  -450
+PRB AFC_B =  -450
+PRB Adding 0 kHz Freq Offset
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB Average AFC =  -0.6
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  64
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  64
+PRB Average RSSI =  62.8
+S-ICD command failures =  0
+PRB Final Frame Error Count =  3
+Turning on interferer in Channel 0
+PRB FREQ_A =  3527717
+PRB FREQ_B =  3530447
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[4183]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.7049MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB Average AFC =  -0.6
+PRB FREQ_A =  3527677
+PRB FREQ_B =  3530407
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding 0 kHz Freq Offset
+PRB AFC =  0
+PRB AFC =  -3
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB Average AFC =  -0.5
+PRB CC1020 FILTER =  34
+PRB RSSI =  61
+PRB RSSI =  64
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  60
+PRB Average RSSI =  62.4
+S-ICD command failures =  0
+PRB Final Frame Error Count =  1
+Turning on interferer in Channel 0
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[4780]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x0010056D (Model 0, Serial 1389, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[4] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[5] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[6] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[7] : ID 0x001004BD (Model 0, Serial 1213, SW Version 4, Is Not Implanted)
+DeviceID[8] : ID 0x00100610 (Model 0, Serial 1552, SW Version 4, Is Not Implanted)
+DeviceID[9] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[10] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 403.5108MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB Average AFC =  -0.1
+PRB FREQ_A =  3534831
+PRB FREQ_B =  3537561
+PRB AFC_A =  -25
+PRB AFC_B =  -25
+PRB Adding 0 kHz Freq Offset
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB Average AFC =  0.1
+PRB CC1020 FILTER =  34
+PRB RSSI =  64
+PRB RSSI =  61
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  64
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB Average RSSI =  63.1
+S-ICD command failures =  0
+PRB Final Frame Error Count =  1
+Turning on interferer in Channel 0
+PRB FREQ_A =  3528725
+PRB FREQ_B =  3531455
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[5377]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.8183MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -2
+PRB AFC =  -1
+PRB AFC =  1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB Average AFC =  -0.7
+PRB FREQ_A =  3528685
+PRB FREQ_B =  3531415
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding -9.6kHz Freq Offset
+PRB AFC =  8
+PRB AFC =  7
+PRB AFC =  7
+PRB AFC =  7
+PRB AFC =  4
+PRB AFC =  6
+PRB AFC =  5
+PRB AFC =  6
+PRB AFC =  6
+PRB AFC =  4
+PRB Average AFC =  6.0
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  57
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  61
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB Average RSSI =  62.3
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[5725] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[5725]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+S-ICD command failures =  1
+PRB Final Frame Error Count =  56
+Turning on interferer in Channel 0
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[5976]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[3] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[4] : ID 0x00100610 (Model 0, Serial 1552, SW Version 4, Is Not Implanted)
+DeviceID[5] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 403.5108MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB Average AFC =  -0.8
+PRB FREQ_A =  3534841
+PRB FREQ_B =  3537571
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding -9.6kHz Freq Offset
+PRB AFC =  6
+PRB AFC =  4
+PRB AFC =  7
+PRB AFC =  2
+PRB AFC =  4
+PRB AFC =  4
+PRB AFC =  5
+PRB AFC =  6
+PRB AFC =  8
+PRB AFC =  1
+PRB Average AFC =  4.7
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  60
+PRB RSSI =  62
+PRB RSSI =  63
+PRB Average RSSI =  62.3
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6117] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6117]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[6239] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[6239]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+S-ICD command failures =  2
+PRB Final Frame Error Count =  85
+Turning on interferer in Channel 0
+PRB FREQ_A =  3525843
+PRB FREQ_B =  3528575
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[6573]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.4942MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -1
+PRB AFC =  -2
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -2
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB Average AFC =  -1.0
+PRB FREQ_A =  3525813
+PRB FREQ_B =  3528545
+PRB AFC_A =  -15
+PRB AFC_B =  -15
+PRB Adding -9.6kHz Freq Offset
+PRB AFC =  6
+PRB AFC =  6
+PRB AFC =  5
+PRB AFC =  5
+PRB AFC =  3
+PRB AFC =  2
+PRB AFC =  6
+PRB AFC =  2
+PRB AFC =  6
+PRB AFC =  4
+PRB Average AFC =  4.5
+PRB CC1020 FILTER =  34
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB Average RSSI =  62.7
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[7074] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[7074]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+S-ICD command failures =  1
+PRB Final Frame Error Count =  86
+Turning on interferer in Channel 0
+PRB FREQ_A =  3544711
+PRB FREQ_B =  3547441
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[7180]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 404.6167MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB Average AFC =  -0.4
+PRB FREQ_A =  3544671
+PRB FREQ_B =  3547401
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding -9.6kHz Freq Offset
+PRB AFC =  6
+PRB AFC =  7
+PRB AFC =  6
+PRB AFC =  3
+PRB AFC =  5
+PRB AFC =  5
+PRB AFC =  4
+PRB AFC =  5
+PRB AFC =  5
+PRB AFC =  3
+PRB Average AFC =  4.9
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  58
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  62
+PRB Average RSSI =  62.2
+S-ICD command failures =  0
+PRB Final Frame Error Count =  42
+Turning on interferer in Channel 0
+PRB FREQ_A =  3527859
+PRB FREQ_B =  3530589
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[7777]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.7209MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -2
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB Average AFC =  -0.3
+PRB FREQ_A =  3527819
+PRB FREQ_B =  3530549
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding -9.6kHz Freq Offset
+PRB AFC =  6
+PRB AFC =  6
+PRB AFC =  4
+PRB AFC =  5
+PRB AFC =  4
+PRB AFC =  4
+PRB AFC =  5
+PRB AFC =  6
+PRB AFC =  6
+PRB AFC =  2
+PRB Average AFC =  4.8
+PRB CC1020 FILTER =  34
+PRB RSSI =  62
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  64
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  64
+PRB Average RSSI =  62.8
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[8036] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[8036]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+S-ICD command failures =  1
+PRB Final Frame Error Count =  96
+Turning on interferer in Channel 0
+PRB FREQ_A =  3525049
+PRB FREQ_B =  3527781
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[8375]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.4049MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB Average AFC =  -0.3
+PRB FREQ_A =  3525009
+PRB FREQ_B =  3527741
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding -9.6kHz Freq Offset
+PRB AFC =  6
+PRB AFC =  6
+PRB AFC =  7
+PRB AFC =  7
+PRB AFC =  4
+PRB AFC =  6
+PRB AFC =  6
+PRB AFC =  4
+PRB AFC =  5
+PRB AFC =  5
+PRB Average AFC =  5.6
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB Average RSSI =  62.5
+S-ICD command failures =  0
+PRB Final Frame Error Count =  17
+Turning on interferer in Channel 0
+PRB FREQ_A =  3544711
+PRB FREQ_B =  3547441
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[8974]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 404.5197MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  1
+PRB AFC =  -3
+PRB Average AFC =  -0.2
+PRB FREQ_A =  3543801
+PRB FREQ_B =  3546531
+PRB AFC_A =  -455
+PRB AFC_B =  -455
+PRB Adding -9.6kHz Freq Offset
+PRB AFC =  5
+PRB AFC =  5
+PRB AFC =  5
+PRB AFC =  6
+PRB AFC =  6
+PRB AFC =  3
+PRB AFC =  3
+PRB AFC =  0
+PRB AFC =  3
+PRB AFC =  5
+PRB Average AFC =  4.1
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  61
+PRB RSSI =  61
+PRB RSSI =  61
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB Average RSSI =  62.2
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9240] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9240]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9305] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9305]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9404] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9404]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9409] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9409]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9425] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9425]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9445] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9445]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[9477] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[9477]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+S-ICD command failures =  7
+PRB Final Frame Error Count =  183
+Turning on interferer in Channel 0
+PRB FREQ_A =  3527717
+PRB FREQ_B =  3530447
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[9583]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.7049MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB Average AFC =  -0.3
+PRB FREQ_A =  3527677
+PRB FREQ_B =  3530407
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding -9.6kHz Freq Offset
+PRB AFC =  6
+PRB AFC =  6
+PRB AFC =  5
+PRB AFC =  6
+PRB AFC =  7
+PRB AFC =  7
+PRB AFC =  7
+PRB AFC =  6
+PRB AFC =  6
+PRB AFC =  6
+PRB Average AFC =  6.2
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  61
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  64
+PRB RSSI =  63
+PRB Average RSSI =  62.7
+S-ICD command failures =  0
+PRB Final Frame Error Count =  25
+Turning on interferer in Channel 0
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[10182]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[4] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[5] : ID 0x001004BD (Model 0, Serial 1213, SW Version 4, Is Not Implanted)
+DeviceID[6] : ID 0x00100610 (Model 0, Serial 1552, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 403.5108MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -3
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB Average AFC =  -0.7
+PRB FREQ_A =  3534841
+PRB FREQ_B =  3537571
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding -9.6kHz Freq Offset
+PRB AFC =  6
+PRB AFC =  7
+PRB AFC =  7
+PRB AFC =  4
+PRB AFC =  4
+PRB AFC =  4
+PRB AFC =  4
+PRB AFC =  3
+PRB AFC =  5
+PRB AFC =  5
+PRB Average AFC =  4.9
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB Average RSSI =  62.9
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[10428] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[10428]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+TES.Dvt.ScriptException: Unexpected event Read Memory Failed, ID[10654] while executing state machine SMLibrary.ReadSM.Read Memory Failed, ID[10654]
+   at SMLibrary.Dvt.IcdCmd.execStateMachine(StateMachine stateMachine, UInt32 completeEvent, UInt32 failEvent, TimeSpan timeout)
+   at SMLibrary.Dvt.IcdCmd.readMemory(ICDMemory memory)
+   at SMLibrary.Dvt.IcdCmd.readByte(UInt32 address)
+   at CallSite.Target(Closure , CallSite , CodeContext , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+S-ICD command failures =  2
+PRB Final Frame Error Count =  79
+Turning on interferer in Channel 0
+PRB FREQ_A =  3528725
+PRB FREQ_B =  3531455
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[10784]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.8183MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB Average AFC =  -0.4
+PRB FREQ_A =  3528685
+PRB FREQ_B =  3531415
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding +9.6kHz Freq Offset
+PRB AFC =  -7
+PRB AFC =  -6
+PRB AFC =  -7
+PRB AFC =  -8
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -8
+PRB AFC =  -7
+PRB AFC =  -9
+PRB Average AFC =  -7.3
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  64
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  61
+PRB Average RSSI =  62.6
+S-ICD command failures =  0
+PRB Final Frame Error Count =  2
+Turning on interferer in Channel 0
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[11379]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x0010056D (Model 0, Serial 1389, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[4] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[5] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[6] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 403.5108MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -2
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB Average AFC =  -0.6
+PRB FREQ_A =  3534841
+PRB FREQ_B =  3537571
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding +9.6kHz Freq Offset
+PRB AFC =  -7
+PRB AFC =  -8
+PRB AFC =  -7
+PRB AFC =  -9
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -8
+PRB AFC =  -7
+PRB AFC =  -7
+PRB Average AFC =  -7.4
+PRB CC1020 FILTER =  34
+PRB RSSI =  62
+PRB RSSI =  60
+PRB RSSI =  62
+PRB RSSI =  61
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB Average RSSI =  62.1
+S-ICD command failures =  0
+PRB Final Frame Error Count =  2
+Turning on interferer in Channel 0
+PRB FREQ_A =  3525843
+PRB FREQ_B =  3528575
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[11975]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.4942MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  1
+PRB AFC =  -3
+PRB AFC =  0
+PRB AFC =  -1
+PRB Average AFC =  -0.5
+PRB FREQ_A =  3525793
+PRB FREQ_B =  3528525
+PRB AFC_A =  -25
+PRB AFC_B =  -25
+PRB Adding +9.6kHz Freq Offset
+PRB AFC =  -6
+PRB AFC =  -6
+PRB AFC =  -7
+PRB AFC =  -5
+PRB AFC =  -6
+PRB AFC =  -7
+PRB AFC =  -5
+PRB AFC =  -6
+PRB AFC =  -5
+PRB AFC =  -6
+PRB Average AFC =  -5.9
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  61
+PRB RSSI =  61
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB Average RSSI =  62.1
+S-ICD command failures =  0
+PRB Final Frame Error Count =  1
+Turning on interferer in Channel 0
+PRB FREQ_A =  3544711
+PRB FREQ_B =  3547441
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[12571]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 404.6167MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB Average AFC =  -0.3
+PRB FREQ_A =  3544671
+PRB FREQ_B =  3547401
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding +9.6kHz Freq Offset
+PRB AFC =  -7
+PRB AFC =  -8
+PRB AFC =  -8
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -8
+PRB AFC =  -7
+PRB Average AFC =  -7.3
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  63
+PRB Average RSSI =  62.8
+S-ICD command failures =  0
+PRB Final Frame Error Count =  1
+Turning on interferer in Channel 0
+PRB FREQ_A =  3527859
+PRB FREQ_B =  3530589
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[13167]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.7209MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB Average AFC =  -0.3
+PRB FREQ_A =  3527819
+PRB FREQ_B =  3530549
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding +9.6kHz Freq Offset
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -8
+PRB AFC =  -7
+PRB AFC =  -7
+PRB Average AFC =  -7.1
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  64
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB Average RSSI =  62.8
+S-ICD command failures =  0
+PRB Final Frame Error Count =  2
+Turning on interferer in Channel 0
+PRB FREQ_A =  3525049
+PRB FREQ_B =  3527781
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[13765]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.4049MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB Average AFC =  -0.1
+PRB FREQ_A =  3525009
+PRB FREQ_B =  3527741
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding +9.6kHz Freq Offset
+PRB AFC =  -7
+PRB AFC =  -8
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB Average AFC =  -7.1
+PRB CC1020 FILTER =  34
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB Average RSSI =  62.6
+S-ICD command failures =  0
+PRB Final Frame Error Count =  1
+Turning on interferer in Channel 0
+PRB FREQ_A =  3544711
+PRB FREQ_B =  3547441
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[14360]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 404.5197MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -2
+PRB Average AFC =  -0.8
+PRB FREQ_A =  3543811
+PRB FREQ_B =  3546541
+PRB AFC_A =  -450
+PRB AFC_B =  -450
+PRB Adding +9.6kHz Freq Offset
+PRB AFC =  -7
+PRB AFC =  -8
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -8
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -8
+PRB AFC =  -8
+PRB Average AFC =  -7.4
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  61
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  63
+PRB Average RSSI =  62.3
+S-ICD command failures =  0
+PRB Final Frame Error Count =  1
+Turning on interferer in Channel 0
+PRB FREQ_A =  3527717
+PRB FREQ_B =  3530447
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[14956]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.7049MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB Average AFC =  -0.2
+PRB FREQ_A =  3527677
+PRB FREQ_B =  3530407
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding +9.6kHz Freq Offset
+PRB AFC =  -6
+PRB AFC =  -7
+PRB AFC =  -8
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB Average AFC =  -7.0
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB Average RSSI =  62.6
+S-ICD command failures =  0
+PRB Final Frame Error Count =  2
+Turning on interferer in Channel 0
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[15552]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x0010056D (Model 0, Serial 1389, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[4] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[5] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[6] : ID 0x001004BD (Model 0, Serial 1213, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x00100610 (Model 0, Serial 1552, SW Version 4, Is Not Implanted)
+DeviceID[8] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 403.5108MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -2
+PRB AFC =  1
+PRB AFC =  0
+PRB AFC =  -1
+PRB Average AFC =  -0.5
+PRB FREQ_A =  3534841
+PRB FREQ_B =  3537571
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding +9.6kHz Freq Offset
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -8
+PRB AFC =  -7
+PRB AFC =  -7
+PRB AFC =  -8
+PRB AFC =  -7
+PRB Average AFC =  -7.2
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  61
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  63
+PRB Average RSSI =  62.7
+S-ICD command failures =  0
+PRB Final Frame Error Count =  2
+Turning on interferer in Channel 0
+PRB FREQ_A =  3528725
+PRB FREQ_B =  3531455
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[16150]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  3
+Candidate Frequency = 402.8183MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB Average AFC =  -0.3
+PRB FREQ_A =  3528685
+PRB FREQ_B =  3531415
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding -4.8kHz Freq Offset
+PRB AFC =  2
+PRB AFC =  2
+PRB AFC =  3
+PRB AFC =  3
+PRB AFC =  1
+PRB AFC =  2
+PRB AFC =  0
+PRB AFC =  3
+PRB AFC =  3
+PRB AFC =  3
+PRB Average AFC =  2.2
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  60
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  60
+PRB RSSI =  62
+PRB RSSI =  64
+PRB Average RSSI =  62.3
+S-ICD command failures =  0
+PRB Final Frame Error Count =  13
+Turning on interferer in Channel 0
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[16745]
+DeviceID[0] : ID 0x0010056D (Model 0, Serial 1389, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[3] : ID 0x00100610 (Model 0, Serial 1552, SW Version 4, Is Not Implanted)
+DeviceID[4] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[5] : ID 0x001004BD (Model 0, Serial 1213, SW Version 4, Is Not Implanted)
+DeviceID[6] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  2
+Candidate Frequency = 403.5108MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  -2
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB Average AFC =  -0.4
+PRB FREQ_A =  3534841
+PRB FREQ_B =  3537571
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding -4.8kHz Freq Offset
+PRB AFC =  3
+PRB AFC =  3
+PRB AFC =  3
+PRB AFC =  3
+PRB AFC =  2
+PRB AFC =  4
+PRB AFC =  1
+PRB AFC =  3
+PRB AFC =  3
+PRB AFC =  3
+PRB Average AFC =  2.8
+PRB CC1020 FILTER =  34
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB Average RSSI =  63.2
+S-ICD command failures =  0
+PRB Final Frame Error Count =  12
+Turning on interferer in Channel 0
+PRB FREQ_A =  3525843
+PRB FREQ_B =  3528575
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[17340]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.4942MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  1
+PRB AFC =  -3
+PRB AFC =  1
+PRB AFC =  1
+PRB AFC =  1
+PRB AFC =  1
+PRB AFC =  1
+PRB AFC =  1
+PRB AFC =  1
+PRB Average AFC =  0.5
+PRB FREQ_A =  3525793
+PRB FREQ_B =  3528525
+PRB AFC_A =  -25
+PRB AFC_B =  -25
+PRB Adding -4.8kHz Freq Offset
+PRB AFC =  4
+PRB AFC =  3
+PRB AFC =  3
+PRB AFC =  5
+PRB AFC =  4
+PRB AFC =  5
+PRB AFC =  4
+PRB AFC =  1
+PRB AFC =  3
+PRB AFC =  0
+PRB Average AFC =  3.2
+PRB CC1020 FILTER =  34
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB Average RSSI =  62.7
+S-ICD command failures =  0
+PRB Final Frame Error Count =  20
+Turning on interferer in Channel 0
+PRB FREQ_A =  3544711
+PRB FREQ_B =  3547441
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[17935]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 404.6167MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB Average AFC =  -0.4
+PRB FREQ_A =  3544671
+PRB FREQ_B =  3547401
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding -4.8kHz Freq Offset
+PRB AFC =  3
+PRB AFC =  2
+PRB AFC =  3
+PRB AFC =  2
+PRB AFC =  2
+PRB AFC =  3
+PRB AFC =  3
+PRB AFC =  2
+PRB AFC =  3
+PRB AFC =  3
+PRB Average AFC =  2.6
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  64
+PRB Average RSSI =  63.0
+S-ICD command failures =  0
+PRB Final Frame Error Count =  3
+Turning on interferer in Channel 0
+PRB FREQ_A =  3527859
+PRB FREQ_B =  3530589
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[18533]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.7209MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB Average AFC =  -0.4
+PRB FREQ_A =  3527819
+PRB FREQ_B =  3530549
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding -4.8kHz Freq Offset
+PRB AFC =  3
+PRB AFC =  1
+PRB AFC =  3
+PRB AFC =  1
+PRB AFC =  2
+PRB AFC =  3
+PRB AFC =  1
+PRB AFC =  3
+PRB AFC =  3
+PRB AFC =  1
+PRB Average AFC =  2.1
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB Average RSSI =  62.7
+S-ICD command failures =  0
+PRB Final Frame Error Count =  5
+Turning on interferer in Channel 0
+PRB FREQ_A =  3525049
+PRB FREQ_B =  3527781
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[19129]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.4049MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -1
+PRB AFC =  -2
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -2
+PRB AFC =  -1
+PRB AFC =  -2
+PRB AFC =  -1
+PRB Average AFC =  -1.1
+PRB FREQ_A =  3525019
+PRB FREQ_B =  3527751
+PRB AFC_A =  -15
+PRB AFC_B =  -15
+PRB Adding -4.8kHz Freq Offset
+PRB AFC =  2
+PRB AFC =  2
+PRB AFC =  3
+PRB AFC =  2
+PRB AFC =  2
+PRB AFC =  2
+PRB AFC =  2
+PRB AFC =  2
+PRB AFC =  2
+PRB AFC =  2
+PRB Average AFC =  2.1
+PRB CC1020 FILTER =  34
+PRB RSSI =  61
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  64
+PRB Average RSSI =  62.9
+S-ICD command failures =  0
+PRB Final Frame Error Count =  2
+Turning on interferer in Channel 0
+PRB FREQ_A =  3544711
+PRB FREQ_B =  3547441
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[19726]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 404.5197MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  1
+PRB AFC =  -3
+PRB AFC =  0
+PRB AFC =  1
+PRB Average AFC =  -0.2
+PRB FREQ_A =  3543801
+PRB FREQ_B =  3546531
+PRB AFC_A =  -455
+PRB AFC_B =  -455
+PRB Adding -4.8kHz Freq Offset
+PRB AFC =  3
+PRB AFC =  2
+PRB AFC =  4
+PRB AFC =  3
+PRB AFC =  3
+PRB AFC =  3
+PRB AFC =  3
+PRB AFC =  3
+PRB AFC =  4
+PRB AFC =  0
+PRB Average AFC =  2.8
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  61
+PRB RSSI =  62
+PRB RSSI =  62
+PRB Average RSSI =  62.6
+S-ICD command failures =  0
+PRB Final Frame Error Count =  11
+Turning on interferer in Channel 0
+PRB FREQ_A =  3527717
+PRB FREQ_B =  3530447
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[20323]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.7049MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -2
+PRB AFC =  -2
+PRB AFC =  -2
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -2
+PRB AFC =  -1
+PRB Average AFC =  -1.3
+PRB FREQ_A =  3527687
+PRB FREQ_B =  3530417
+PRB AFC_A =  -15
+PRB AFC_B =  -15
+PRB Adding -4.8kHz Freq Offset
+PRB AFC =  2
+PRB AFC =  2
+PRB AFC =  2
+PRB AFC =  3
+PRB AFC =  2
+PRB AFC =  2
+PRB AFC =  2
+PRB AFC =  2
+PRB AFC =  2
+PRB AFC =  2
+PRB Average AFC =  2.1
+PRB CC1020 FILTER =  34
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  64
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  61
+PRB RSSI =  62
+PRB Average RSSI =  62.7
+S-ICD command failures =  0
+PRB Final Frame Error Count =  2
+Turning on interferer in Channel 0
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[20918]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x0010056D (Model 0, Serial 1389, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[4] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[5] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[6] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[7] : ID 0x001004BD (Model 0, Serial 1213, SW Version 4, Is Not Implanted)
+DeviceID[8] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[9] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 403.5108MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB Average AFC =  -0.6
+PRB FREQ_A =  3534841
+PRB FREQ_B =  3537571
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding -4.8kHz Freq Offset
+PRB AFC =  3
+PRB AFC =  2
+PRB AFC =  3
+PRB AFC =  3
+PRB AFC =  1
+PRB AFC =  3
+PRB AFC =  2
+PRB AFC =  3
+PRB AFC =  2
+PRB AFC =  2
+PRB Average AFC =  2.4
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  59
+PRB RSSI =  63
+PRB RSSI =  61
+PRB RSSI =  61
+PRB Average RSSI =  62.4
+S-ICD command failures =  0
+PRB Final Frame Error Count =  11
+Turning on interferer in Channel 0
+PRB FREQ_A =  3528725
+PRB FREQ_B =  3531455
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[21520]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.8183MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -2
+PRB AFC =  -1
+PRB Average AFC =  -0.5
+PRB FREQ_A =  3528685
+PRB FREQ_B =  3531415
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding +4.8kHz Freq Offset
+PRB AFC =  -2
+PRB AFC =  -3
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -5
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -4
+PRB Average AFC =  -3.8
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  64
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  62
+PRB Average RSSI =  62.4
+S-ICD command failures =  0
+PRB Final Frame Error Count =  2
+Turning on interferer in Channel 0
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[22115]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x00100618 (Model 0, Serial 1560, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[4] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[5] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[6] : ID 0x00100610 (Model 0, Serial 1552, SW Version 4, Is Not Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  4
+Candidate Frequency = 403.5108MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -2
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB Average AFC =  -0.3
+PRB FREQ_A =  3534841
+PRB FREQ_B =  3537571
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding +4.8kHz Freq Offset
+PRB AFC =  -6
+PRB AFC =  -3
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -3
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -3
+PRB Average AFC =  -3.9
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  63
+PRB Average RSSI =  63.1
+S-ICD command failures =  0
+PRB Final Frame Error Count =  6
+Turning on interferer in Channel 0
+PRB FREQ_A =  3525843
+PRB FREQ_B =  3528575
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[22710]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  2
+Candidate Frequency = 402.4942MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -2
+PRB AFC =  -1
+PRB AFC =  -1
+PRB Average AFC =  -0.9
+PRB FREQ_A =  3525813
+PRB FREQ_B =  3528545
+PRB AFC_A =  -15
+PRB AFC_B =  -15
+PRB Adding +4.8kHz Freq Offset
+PRB AFC =  -4
+PRB AFC =  -5
+PRB AFC =  -5
+PRB AFC =  -4
+PRB AFC =  -5
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -5
+PRB AFC =  -4
+PRB Average AFC =  -4.4
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  59
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  62
+PRB RSSI =  63
+PRB Average RSSI =  62.4
+S-ICD command failures =  0
+PRB Final Frame Error Count =  2
+Turning on interferer in Channel 0
+PRB FREQ_A =  3544711
+PRB FREQ_B =  3547441
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[23307]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 404.6167MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB Average AFC =  -0.4
+PRB FREQ_A =  3544671
+PRB FREQ_B =  3547401
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding +4.8kHz Freq Offset
+PRB AFC =  -4
+PRB AFC =  -3
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -3
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -4
+PRB Average AFC =  -3.8
+PRB CC1020 FILTER =  34
+PRB RSSI =  64
+PRB RSSI =  64
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  64
+PRB Average RSSI =  63.2
+S-ICD command failures =  0
+PRB Final Frame Error Count =  1
+Turning on interferer in Channel 0
+PRB FREQ_A =  3527859
+PRB FREQ_B =  3530589
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[23903]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.7209MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB Average AFC =  -0.5
+PRB FREQ_A =  3527819
+PRB FREQ_B =  3530549
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding +4.8kHz Freq Offset
+PRB AFC =  -4
+PRB AFC =  -3
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -3
+PRB AFC =  -3
+PRB AFC =  -4
+PRB AFC =  -3
+PRB AFC =  -4
+PRB Average AFC =  -3.6
+PRB CC1020 FILTER =  34
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  61
+PRB RSSI =  64
+PRB RSSI =  64
+PRB RSSI =  64
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  62
+PRB Average RSSI =  62.7
+S-ICD command failures =  0
+PRB Final Frame Error Count =  1
+Turning on interferer in Channel 0
+PRB FREQ_A =  3525049
+PRB FREQ_B =  3527781
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[24500]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  2
+Candidate Frequency = 402.4049MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB Average AFC =  -0.3
+PRB FREQ_A =  3525009
+PRB FREQ_B =  3527741
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding +4.8kHz Freq Offset
+PRB AFC =  -4
+PRB AFC =  -3
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -3
+PRB AFC =  -3
+PRB AFC =  -4
+PRB AFC =  -4
+PRB Average AFC =  -3.7
+PRB CC1020 FILTER =  34
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  64
+PRB RSSI =  64
+PRB RSSI =  64
+PRB RSSI =  62
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  63
+PRB Average RSSI =  63.2
+S-ICD command failures =  0
+PRB Final Frame Error Count =  3
+Turning on interferer in Channel 0
+PRB FREQ_A =  3544711
+PRB FREQ_B =  3547441
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[25095]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 404.5197MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -2
+PRB AFC =  -1
+PRB AFC =  0
+PRB Average AFC =  -0.6
+PRB FREQ_A =  3543811
+PRB FREQ_B =  3546541
+PRB AFC_A =  -450
+PRB AFC_B =  -450
+PRB Adding +4.8kHz Freq Offset
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -7
+PRB AFC =  -4
+PRB AFC =  -7
+PRB AFC =  -5
+PRB AFC =  -4
+PRB AFC =  -3
+PRB AFC =  -4
+PRB AFC =  -4
+PRB Average AFC =  -4.6
+PRB CC1020 FILTER =  34
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  62
+PRB Average RSSI =  62.9
+S-ICD command failures =  0
+PRB Final Frame Error Count =  1
+Turning on interferer in Channel 0
+PRB FREQ_A =  3527717
+PRB FREQ_B =  3530447
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[25692]
+DeviceID[0] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+Channel Selection =  1
+Data inversion =  0
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 402.7049MHz, LSI
+Channel Selection =  1
+Data inversion =  0
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  0
+PRB Average AFC =  -0.4
+PRB FREQ_A =  3527677
+PRB FREQ_B =  3530407
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding +4.8kHz Freq Offset
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -3
+PRB AFC =  -4
+PRB AFC =  -3
+PRB AFC =  -3
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -3
+PRB Average AFC =  -3.6
+PRB CC1020 FILTER =  34
+PRB RSSI =  61
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  62
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  64
+PRB Average RSSI =  62.8
+S-ICD command failures =  0
+PRB Final Frame Error Count =  2
+Turning on interferer in Channel 0
+PRB FREQ_A =  3534881
+PRB FREQ_B =  3537611
+type(devList): <type 'DeviceIDList'>
+devList  Device ID List, ID[26290]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x0010056D (Model 0, Serial 1389, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[4] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[5] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[6] : ID 0x001004BD (Model 0, Serial 1213, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+Channel Selection =  1
+Data inversion =  1
+Turning off interferer in Channel 0
+PRB Init Frame Error Count =  1
+Candidate Frequency = 403.5108MHz, HSI
+Channel Selection =  1
+Data inversion =  1
+S-ICD PA_POW =  15
+S-ICD PA_POW =  80
+S-ICD PA_POW =  15
+S-ICD MODEM0 =  83
+S-ICD RAM =  31
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  0
+PRB AFC =  -1
+PRB AFC =  -1
+PRB AFC =  0
+PRB AFC =  -2
+PRB AFC =  -1
+PRB Average AFC =  -0.8
+PRB FREQ_A =  3534841
+PRB FREQ_B =  3537571
+PRB AFC_A =  -20
+PRB AFC_B =  -20
+PRB Adding +4.8kHz Freq Offset
+PRB AFC =  -4
+PRB AFC =  -5
+PRB AFC =  -3
+PRB AFC =  -3
+PRB AFC =  -3
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -4
+PRB AFC =  -4
+PRB Average AFC =  -3.8
+PRB CC1020 FILTER =  34
+PRB RSSI =  64
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  63
+PRB RSSI =  64
+PRB RSSI =  64
+PRB RSSI =  61
+PRB Average RSSI =  63.3
+S-ICD command failures =  0
+PRB Final Frame Error Count =  3

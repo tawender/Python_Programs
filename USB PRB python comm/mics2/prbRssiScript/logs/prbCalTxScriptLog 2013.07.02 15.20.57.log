@@ -1,0 +1,120 @@
+2013/07/02 15:20:57:946  INFO:   Loaded Symbol File C:\ISV System\Config\FirmwareSymbols\build33136.sym for firmware Build #33136
+2013/07/02 15:20:58:009  INFO:   CommunicationSystemLog properties: .\CommunicationSystem.logger.properties
+2013/07/02 15:20:58:009  INFO:   CommunicationSystemLog log       : .\logs\prbCalTxScriptLog 2013.07.02 15.20.57_CommunicationSystem.Log
+2013/07/02 15:21:05:696  INFO:   Setting the event sink for ScriptEngineProcedure
+2013/07/02 15:21:05:696  INFO:   Program parameters checks are enabled
+2013/07/02 15:21:05:712  INFO:   ********************************************************************************
+2013/07/02 15:21:05:712  INFO:   Starting ScriptEngineProcedure, Assembly  version 
+2013/07/02 15:21:05:727  INFO:   Config: ICD (NCommunicationSystem ver: nCommunicationSystem, Version=1.8.2.1, Culture=neutral, PublicKeyToken=56b5378c99c0bcfd; FTDI Driver ver: 2.08.28.0; PRB FPGA ver: 18)
+2013/07/02 15:21:05:727  INFO:   Setting the radio board transmit power to level 0x7.
+2013/07/02 15:21:05:727  INFO:   Radio board power level set to 7.
+2013/07/02 15:21:05:727  INFO:   ECG Timeout Interval set to 10 seconds.
+2013/07/02 15:21:05:727  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/07/02 15:21:05:727  INFO:   FwDvtSystem Started the event processing thread
+2013/07/02 15:21:05:774  ACTION: Read PRB FPGA: Address=0x3000 Data=0x12
+2013/07/02 15:21:05:837  RESULT: FPGA 0x3000 Expected: 18 Actual: 18
+2013/07/02 15:21:05:977  ACTION: Calibrate CC1020
+2013/07/02 15:21:06:071  INFO:   CC1020 calibration passed
+2013/07/02 15:21:06:071  ACTION: Read C1020: Address 0x04 Data=0x35
+2013/07/02 15:21:06:087  ACTION: Read C1020: Address 0x05 Data=0xF0
+2013/07/02 15:21:06:087  ACTION: Read C1020: Address 0x06 Data=0x21
+2013/07/02 15:21:06:087  ACTION: Read C1020: Address 0x07 Data=0x38
+2013/07/02 15:21:06:087  ACTION: Read C1020: Address 0x08 Data=0x35
+2013/07/02 15:21:06:087  ACTION: Read C1020: Address 0x09 Data=0xFA
+2013/07/02 15:21:06:102  ACTION: Read C1020: Address 0x0A Data=0xCB
+2013/07/02 15:21:06:102  ACTION: Read C1020: Address 0x0B Data=0x38
+2013/07/02 15:21:06:102  ACTION: Read C1020: Address 0x1D Data=0x00
+2013/07/02 15:21:06:102  ACTION: Read C1020: Address 0x45 Data=0x6C
+2013/07/02 15:21:06:102  ACTION: Read C1020: Address 0x46 Data=0x66
+2013/07/02 15:21:06:118  ACTION: Read C1020: Address 0x47 Data=0x44
+2013/07/02 15:21:10:087  ACTION: Write PRB FPGA: Address=0x3024 Data=0x35
+2013/07/02 15:21:10:087  ACTION: Write PRB FPGA: Address=0x3026 Data=0xD8
+2013/07/02 15:21:10:087  ACTION: Write PRB FPGA: Address=0x3028 Data=0x15
+2013/07/02 15:21:10:087  ACTION: Write PRB FPGA: Address=0x302C Data=0x35
+2013/07/02 15:21:10:087  ACTION: Write PRB FPGA: Address=0x302E Data=0xE2
+2013/07/02 15:21:10:102  ACTION: Write PRB FPGA: Address=0x3030 Data=0xBF
+2013/07/02 15:21:10:102  ACTION: Write PRB FPGA: Address=0x305E Data=0x35
+2013/07/02 15:21:10:102  ACTION: Write PRB FPGA: Address=0x3060 Data=0xD8
+2013/07/02 15:21:10:102  ACTION: Write PRB FPGA: Address=0x3062 Data=0x15
+2013/07/02 15:21:10:102  ACTION: Write PRB FPGA: Address=0x3066 Data=0x35
+2013/07/02 15:21:10:102  ACTION: Write PRB FPGA: Address=0x3068 Data=0xE2
+2013/07/02 15:21:10:102  ACTION: Write PRB FPGA: Address=0x306A Data=0xBF
+2013/07/02 15:21:10:102  ACTION: Calibrate CC1020
+2013/07/02 15:21:10:196  INFO:   CC1020 calibration passed
+2013/07/02 15:21:10:509  ACTION: Read PRB FPGA: Address=0x2012 Data=0x00
+2013/07/02 15:21:10:509  ACTION: Read C1020: Address 0x04 Data=0x35
+2013/07/02 15:21:10:509  ACTION: Read C1020: Address 0x05 Data=0xD8
+2013/07/02 15:21:10:509  ACTION: Read C1020: Address 0x06 Data=0x15
+2013/07/02 15:21:10:509  ACTION: Read C1020: Address 0x07 Data=0x38
+2013/07/02 15:21:10:509  ACTION: Read C1020: Address 0x08 Data=0x35
+2013/07/02 15:21:10:524  ACTION: Read C1020: Address 0x09 Data=0xE2
+2013/07/02 15:21:10:524  ACTION: Read C1020: Address 0x0A Data=0xBF
+2013/07/02 15:21:10:524  ACTION: Read C1020: Address 0x0B Data=0x38
+2013/07/02 15:21:10:524  ACTION: Read C1020: Address 0x1D Data=0x00
+2013/07/02 15:21:10:524  ACTION: Read C1020: Address 0x45 Data=0x6C
+2013/07/02 15:21:10:524  ACTION: Read C1020: Address 0x46 Data=0x66
+2013/07/02 15:21:10:524  ACTION: Read C1020: Address 0x47 Data=0x44
+2013/07/02 15:21:10:524  ACTION: Write PRB FPGA: Address=0x3024 Data=0x35
+2013/07/02 15:21:10:524  ACTION: Write PRB FPGA: Address=0x3026 Data=0xF0
+2013/07/02 15:21:10:540  ACTION: Write PRB FPGA: Address=0x3028 Data=0x21
+2013/07/02 15:21:10:540  ACTION: Write PRB FPGA: Address=0x302C Data=0x35
+2013/07/02 15:21:10:540  ACTION: Write PRB FPGA: Address=0x302E Data=0xFA
+2013/07/02 15:21:10:540  ACTION: Write PRB FPGA: Address=0x3030 Data=0xCB
+2013/07/02 15:21:10:540  ACTION: Calibrate CC1020
+2013/07/02 15:21:10:634  INFO:   CC1020 calibration passed
+2013/07/02 15:21:10:931  ACTION: Read PRB FPGA: Address=0x2012 Data=0x00
+2013/07/02 15:21:10:931  ACTION: Read C1020: Address 0x04 Data=0x35
+2013/07/02 15:21:10:931  ACTION: Read C1020: Address 0x05 Data=0xF0
+2013/07/02 15:21:10:931  ACTION: Read C1020: Address 0x06 Data=0x21
+2013/07/02 15:21:10:946  ACTION: Read C1020: Address 0x07 Data=0x38
+2013/07/02 15:21:10:946  ACTION: Read C1020: Address 0x08 Data=0x35
+2013/07/02 15:21:10:946  ACTION: Read C1020: Address 0x09 Data=0xFA
+2013/07/02 15:21:10:946  ACTION: Read C1020: Address 0x0A Data=0xCB
+2013/07/02 15:21:10:946  ACTION: Read C1020: Address 0x0B Data=0x38
+2013/07/02 15:21:10:946  ACTION: Read C1020: Address 0x1D Data=0x00
+2013/07/02 15:21:10:946  ACTION: Read C1020: Address 0x45 Data=0x6C
+2013/07/02 15:21:10:946  ACTION: Read C1020: Address 0x46 Data=0x66
+2013/07/02 15:21:10:962  ACTION: Read C1020: Address 0x47 Data=0x44
+2013/07/02 15:21:10:962  ACTION: Write PRB FPGA: Address=0x1008 Data=0x10
+2013/07/02 15:21:11:352  ACTION: Read PRB FPGA: Address=0x1020 Data=0x00
+2013/07/02 15:21:11:368  ACTION: Read PRB FPGA: Address=0x1026 Data=0x00
+2013/07/02 15:21:11:368  ACTION: Read PRB FPGA: Address=0x1022 Data=0x1F
+2013/07/02 15:21:11:368  ACTION: Read PRB FPGA: Address=0x1024 Data=0x1F
+2013/07/02 15:21:11:368  ACTION: Read C1020: Address 0x04 Data=0x35
+2013/07/02 15:21:11:368  ACTION: Read C1020: Address 0x05 Data=0xD8
+2013/07/02 15:21:11:368  ACTION: Read C1020: Address 0x06 Data=0x15
+2013/07/02 15:21:11:384  ACTION: Read C1020: Address 0x08 Data=0x35
+2013/07/02 15:21:11:384  ACTION: Read C1020: Address 0x09 Data=0xE2
+2013/07/02 15:21:11:399  ACTION: Read C1020: Address 0x0A Data=0xBF
+2013/07/02 15:21:11:399  ACTION: Write C1020: Address=0x00 Data=0x01
+2013/07/02 15:21:11:493  ACTION: Read C1020: Address 0x10 Data=0x22
+2013/07/02 15:21:11:571  ACTION: Read C1020: Address 0x42 Data=0x1C
+2013/07/02 15:21:11:571  ACTION: Read C1020: Address 0x42 Data=0x17
+2013/07/02 15:21:11:571  ACTION: Read C1020: Address 0x42 Data=0x1A
+2013/07/02 15:21:11:571  ACTION: Read C1020: Address 0x42 Data=0x17
+2013/07/02 15:21:11:587  ACTION: Read C1020: Address 0x42 Data=0x19
+2013/07/02 15:21:11:587  ACTION: Read C1020: Address 0x42 Data=0x1E
+2013/07/02 15:21:11:587  ACTION: Read C1020: Address 0x42 Data=0x17
+2013/07/02 15:21:11:587  ACTION: Read C1020: Address 0x42 Data=0x1A
+2013/07/02 15:21:11:587  ACTION: Read C1020: Address 0x42 Data=0x1A
+2013/07/02 15:21:11:587  ACTION: Read C1020: Address 0x42 Data=0x19
+2013/07/02 15:21:11:602  ACTION: Write C1020: Address=0x00 Data=0x1F
+2013/07/02 15:21:11:681  ACTION: Read C1020: Address 0x0D Data=0x50
+2013/07/02 15:21:11:774  ACTION: Read C1020: Address 0x0E Data=0x59
+2013/07/02 15:21:11:852  ACTION: Write C1020: Address=0x00 Data=0xC1
+2013/07/02 15:21:15:259  ACTION: Write C1020: Address=0x0E Data=0xD9
+2013/07/02 15:21:15:337  ACTION: Read C1020: Address 0x0D Data=0x50
+2013/07/02 15:21:15:431  ACTION: Read C1020: Address 0x0E Data=0xD9
+2013/07/02 15:21:18:821  ACTION: Write C1020: Address=0x0D Data=0x54
+2013/07/02 15:21:18:899  ACTION: Read C1020: Address 0x0D Data=0x54
+2013/07/02 15:21:18:993  ACTION: Read C1020: Address 0x0E Data=0xD9
+2013/07/02 15:21:36:149  EVENT:  SCRIPT-EXEC:EXIT - TES.Dvt.ScriptExecStateMachine, ID[8]
+2013/07/02 15:21:36:165  INFO:   Terminating ScriptEngineProcedure
+2013/07/02 15:21:36:165  EVENT:  Terminate Dispatch, ID[15]
+2013/07/02 15:21:36:165  EVENT:  TES.Dvt.ScriptExecStateMachine.DoneEvent, ID[6]
+2013/07/02 15:21:36:165  STATE:  Changing state to ScriptExecStateMachine.IdleState, ID[6]
+2013/07/02 15:21:36:181  INFO:   ScriptEngineProcedure Completed
+2013/07/02 15:21:36:181  INFO:   Testcase Summary:
+2013/07/02 15:21:36:181  RESULT: Test Procedure ScriptEngineProcedure (FAILED)
+2013/07/02 15:21:36:181  INFO:   Procedure Runtime = 00:00:30
+2013/07/02 15:21:36:181  INFO:   The event dispatch thread ScriptEngineProcedure exited.

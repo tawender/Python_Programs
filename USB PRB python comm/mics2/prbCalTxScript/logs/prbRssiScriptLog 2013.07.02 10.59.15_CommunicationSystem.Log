@@ -1,0 +1,14 @@
+<<<<< Log Header: 07/02/2013 10:59:16 >>>>>
+2013/07/02 10:59:16:583 [001648] INFO [NCommunicationSystem.cpp, 108] - nCommunicationSystem, Version=1.8.2.1, Culture=neutral, PublicKeyToken=56b5378c99c0bcfd
+2013/07/02 10:59:16:615 [001648] INFO [ExceptionCatchingThread.cpp, 257] - Created the timer thread with id 3688 (0xe68).
+2013/07/02 10:59:16:615 [003688] INFO [ExceptionCatchingThread.cpp, 168] - Executing the timer thread procedure...
+2013/07/02 10:59:16:630 [001648] INFO [ExceptionCatchingThread.cpp, 257] - Created the dispatch thread with id 3096 (0xc18).
+2013/07/02 10:59:16:630 [003096] INFO [ExceptionCatchingThread.cpp, 168] - Executing the dispatch thread procedure...
+2013/07/02 10:59:19:631 [001648] DEBUG [Prb.cpp, 252] - PRB logging started.
+2013/07/02 10:59:19:724 [001648] DEBUG [Prb.cpp, 130] - Number of FTDI devices: 0
+2013/07/02 10:59:19:724 [001648] ERROR [Prb.cpp, 141] - Failed to detect an FTDI device
+2013/07/02 10:59:53:210 [000816] INFO [CrossAppDomainEventMarshaller.cpp, 44] - Disposing: 0
+2013/07/02 10:59:53:210 [000816] INFO [CrossAppDomainEventMarshaller.cpp, 155] - abortGetNextEvent called
+2013/07/02 10:59:53:210 [000816] INFO [CrossAppDomainEventMarshaller.cpp, 110] - EventHandler dtor
+2013/07/02 10:59:53:210 [000816] INFO [CrossAppDomainEventMarshaller.cpp, 60] - Disposed.
+2013/07/02 10:59:53:210 [000816] INFO [NCommunicationSystem.cpp, 747] - Disposing: 0

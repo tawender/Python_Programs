@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?> 
+<tab label='CCTestPatch Results' cols='4'>
+    <memory readonly='true'>
+        <label>CC_Test6_Results_Tx</label>
+        <address>x230</address>
+        <length>1</length>
+        <format>X2</format>
+    </memory>
+    <memory readonly='true'>
+        <label>CC_Test5_Results_Tx</label>
+        <address>x231</address>
+        <length>1</length>
+        <format>X2</format>
+    </memory>
+    <memory readonly='true'>
+        <label>CC_Test4_Results_Tx</label>
+        <address>x232</address>
+        <length>1</length>
+        <format>X2</format>
+    </memory>
+    <memory readonly='true'>
+        <label>CC_Test3_Results_Tx</label>
+        <address>x233</address>
+        <length>1</length>
+        <format>X2</format>
+    </memory>
+    <memory readonly='true'>
+        <label>CC_Test2_Results_Tx</label>
+        <address>x234</address>
+        <length>1</length>
+        <format>X2</format>
+    </memory>
+    <memory readonly='true'>
+        <label>CC_Test1_Results_Tx</label>
+        <address>x235</address>
+        <length>1</length>
+        <format>X2</format>
+    </memory>
+    <memory readonly='true'>
+        <label>CC_Test0_Results_Tx</label>
+        <address>x236</address>
+        <length>1</length>
+        <format>X2</format>
+    </memory>
+    <memory readonly='true'>
+        <label>CC_Test6_Results_Rx</label>
+        <address>x237</address>
+        <length>1</length>
+        <format>X2</format>
+    </memory>
+    <memory readonly='true'>
+        <label>CC_Test5_Results_Rx</label>
+        <address>x238</address>
+        <length>1</length>
+        <format>X2</format>
+    </memory>
+    <memory readonly='true'>
+        <label>CC_Test4_Results_Rx</label>
+        <address>x239</address>
+        <length>1</length>
+        <format>X2</format>
+    </memory>
+    <memory readonly='true'>
+        <label>CC_Test3_Results_Rx</label>
+        <address>x23A</address>
+        <length>1</length>
+        <format>X2</format>
+    </memory>
+    <memory readonly='true'>
+        <label>CC_Test2_Results_Rx</label>
+        <address>x23B</address>
+        <length>1</length>
+        <format>X2</format>
+    </memory>
+    <memory readonly='true'>
+        <label>CC_Test1_Results_Rx</label>
+        <address>x23C</address>
+        <length>1</length>
+        <format>X2</format>
+    </memory>
+    <memory readonly='true'>
+        <label>CC_Test0_Results_Rx</label>
+        <address>x23D</address>
+        <length>1</length>
+        <format>X2</format>
+    </memory>
+    <memory readonly='true'>
+        <label>TxCalFailureCount</label>
+        <address>x23E</address>
+        <length>1</length>
+        <format>X2</format>
+    </memory>
+    <memory readonly='true'>
+        <label>TxLockFailureCount</label>
+        <address>x23F</address>
+        <length>1</length>
+        <format>X2</format>
+    </memory>
+    <memory readonly='true'>
+        <label>RxCalFailureCount</label>
+        <address>x240</address>
+        <length>1</length>
+        <format>X2</format>
+    </memory>
+    <memory readonly='true'>
+        <label>RxLockFailureCount</label>
+        <address>x241</address>
+        <length>1</length>
+        <format>X2</format>
+    </memory>
+</tab>

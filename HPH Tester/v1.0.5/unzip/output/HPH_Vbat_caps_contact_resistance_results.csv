@@ -1,0 +1,3 @@
+HPH VBAT caps contact resistance results
+
+TestSystem,TestLocation,TestReason,DUT_pn,DUT_rev,DUT_ln,reference_entry,operator,timestamp,PASS/FAIL,R_probe_1-2,R_probe_10-11,R_probe_3-4,R_probe_12-13,R_probe_5-6,R_probe_14-15,R_probe_P2-P3,R_probe_P4-P5,Rparallel(ohms),num_compromised_caps,num_high_joints,Ileakage(uA),HPH_SN,TestCurrent(amps),CCHRG1_VBAT(mohms),CCHRG1_VSS(mohms),CCHRG2_VBAT(mohms),CCHRG2_VSS(mohms),CCHRG3_VBAT(mohms),CCHRG3_VSS(mohms)

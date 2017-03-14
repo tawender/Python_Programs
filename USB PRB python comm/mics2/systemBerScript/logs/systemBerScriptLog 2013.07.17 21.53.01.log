@@ -1,0 +1,117 @@
+2013/07/17 21:53:01:529  INFO:   Loaded Symbol File C:\ISV System\Config\FirmwareSymbols\build178.sym for firmware Build #178
+2013/07/17 21:53:01:544  INFO:   CommunicationSystemLog properties: .\CommunicationSystem.logger.properties
+2013/07/17 21:53:01:544  INFO:   CommunicationSystemLog log       : .\logs\systemBerScriptLog 2013.07.17 21.53.01_CommunicationSystem.Log
+2013/07/17 21:53:05:300  INFO:   Setting the event sink for ScriptEngineProcedure
+2013/07/17 21:53:05:300  INFO:   Program parameters checks are enabled
+2013/07/17 21:53:05:305  INFO:   ********************************************************************************
+2013/07/17 21:53:05:305  INFO:   Starting ScriptEngineProcedure, Assembly  version 
+2013/07/17 21:53:05:310  INFO:   Config: ICD (NCommunicationSystem ver: nCommunicationSystem, Version=1.8.2.1, Culture=neutral, PublicKeyToken=56b5378c99c0bcfd; FTDI Driver ver: 2.08.24.0; PRB FPGA ver: 7)
+2013/07/17 21:53:05:310  INFO:   Setting the radio board transmit power to level 0x7.
+2013/07/17 21:53:05:313  INFO:   Radio board power level set to 7.
+2013/07/17 21:53:05:313  INFO:   ECG Timeout Interval set to 10 seconds.
+2013/07/17 21:53:05:314  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/07/17 21:53:05:314  INFO:   FwDvtSystem Started the event processing thread
+2013/07/17 21:53:05:344  ACTION: Read PRB FPGA: Address=0x3000 Data=0x07
+2013/07/17 21:53:05:348  RESULT: FPGA 0x3000 Expected: 18 Actual: 7
+2013/07/17 21:53:05:351  RESULT: ERROR Expected: 18 Actual: 7
+2013/07/17 21:53:05:351  ACTION: Calibrate CC1020
+2013/07/17 21:53:05:452  INFO:   CC1020 calibration passed
+2013/07/17 21:53:05:460  ACTION: Read C1020: Address 0x04 Data=0x35
+2013/07/17 21:53:05:464  ACTION: Read C1020: Address 0x05 Data=0xF0
+2013/07/17 21:53:05:468  ACTION: Read C1020: Address 0x06 Data=0x21
+2013/07/17 21:53:05:471  ACTION: Read C1020: Address 0x07 Data=0x38
+2013/07/17 21:53:05:474  ACTION: Read C1020: Address 0x08 Data=0x35
+2013/07/17 21:53:05:477  ACTION: Read C1020: Address 0x09 Data=0xFA
+2013/07/17 21:53:05:480  ACTION: Read C1020: Address 0x0A Data=0xCB
+2013/07/17 21:53:05:483  ACTION: Read C1020: Address 0x0B Data=0x38
+2013/07/17 21:53:05:487  ACTION: Read C1020: Address 0x1D Data=0x00
+2013/07/17 21:53:05:490  ACTION: Read C1020: Address 0x45 Data=0x5C
+2013/07/17 21:53:05:493  ACTION: Read C1020: Address 0x46 Data=0x66
+2013/07/17 21:53:05:496  ACTION: Read C1020: Address 0x47 Data=0x44
+2013/07/17 21:53:05:506  ACTION: Read PRB FPGA: Address=0x305E Data=0x00
+2013/07/17 21:53:05:509  ACTION: Read PRB FPGA: Address=0x3060 Data=0x00
+2013/07/17 21:53:05:512  ACTION: Read PRB FPGA: Address=0x3062 Data=0x00
+2013/07/17 21:53:05:519  ACTION: Read PRB FPGA: Address=0x3066 Data=0x00
+2013/07/17 21:53:05:521  ACTION: Read PRB FPGA: Address=0x3068 Data=0x00
+2013/07/17 21:53:05:524  ACTION: Read PRB FPGA: Address=0x306A Data=0x00
+2013/07/17 21:53:05:525  ACTION: Write PRB FPGA: Address=0x1026 Data=0x01
+2013/07/17 21:53:05:533  INFO:   EXECUTING STATE: SMLibrary.Dvt.IcdCmd+ScanState Timeout: 00:00:30
+2013/07/17 21:53:05:533  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/07/17 21:53:05:535  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/07/17 21:53:05:535  INFO:   Setting the radio board transmit power to level 0x7.
+2013/07/17 21:53:05:538  INFO:   Radio board power level set to 7.
+2013/07/17 21:53:05:540  ACTION: Setting radio board configuration for hybrid.
+2013/07/17 21:53:05:540  ACTION: Set radio board to DIO inverting mode.
+2013/07/17 21:53:05:540  ACTION: Write PRB FPGA: Address=0x3012 Data=0x01
+2013/07/17 21:53:05:543  ACTION: PRB Set Link Data Rate: Slow
+2013/07/17 21:53:05:546  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/17 21:53:05:546  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/17 21:53:05:548  ACTION: Scanning for devices, primary scan duration = 9 sec, secondary scan duration = 2 sec
+2013/07/17 21:53:16:725  INFO:   Primary scan device IDs: 0x801C0094 
+2013/07/17 21:53:20:874  INFO:   Secondary scan device IDs: 0x801C0094 
+2013/07/17 21:53:20:877  EVENT:  Device ID List, ID[17]
+                                 DeviceID[0] : ID 0x801C0094 (Model 0, Serial 148, SW Version 7, Is Implanted)
+2013/07/17 21:53:20:877  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/07/17 21:53:20:877  INFO:   STATE EXITED: SMLibrary.Dvt.IcdCmd+ScanState
+2013/07/17 21:53:20:887  INFO:   EXECUTING STATE: SMLibrary.Dvt.IcdCmd+ConnectState Timeout: 00:00:24
+2013/07/17 21:53:20:887  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/07/17 21:53:20:888  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/07/17 21:53:20:888  ACTION: PRB Set Link Data Rate: Slow
+2013/07/17 21:53:20:891  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/07/17 21:53:20:891  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/07/17 21:53:20:894  ACTION: Connecting to device ID 0x801C0094 (Model 0, Serial 148, SW Version 7, Is Implanted)
+2013/07/17 21:53:24:354  INFO:   Registering the ICD session delegates
+2013/07/17 21:53:24:354  EVENT:  Connect Succeeded, ID[19]
+2013/07/17 21:53:24:354  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/07/17 21:53:24:354  INFO:   STATE EXITED: SMLibrary.Dvt.IcdCmd+ConnectState
+2013/07/17 21:53:24:362  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.3120000
+2013/07/17 21:53:24:362  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/07/17 21:53:24:362  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/07/17 21:53:24:363  STATE:  Changing state to ReadSM.ReadingState, ID[8]
+2013/07/17 21:53:24:364  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=SYS_ERRORS(0xF56C) Length=1
+2013/07/17 21:53:24:430  EVENT:  Command Completed, ID[23], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), CRC32=0xE69CA3FE, Data=0xB0
+2013/07/17 21:53:24:431  EVENT:  Read Memory Complete, ID[24]
+2013/07/17 21:53:24:431  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/07/17 21:53:24:431  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/07/17 21:53:24:431  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/07/17 21:53:24:467  EVENT:  Marker (Device Summary), ID[25], Timestamp=0x03[full:not set], Data[0]=0x00, Data[1]=0x40 DynamicShockPolarity=HVA_POSITIVE SystemErrorOccurred 
+2013/07/17 21:53:25:199  INFO:   Enabling the timestamp/interval calculations
+2013/07/17 21:53:25:202  EVENT:  Marker (Beat Detected - WA Suspect), ID[26], Timestamp=0x62[full:98], ID=16,Data=0x80 Interval is invalid or exceeds 2 seconds
+2013/07/17 21:53:25:230  EVENT:  Marker (Data), ID[27], Timestamp=0x62[full:98], Data[0]=0x7E, Data[1]=0x58
+2013/07/17 21:53:25:355  EVENT:  Marker (Device Summary), ID[28], Timestamp=0x6E[full:110], Data[0]=0x00, Data[1]=0x40 DynamicShockPolarity=HVA_POSITIVE SystemErrorOccurred 
+2013/07/17 21:53:25:795  EVENT:  Marker (Beat Detected - WA Suspect), ID[29], Timestamp=0xAF[full:175], ID=17,Data=0x80 Interval = 602 ms
+2013/07/17 21:53:25:825  EVENT:  Marker (Data), ID[30], Timestamp=0xAF[full:175], Data[0]=0x7E, Data[1]=0x58
+2013/07/17 21:53:26:295  EVENT:  Marker (Device Summary), ID[31], Timestamp=0xEE[full:238], Data[0]=0x00, Data[1]=0x40 DynamicShockPolarity=HVA_POSITIVE SystemErrorOccurred 
+2013/07/17 21:53:26:420  EVENT:  Marker (Beat Detected - WA Suspect), ID[32], Timestamp=0xFA[full:250], ID=18,Data=0x80 Interval = 586 ms
+2013/07/17 21:53:26:450  EVENT:  Marker (Data), ID[33], Timestamp=0xFA[full:250], Data[0]=0x7E, Data[1]=0x58
+2013/07/17 21:53:26:985  EVENT:  Marker (Beat Detected - WA Suspect), ID[34], Timestamp=0x46[full:326], ID=19,Data=0x80 Interval = 594 ms
+2013/07/17 21:53:27:015  EVENT:  Marker (Data), ID[35], Timestamp=0x46[full:326], Data[0]=0x7E, Data[1]=0x58
+2013/07/17 21:53:27:295  EVENT:  Marker (Device Summary), ID[36], Timestamp=0x6E[full:366], Data[0]=0x00, Data[1]=0x40 DynamicShockPolarity=HVA_POSITIVE SystemErrorOccurred 
+2013/07/17 21:53:27:670  EVENT:  Marker (Beat Detected - WA Suspect), ID[37], Timestamp=0xA0[full:416], ID=20,Data=0x80 Interval = 703 ms
+2013/07/17 21:53:27:706  EVENT:  Marker (Data), ID[38], Timestamp=0xA0[full:416], Data[0]=0x7E, Data[1]=0x58
+2013/07/17 21:53:28:281  EVENT:  Marker (Device Summary), ID[39], Timestamp=0xEE[full:494], Data[0]=0x00, Data[1]=0x40 DynamicShockPolarity=HVA_POSITIVE SystemErrorOccurred 
+2013/07/17 21:53:28:456  EVENT:  Marker (Beat Detected - WA Suspect), ID[40], Timestamp=0x02[full:514], ID=21,Data=0x80 Interval = 766 ms
+2013/07/17 21:53:28:486  EVENT:  Marker (Data), ID[41], Timestamp=0x02[full:514], Data[0]=0x7E, Data[1]=0x58
+2013/07/17 21:53:29:286  EVENT:  Marker (Device Summary), ID[42], Timestamp=0x6E[full:622], Data[0]=0x00, Data[1]=0x40 DynamicShockPolarity=HVA_POSITIVE SystemErrorOccurred 
+2013/07/17 21:53:29:438  INFO:   EXECUTING STATE: IronPython.NewTypes.System.Object#IScriptExecState_5$5 Timeout: 00:00:02
+2013/07/17 21:53:29:438  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/07/17 21:53:29:438  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/07/17 21:53:29:439  ACTION: Break Link
+2013/07/17 21:53:29:453  INFO:   Enabling the timestamp/interval calculations
+2013/07/17 21:53:29:453  EVENT:  Marker (Beat Detected - WA Suspect), ID[44], Timestamp=0x82[full:130], ID=22,Data=0x80 Interval is invalid or exceeds 2 seconds
+2013/07/17 21:53:29:473  EVENT:  Marker (Data), ID[45], Timestamp=0x82[full:130], Data[0]=0x7E, Data[1]=0x58
+2013/07/17 21:53:30:136  INFO:   Unregistering the ICD session delegates
+2013/07/17 21:53:30:136  EVENT:  Command Completed, ID[46], Command=0xE4 (Break Link)
+2013/07/17 21:53:30:296  EVENT:  Disconnected, ID[47], clean
+2013/07/17 21:53:30:296  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/07/17 21:53:30:296  INFO:   STATE EXITED: IronPython.NewTypes.System.Object#IScriptExecState_5$5
+2013/07/17 21:53:35:299  EVENT:  SCRIPT-EXEC:EXIT - TES.Dvt.ScriptExecStateMachine, ID[8]
+2013/07/17 21:53:35:299  INFO:   Terminating ScriptEngineProcedure
+2013/07/17 21:53:35:300  EVENT:  Terminate Dispatch, ID[48]
+2013/07/17 21:53:35:300  EVENT:  TES.Dvt.ScriptExecStateMachine.DoneEvent, ID[6]
+2013/07/17 21:53:35:300  STATE:  Changing state to ScriptExecStateMachine.IdleState, ID[6]
+2013/07/17 21:53:35:309  INFO:   ScriptEngineProcedure Completed
+2013/07/17 21:53:35:310  INFO:   Testcase Summary:
+2013/07/17 21:53:35:310  RESULT: Test Procedure ScriptEngineProcedure (FAILED)
+2013/07/17 21:53:35:310  INFO:   Procedure Runtime = 00:00:30
+2013/07/17 21:53:35:317  INFO:   The event dispatch thread ScriptEngineProcedure exited.

@@ -1,0 +1,11 @@
+<<<<< Log Header: 2013/07/17 23:16:24 >>>>>
+2013/07/17 23:16:24:745 [6476] INFO [NCommunicationSystem.cpp, 108] - nCommunicationSystem, Version=1.7.2.0, Culture=neutral, PublicKeyToken=56b5378c99c0bcfd
+2013/07/17 23:16:24:760 [6476] INFO [ExcCatThr, 257] - Created the timer thread with id 5768 (0x1688).
+2013/07/17 23:16:24:762 [5768] INFO [ExcCatThr, 168] - Executing the timer thread procedure...
+2013/07/17 23:16:24:766 [6476] INFO [ExcCatThr, 257] - Created the dispatch thread with id 6484 (0x1954).
+2013/07/17 23:16:24:766 [6484] INFO [ExcCatThr, 168] - Executing the dispatch thread procedure...
+2013/07/17 23:16:43:382 [1564] INFO [CrossAppDomainEventMarshaller.cpp, 44] - Disposing: 0
+2013/07/17 23:16:43:383 [1564] INFO [CrossAppDomainEventMarshaller.cpp, 155] - abortGetNextEvent called
+2013/07/17 23:16:43:385 [1564] INFO [CrossAppDomainEventMarshaller.cpp, 110] - EventHandler dtor
+2013/07/17 23:16:43:386 [1564] INFO [CrossAppDomainEventMarshaller.cpp, 60] - Disposed.
+2013/07/17 23:16:43:387 [1564] INFO [NCommunicationSystem.cpp, 741] - Disposing: 0

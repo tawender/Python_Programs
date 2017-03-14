@@ -1,0 +1,81 @@
+import sys
+sys.path.append(r'C:\apps\Python27\Lib')
+sys.path.append(r'C:\Program Files\Cameron Health\IVA 4.4.12')
+
+import clr
+clr.AddReference("System")
+clr.AddReference("System.Core")
+clr.AddReference("System.Data")
+clr.AddReference("System.Drawing")
+clr.AddReference("System.Windows.Forms")
+clr.AddReference("System.XML")
+
+clr.AddReferenceToFile("TESData.dll")
+clr.AddReferenceToFile("TESLibrary.dll")
+clr.AddReferenceToFile("SMLibrary.dll")
+clr.AddReferenceToFile("nCommunicationSystem.dll")
+
+from System import Collections, Data, IO, Text, Threading, TimeSpan
+from System.IO import *
+from System.Windows.Forms import *
+from TES import *
+from TES.Dvt import *
+from SMLibrary import *
+from SMLibrary.Dvt import *
+#from CameronHealth.NCommunicationSystem import *
+
+def createLog(logFullName):
+    dir = Path.GetDirectoryName(logFullName)
+    Directory.CreateDirectory(dir)
+
+    log = TestProcedureLog()
+    log.Filename = logFullName
+    log.AppendToFile = True
+    log.LoggingMode = LoggingMode.Verbose
+    log.setEcho(False)
+    return log
+
+class PyTES(object):
+    def __init__(self, optionsPath, buildNumber, log):
+        options = Options(optionsPath)
+        ICDVectors.SymDirectory = options.SymbolFilesDirectory
+        ICDParameterSpec.initialize(buildNumber);
+        dut = DUT.createInstance()
+        dut.read(options.DutFile)
+
+        communicationSystemLoggerProperties = ".\CommunicationSystem.logger.properties"
+        communicationSystemLog = log.Filename.Replace('.log', "_CommunicationSystem.Log")
+        self.fwdvt = Dvt.FwDvtSystem(options, log, communicationSystemLoggerProperties, communicationSystemLog);
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        if not self.fwdvt == None:
+            self.fwdvt.cleanup()
+            self.fwdvt = None
+
+    def __del__(self):
+        self.__exit__()
+
+
+class PyScript(object):
+    def __init__(self, optionsPath, buildNumber, logName):
+        self.optionsPath = optionsPath
+        self.buildNumber = buildNumber
+        self.logName = logName
+
+        self.passed = False
+
+    def run(self):
+        self.log = createLog(self.logName)
+        with PyTES(self.optionsPath, self.buildNumber, self.log) as pyTES:
+            self.icdcmd = pyTES.fwdvt.IcdCmd
+#            self.nprb = pyTES.fwdvt.NPrb
+            self.TestProcedure = pyTES.fwdvt.TestProcedure
+            self.script()
+            pyTES.fwdvt.TestProcedure.Passed = self.passed
+
+    def script(self):
+        return None
+

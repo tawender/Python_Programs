@@ -1,0 +1,1665 @@
+  PRB CC1020 FREQ_2A =  53
+  PRB CC1020 FREQ_1A =  240
+  PRB CC1020 FREQ_0A =  33
+  PRB CC1020 CLOCK_A =  56
+  PRB CC1020 FREQ_2B =  53
+  PRB CC1020 FREQ_1B =  250
+  PRB CC1020 FREQ_0B =  203
+  PRB CC1020 CLOCK_B =  56
+  PRB CC1020 MATCH =  0
+  PRB CC1020 STATUS1 =  108
+  PRB CC1020 STATUS2 =  102
+  PRB CC1020 STATUS3 =  68
+type(devList): <type 'DeviceIDList'>
+Loop Index =    time =  0 1.50857162014e-05
+Candidate Frequency = 402.8183MHz, LSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[205]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[2] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[3] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[4] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[5] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[6] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+DeviceID[7] : ID 0x80200C3A (Model 0, Serial 3130, SW Version 8, Is Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB Average AFC =  -0.1
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  62
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB Average RSSI =  63.6
+  S-ICD CC1000 FREQ_2A =  88
+  S-ICD CC1000 FREQ_1A =  160
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  88
+  S-ICD CC1000 FREQ_1B =  166
+  S-ICD CC1000 FREQ_0B =  168
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  7
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  30
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  1 49.8822978898
+Candidate Frequency = 403.5108MHz, HSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[379]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x80000085 (Model 0, Serial 133, SW Version 0, Is Implanted)
+DeviceID[2] : ID 0x00100508 (Model 0, Serial 1288, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[4] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[5] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[6] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[7] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[8] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[9] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+DeviceID[10] : ID 0x80200C3A (Model 0, Serial 3130, SW Version 8, Is Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB Average AFC =  -0.3
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  65
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB Average RSSI =  63.8
+  S-ICD CC1000 FREQ_2A =  82
+  S-ICD CC1000 FREQ_1A =  0
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  81
+  S-ICD CC1000 FREQ_1B =  246
+  S-ICD CC1000 FREQ_0B =  133
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  6
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  2 99.7988906411
+Candi4ate Frequency = 402.4942MHz, LSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[552]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[2] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[3] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[4] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[5] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[6] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[8] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB Average AFC =  -0.3
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.8
+  S-ICD CC1000 FREQ_2A =  95
+  S-ICD CC1000 FREQ_1A =  96
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  95
+  S-ICD CC1000 FREQ_1B =  103
+  S-ICD CC1000 FREQ_0B =  44
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  7
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  3 149.800481625
+Candidate Frequency = 404.6167MHz, HSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[725]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[2] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[4] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[5] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[6] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[8] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[9] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+DeviceID[10] : ID 0x80200C3A (Model 0, Serial 3130, SW Version 8, Is Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  -0.2
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB Average RSSI =  63.7
+  S-ICD CC1000 FREQ_2A =  68
+  S-ICD CC1000 FREQ_1A =  128
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  68
+  S-ICD CC1000 FREQ_1B =  120
+  S-ICD CC1000 FREQ_0B =  26
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  6
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  4 200.395831872
+Candidate Frequency = 402.7209MHz, HSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[900]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[2] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[4] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[5] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[6] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[8] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+DeviceID[9] : ID 0x80200C3A (Model 0, Serial 3130, SW Version 8, Is Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB Average AFC =  0.6
+  PRB FREQ_A =  3534831
+  PRB FREQ_B =  3537561
+  PRB AFC_A =  -25
+  PRB AFC_B =  -25
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB Average RSSI =  63.8
+  S-ICD CC1000 FREQ_2A =  95
+  S-ICD CC1000 FREQ_1A =  128
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  95
+  S-ICD CC1000 FREQ_1B =  116
+  S-ICD CC1000 FREQ_0B =  241
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  7
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  5 249.798780013
+Candidate Frequency = 402.4049MHz, HSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[1073]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[3] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[4] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[5] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[6] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[7] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+DeviceID[8] : ID 0x80200C3A (Model 0, Serial 3130, SW Version 8, Is Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB Average AFC =  0.4
+  PRB FREQ_A =  3534831
+  PRB FREQ_B =  3537561
+  PRB AFC_A =  -25
+  PRB AFC_B =  -25
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.7
+  S-ICD CC1000 FREQ_2A =  68
+  S-ICD CC1000 FREQ_1A =  32
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  68
+  S-ICD CC1000 FREQ_1B =  24
+  S-ICD CC1000 FREQ_0B =  26
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  7
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  6 299.813070097
+Candidate Frequency = 404.5197MHz, LSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[1246]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[2] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[4] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[5] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[6] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[7] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+DeviceID[8] : ID 0x80200C3A (Model 0, Serial 3130, SW Version 8, Is Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -2
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -2
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -2
+  PRB Average AFC =  -1.3
+  PRB FREQ_A =  3534851
+  PRB FREQ_B =  3537581
+  PRB AFC_A =  -15
+  PRB AFC_B =  -15
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  65
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  64.0
+  S-ICD CC1000 FREQ_2A =  89
+  S-ICD CC1000 FREQ_1A =  0
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  89
+  S-ICD CC1000 FREQ_1B =  6
+  S-ICD CC1000 FREQ_0B =  168
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  6
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  7 353.800064813
+Candidate Frequency = 402.7049MHz, LSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[1421]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[3] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[4] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[5] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[6] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[7] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -3
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  -0.7
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  64.0
+  S-ICD CC1000 FREQ_2A =  68
+  S-ICD CC1000 FREQ_1A =  32
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  68
+  S-ICD CC1000 FREQ_1B =  37
+  S-ICD CC1000 FREQ_0B =  31
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  7
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  8 403.798787835
+Candidate Frequency = 402.8183MHz, LSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[1594]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[2] : ID 0x801C05A5 (Model 0, Serial 1445, SW Version 7, Is Implanted)
+DeviceID[3] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[4] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[5] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[6] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[8] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[9] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB Average AFC =  0.6
+  PRB FREQ_A =  3534831
+  PRB FREQ_B =  3537561
+  PRB AFC_A =  -25
+  PRB AFC_B =  -25
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB Average RSSI =  63.7
+  S-ICD CC1000 FREQ_2A =  88
+  S-ICD CC1000 FREQ_1A =  160
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  88
+  S-ICD CC1000 FREQ_1B =  166
+  S-ICD CC1000 FREQ_0B =  168
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  7
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  30
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  9 453.797397435
+Candidate Frequency = 403.5108MHz, HSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[1767]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[2] : ID 0x00100610 (Model 0, Serial 1552, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[4] : ID 0x801C05A5 (Model 0, Serial 1445, SW Version 7, Is Implanted)
+DeviceID[5] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[6] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[7] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[8] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[9] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[10] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -2
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  -0.5
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB Average RSSI =  63.5
+  S-ICD CC1000 FREQ_2A =  82
+  S-ICD CC1000 FREQ_1A =  0
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  81
+  S-ICD CC1000 FREQ_1B =  246
+  S-ICD CC1000 FREQ_0B =  133
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  6
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  10 503.796146438
+Candi4ate Frequency = 402.4942MHz, LSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[1940]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x801C05A5 (Model 0, Serial 1445, SW Version 7, Is Implanted)
+DeviceID[3] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[4] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[5] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[6] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[8] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[9] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  0.1
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.6
+  S-ICD CC1000 FREQ_2A =  95
+  S-ICD CC1000 FREQ_1A =  96
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  95
+  S-ICD CC1000 FREQ_1B =  103
+  S-ICD CC1000 FREQ_0B =  44
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  7
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  11 553.809316268
+Candidate Frequency = 404.6167MHz, HSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[2113]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x801C05A5 (Model 0, Serial 1445, SW Version 7, Is Implanted)
+DeviceID[2] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[3] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[4] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[5] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[6] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[8] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB Average AFC =  -0.4
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.7
+  S-ICD CC1000 FREQ_2A =  68
+  S-ICD CC1000 FREQ_1A =  128
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  68
+  S-ICD CC1000 FREQ_1B =  120
+  S-ICD CC1000 FREQ_0B =  26
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  6
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  12 603.796321320
+Candidate Frequency = 402.7209MHz, HSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[2287]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[3] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[4] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[5] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[6] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[7] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+DeviceID[8] : ID 0x80200C3A (Model 0, Serial 3130, SW Version 8, Is Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  -0.1
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB Average RSSI =  63.4
+  S-ICD CC1000 FREQ_2A =  95
+  S-ICD CC1000 FREQ_1A =  128
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  95
+  S-ICD CC1000 FREQ_1B =  116
+  S-ICD CC1000 FREQ_0B =  241
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  7
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  13 653.795993346
+Candidate Frequency = 402.4049MHz, HSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[2461]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[2] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x801C05A5 (Model 0, Serial 1445, SW Version 7, Is Implanted)
+DeviceID[4] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[5] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[6] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[7] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[8] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[9] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[10] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB Average AFC =  -0.5
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB Average RSSI =  63.8
+  S-ICD CC1000 FREQ_2A =  68
+  S-ICD CC1000 FREQ_1A =  32
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  68
+  S-ICD CC1000 FREQ_1B =  24
+  S-ICD CC1000 FREQ_0B =  26
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  7
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  14 703.795613409
+Candidate Frequency = 404.5197MHz, LSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[2635]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[2] : ID 0x801C05A5 (Model 0, Serial 1445, SW Version 7, Is Implanted)
+DeviceID[3] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[4] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[5] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[6] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[8] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[9] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB Average AFC =  -0.1
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB Average RSSI =  63.8
+  S-ICD CC1000 FREQ_2A =  89
+  S-ICD CC1000 FREQ_1A =  0
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  89
+  S-ICD CC1000 FREQ_1B =  6
+  S-ICD CC1000 FREQ_0B =  168
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  6
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  15 753.794345091
+Candidate Frequency = 402.7049MHz, LSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[2808]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[2] : ID 0x801C05A5 (Model 0, Serial 1445, SW Version 7, Is Implanted)
+DeviceID[3] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[4] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[5] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[6] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[8] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[9] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB Average AFC =  -0.3
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.9
+  S-ICD CC1000 FREQ_2A =  68
+  S-ICD CC1000 FREQ_1A =  32
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  68
+  S-ICD CC1000 FREQ_1B =  37
+  S-ICD CC1000 FREQ_0B =  31
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  7
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  16 803.841789669
+Candidate Frequency = 402.8183MHz, LSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[2980]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x00100508 (Model 0, Serial 1288, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x801C05A5 (Model 0, Serial 1445, SW Version 7, Is Implanted)
+DeviceID[3] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[4] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[5] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[6] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[8] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[9] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -3
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB Average AFC =  -0.4
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB Average RSSI =  63.7
+  S-ICD CC1000 FREQ_2A =  88
+  S-ICD CC1000 FREQ_1A =  160
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  88
+  S-ICD CC1000 FREQ_1B =  166
+  S-ICD CC1000 FREQ_0B =  168
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  7
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  17 854.372695412
+Candidate Frequency = 403.5108MHz, HSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[3156]
+DeviceID[0] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+DeviceID[1] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x00100508 (Model 0, Serial 1288, SW Version 4, Is Not Implanted)
+DeviceID[4] : ID 0x80000085 (Model 0, Serial 133, SW Version 0, Is Implanted)
+DeviceID[5] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[6] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[7] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[8] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[9] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[10] : ID 0x801C05A5 (Model 0, Serial 1445, SW Version 7, Is Implanted)
+DeviceID[11] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB Average AFC =  -0.3
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  65
+  PRB Average RSSI =  63.9
+  S-ICD CC1000 FREQ_2A =  82
+  S-ICD CC1000 FREQ_1A =  0
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  81
+  S-ICD CC1000 FREQ_1B =  246
+  S-ICD CC1000 FREQ_0B =  133
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  7
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  18 903.839204703
+Candi4ate Frequency = 402.4942MHz, LSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[3331]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[2] : ID 0x801C05A5 (Model 0, Serial 1445, SW Version 7, Is Implanted)
+DeviceID[3] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[4] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[5] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[6] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[8] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[9] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB Average AFC =  -0.2
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.9
+  S-ICD CC1000 FREQ_2A =  95
+  S-ICD CC1000 FREQ_1A =  96
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  95
+  S-ICD CC1000 FREQ_1B =  103
+  S-ICD CC1000 FREQ_0B =  44
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  7
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  19 954.341721923
+Candidate Frequency = 404.6167MHz, HSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[3505]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[3] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[4] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[5] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[6] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[8] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB Average AFC =  -0.3
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  62
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.3
+  S-ICD CC1000 FREQ_2A =  68
+  S-ICD CC1000 FREQ_1A =  128
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  68
+  S-ICD CC1000 FREQ_1B =  120
+  S-ICD CC1000 FREQ_0B =  26
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  6
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  20 1003.72905802
+Candidate Frequency = 402.7209MHz, HSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[3678]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[2] : ID 0x00100508 (Model 0, Serial 1288, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[4] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[5] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[6] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[8] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[9] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  -1
+  PRB Average AFC =  -0.2
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.6
+  S-ICD CC1000 FREQ_2A =  95
+  S-ICD CC1000 FREQ_1A =  128
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  95
+  S-ICD CC1000 FREQ_1B =  116
+  S-ICD CC1000 FREQ_0B =  241
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  7
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  21 1053.78827868
+Candidate Frequency = 402.4049MHz, HSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[3851]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x00100508 (Model 0, Serial 1288, SW Version 4, Is Not Implanted)
+DeviceID[2] : ID 0x801C05A5 (Model 0, Serial 1445, SW Version 7, Is Implanted)
+DeviceID[3] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[4] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[5] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[6] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[8] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[9] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB Average AFC =  -0.1
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.9
+  S-ICD CC1000 FREQ_2A =  68
+  S-ICD CC1000 FREQ_1A =  32
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  68
+  S-ICD CC1000 FREQ_1B =  24
+  S-ICD CC1000 FREQ_0B =  26
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  7
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  22 1103.83766820
+Candidate Frequency = 404.5197MHz, LSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[4023]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[2] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[3] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[4] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[5] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[6] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[7] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[8] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB AFC =  1
+  PRB AFC =  -1
+  PRB AFC =  -1
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  0
+  PRB AFC =  -1
+  PRB Average AFC =  -0.2
+  PRB FREQ_A =  3534841
+  PRB FREQ_B =  3537571
+  PRB AFC_A =  -20
+  PRB AFC_B =  -20
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB Average RSSI =  63.4
+  S-ICD CC1000 FREQ_2A =  89
+  S-ICD CC1000 FREQ_1A =  0
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  89
+  S-ICD CC1000 FREQ_1B =  6
+  S-ICD CC1000 FREQ_0B =  168
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  6
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0
+Loop Index =    time =  23 1153.79244736
+Candidate Frequency = 402.7049MHz, LSI
+  PRB FREQ_A =  3534881
+  PRB FREQ_B =  3537611
+  type(devList): <type 'DeviceIDList'>
+  devList  Device ID List, ID[4197]
+DeviceID[0] : ID 0x001004FB (Model 0, Serial 1275, SW Version 4, Is Not Implanted)
+DeviceID[1] : ID 0x802004F2 (Model 0, Serial 1266, SW Version 8, Is Implanted)
+DeviceID[2] : ID 0x0010055D (Model 0, Serial 1373, SW Version 4, Is Not Implanted)
+DeviceID[3] : ID 0x801C05A5 (Model 0, Serial 1445, SW Version 7, Is Implanted)
+DeviceID[4] : ID 0x00140711 (Model 0, Serial 1809, SW Version 5, Is Not Implanted)
+DeviceID[5] : ID 0x80000009 (Model 0, Serial 9, SW Version 0, Is Implanted)
+DeviceID[6] : ID 0x801C0B14 (Model 0, Serial 2836, SW Version 7, Is Implanted)
+DeviceID[7] : ID 0x001005B0 (Model 0, Serial 1456, SW Version 4, Is Not Implanted)
+DeviceID[8] : ID 0x001005BB (Model 0, Serial 1467, SW Version 4, Is Not Implanted)
+DeviceID[9] : ID 0x80040D5D (Model 0, Serial 3421, SW Version 1, Is Implanted)
+DeviceID[10] : ID 0x0018055B (Model 0, Serial 1371, SW Version 6, Is Not Implanted)
+  Channel Selection =  0
+  Data inversion =  1
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  1
+  PRB AFC =  0
+  PRB AFC =  1
+  PRB Average AFC =  0.7
+  PRB FREQ_A =  3534831
+  PRB FREQ_B =  3537561
+  PRB AFC_A =  -25
+  PRB AFC_B =  -25
+  PRB CC1020 FILTER =  34
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  63
+  PRB RSSI =  64
+  PRB RSSI =  64
+  PRB Average RSSI =  63.4
+  S-ICD CC1000 FREQ_2A =  68
+  S-ICD CC1000 FREQ_1A =  32
+  S-ICD CC1000 FREQ_0A =  0
+  S-ICD CC1000 FREQ_2B =  68
+  S-ICD CC1000 FREQ_1B =  37
+  S-ICD CC1000 FREQ_0B =  31
+  S-ICD CC1000 Tx Test6 =  16
+  S-ICD CC1000 Tx Test5 =  8
+  S-ICD CC1000 Tx Test4 =  63
+  S-ICD CC1000 Tx Test3 =  4
+  S-ICD CC1000 Tx Test2 =  31
+  S-ICD CC1000 Tx Test1 =  7
+  S-ICD CC1000 Tx Test0 =  7
+  S-ICD CC1000 Rx Test6 =  16
+  S-ICD CC1000 Rx Test5 =  8
+  S-ICD CC1000 Rx Test4 =  63
+  S-ICD CC1000 Rx Test3 =  4
+  S-ICD CC1000 Rx Test2 =  31
+  S-ICD CC1000 Rx Test1 =  7
+  S-ICD CC1000 Rx Test0 =  10
+  S-ICD CC1000 Tx Cal Failure Count =  0
+  S-ICD CC1000 Tx Lock Failure Count =  0
+  S-ICD CC1000 Rx Cal Failure Count =  0
+  S-ICD CC1000 Rx Lock Failure Count =  0

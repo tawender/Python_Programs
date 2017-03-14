@@ -1,0 +1,408 @@
+2013/08/02 21:12:54:644  INFO:   Loaded Symbol File C:\ISV System\Config\FirmwareSymbols\build178.sym for firmware Build #178
+2013/08/02 21:12:54:658  INFO:   CommunicationSystemLog properties: .\CommunicationSystem.logger.properties
+2013/08/02 21:12:54:658  INFO:   CommunicationSystemLog log       : .\logs\systemBerScriptLog 2013.08.02 21.12.54_CommunicationSystem.Log
+2013/08/02 21:12:58:377  INFO:   Setting the event sink for ScriptEngineProcedure
+2013/08/02 21:12:58:377  INFO:   Program parameters checks are enabled
+2013/08/02 21:12:58:382  INFO:   ********************************************************************************
+2013/08/02 21:12:58:382  INFO:   Starting ScriptEngineProcedure, Assembly  version 
+2013/08/02 21:12:58:384  INFO:   Config: ICD (NCommunicationSystem ver: nCommunicationSystem, Version=1.8.2.1, Culture=neutral, PublicKeyToken=56b5378c99c0bcfd; FTDI Driver ver: 2.08.24.0; PRB FPGA ver: 7)
+2013/08/02 21:12:58:384  INFO:   Setting the radio board transmit power to level 0x7.
+2013/08/02 21:12:58:385  INFO:   Radio board power level set to 7.
+2013/08/02 21:12:58:386  INFO:   ECG Timeout Interval set to 10 seconds.
+2013/08/02 21:12:58:387  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:12:58:387  INFO:   FwDvtSystem Started the event processing thread
+2013/08/02 21:12:58:418  ACTION: Read PRB FPGA: Address=0x3000 Data=0x07
+2013/08/02 21:12:58:423  RESULT: FPGA 0x3000 Expected: 18 Actual: 7
+2013/08/02 21:12:58:425  RESULT: ERROR Expected: 18 Actual: 7
+2013/08/02 21:12:58:426  ACTION: Calibrate CC1020
+2013/08/02 21:12:58:515  INFO:   CC1020 calibration passed
+2013/08/02 21:12:58:520  ACTION: Read C1020: Address 0x04 Data=0x35
+2013/08/02 21:12:58:523  ACTION: Read C1020: Address 0x05 Data=0xF0
+2013/08/02 21:12:58:524  ACTION: Read C1020: Address 0x06 Data=0x21
+2013/08/02 21:12:58:526  ACTION: Read C1020: Address 0x07 Data=0x38
+2013/08/02 21:12:58:527  ACTION: Read C1020: Address 0x08 Data=0x35
+2013/08/02 21:12:58:528  ACTION: Read C1020: Address 0x09 Data=0xFA
+2013/08/02 21:12:58:530  ACTION: Read C1020: Address 0x0A Data=0xCB
+2013/08/02 21:12:58:531  ACTION: Read C1020: Address 0x0B Data=0x38
+2013/08/02 21:12:58:532  ACTION: Read C1020: Address 0x1D Data=0x00
+2013/08/02 21:12:58:534  ACTION: Read C1020: Address 0x45 Data=0x4C
+2013/08/02 21:12:58:535  ACTION: Read C1020: Address 0x46 Data=0x66
+2013/08/02 21:12:58:536  ACTION: Read C1020: Address 0x47 Data=0x44
+2013/08/02 21:12:58:544  ACTION: Read PRB FPGA: Address=0x305E Data=0x00
+2013/08/02 21:12:58:545  ACTION: Read PRB FPGA: Address=0x3060 Data=0x00
+2013/08/02 21:12:58:546  ACTION: Read PRB FPGA: Address=0x3062 Data=0x00
+2013/08/02 21:12:58:551  ACTION: Read PRB FPGA: Address=0x3066 Data=0x00
+2013/08/02 21:12:58:551  ACTION: Read PRB FPGA: Address=0x3068 Data=0x00
+2013/08/02 21:12:58:552  ACTION: Read PRB FPGA: Address=0x306A Data=0x00
+2013/08/02 21:12:58:554  ACTION: Write PRB FPGA: Address=0x1026 Data=0x00
+2013/08/02 21:12:58:559  INFO:   EXECUTING STATE: SMLibrary.Dvt.IcdCmd+ScanState Timeout: 00:00:30
+2013/08/02 21:12:58:560  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/08/02 21:12:58:561  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/08/02 21:12:58:561  INFO:   Setting the radio board transmit power to level 0x7.
+2013/08/02 21:12:58:562  INFO:   Radio board power level set to 7.
+2013/08/02 21:12:58:563  ACTION: Setting radio board configuration for hybrid.
+2013/08/02 21:12:58:563  ACTION: Set radio board to DIO inverting mode.
+2013/08/02 21:12:58:563  ACTION: Write PRB FPGA: Address=0x3012 Data=0x01
+2013/08/02 21:12:58:564  ACTION: PRB Set Link Data Rate: Slow
+2013/08/02 21:12:58:565  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/08/02 21:12:58:565  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/08/02 21:12:58:566  ACTION: Scanning for devices, primary scan duration = 9 sec, secondary scan duration = 2 sec
+2013/08/02 21:13:09:712  INFO:   Primary scan device IDs: No devices found
+2013/08/02 21:13:13:837  INFO:   Secondary scan device IDs: 0x801C0094 
+2013/08/02 21:13:13:839  EVENT:  Device ID List, ID[17]
+                                 DeviceID[0] : ID 0x801C0094 (Model 0, Serial 148, SW Version 7, Is Implanted)
+2013/08/02 21:13:13:840  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:13:840  INFO:   STATE EXITED: SMLibrary.Dvt.IcdCmd+ScanState
+2013/08/02 21:13:13:868  INFO:   EXECUTING STATE: SMLibrary.Dvt.IcdCmd+ConnectState Timeout: 00:00:24
+2013/08/02 21:13:13:868  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/08/02 21:13:13:868  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/08/02 21:13:13:869  ACTION: PRB Set Link Data Rate: Slow
+2013/08/02 21:13:13:870  ACTION: Read PRB FPGA: Address=0x1004 Data=0x00
+2013/08/02 21:13:13:870  ACTION: Write PRB FPGA: Address=0x1004 Data=0x00
+2013/08/02 21:13:13:870  ACTION: Connecting to device ID 0x801C0094 (Model 0, Serial 148, SW Version 7, Is Implanted)
+2013/08/02 21:13:16:656  INFO:   Registering the ICD session delegates
+2013/08/02 21:13:16:656  EVENT:  Connect Succeeded, ID[19]
+2013/08/02 21:13:16:656  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:16:656  INFO:   STATE EXITED: SMLibrary.Dvt.IcdCmd+ConnectState
+2013/08/02 21:13:16:660  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.3120000
+2013/08/02 21:13:16:660  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:16:660  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:16:661  STATE:  Changing state to ReadSM.ReadingState, ID[8]
+2013/08/02 21:13:16:662  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=SYS_ERRORS(0xF56C) Length=1
+2013/08/02 21:13:16:724  EVENT:  Command Completed, ID[23], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), CRC32=0xE69CA3FE, Data=0xB0
+2013/08/02 21:13:16:726  EVENT:  Read Memory Complete, ID[24]
+2013/08/02 21:13:16:726  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:16:726  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:16:726  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:16:731  INFO:   EXECUTING STATE: IronPython.NewTypes.System.Object#IScriptExecState_5$5 Timeout: 00:00:02
+2013/08/02 21:13:16:731  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/08/02 21:13:16:731  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/08/02 21:13:16:732  ACTION: Return Last Command
+2013/08/02 21:13:16:758  EVENT:  Command Completed, ID[26], Command=0x60 (Return Last Command), time since last CMDCompleted: 35 ms,
+                                 0x00 : 82801C00 94   
+2013/08/02 21:13:16:763  EVENT:  Marker (Device Summary), ID[27], Timestamp=0xF2[full:not set], Data[0]=0x00, Data[1]=0x40 DynamicShockPolarity=HVA_POSITIVE SystemErrorOccurred 
+2013/08/02 21:13:16:763  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:16:763  INFO:   STATE EXITED: IronPython.NewTypes.System.Object#IScriptExecState_5$5
+2013/08/02 21:13:16:764  INFO:   EXECUTING STATE: IronPython.NewTypes.System.Object#IScriptExecState_5$5 Timeout: 00:00:02
+2013/08/02 21:13:16:764  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/08/02 21:13:16:764  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/08/02 21:13:16:764  ACTION: Return Last Command
+2013/08/02 21:13:16:790  EVENT:  Command Completed, ID[29], Command=0x60 (Return Last Command), time since last CMDCompleted: 32 ms,
+                                 0x00 : 82801C00 94   
+2013/08/02 21:13:16:791  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:16:791  INFO:   STATE EXITED: IronPython.NewTypes.System.Object#IScriptExecState_5$5
+2013/08/02 21:13:16:792  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.3120000
+2013/08/02 21:13:16:792  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:16:792  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:16:792  STATE:  Changing state to ReadSM.ReadingState, ID[9]
+2013/08/02 21:13:16:792  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=SYS_ERRORS(0xF56C) Length=1
+2013/08/02 21:13:16:836  EVENT:  Command Completed, ID[33], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 46 ms, CRC32=0xE69CA3FE, Data=0xB0
+2013/08/02 21:13:16:836  EVENT:  Read Memory Complete, ID[34]
+2013/08/02 21:13:16:836  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:16:836  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:16:836  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:16:836  INFO:   EXECUTING STATE: IronPython.NewTypes.System.Object#IScriptExecState_5$5 Timeout: 00:00:02
+2013/08/02 21:13:16:836  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/08/02 21:13:16:836  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/08/02 21:13:16:836  ACTION: Return Last Command
+2013/08/02 21:13:16:867  EVENT:  Command Completed, ID[36], Command=0x60 (Return Last Command), time since last CMDCompleted: 31 ms,
+                                 0x00 : 92801C00 94   
+2013/08/02 21:13:16:868  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:16:868  INFO:   STATE EXITED: IronPython.NewTypes.System.Object#IScriptExecState_5$5
+2013/08/02 21:13:16:869  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.3120000
+2013/08/02 21:13:16:869  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:16:869  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:16:869  STATE:  Changing state to ReadSM.ReadingState, ID[10]
+2013/08/02 21:13:16:869  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=SYS_ERRORS(0xF56C) Length=1
+2013/08/02 21:13:16:918  EVENT:  Command Completed, ID[40], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 51 ms, CRC32=0xE69CA3FE, Data=0xB0
+2013/08/02 21:13:16:918  EVENT:  Read Memory Complete, ID[41]
+2013/08/02 21:13:16:918  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:16:918  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:16:918  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:16:918  INFO:   EXECUTING STATE: IronPython.NewTypes.System.Object#IScriptExecState_5$5 Timeout: 00:00:02
+2013/08/02 21:13:16:918  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/08/02 21:13:16:918  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/08/02 21:13:16:919  ACTION: Return Last Command
+2013/08/02 21:13:16:949  EVENT:  Command Completed, ID[43], Command=0x60 (Return Last Command), time since last CMDCompleted: 31 ms,
+                                 0x00 : 92801C00 94   
+2013/08/02 21:13:16:950  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:16:950  INFO:   STATE EXITED: IronPython.NewTypes.System.Object#IScriptExecState_5$5
+2013/08/02 21:13:16:950  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.3120000
+2013/08/02 21:13:16:950  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:16:950  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:16:950  STATE:  Changing state to ReadSM.ReadingState, ID[11]
+2013/08/02 21:13:16:950  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=SYS_ERRORS(0xF56C) Length=1
+2013/08/02 21:13:16:995  EVENT:  Command Completed, ID[47], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 46 ms, CRC32=0xE69CA3FE, Data=0xB0
+2013/08/02 21:13:16:995  EVENT:  Read Memory Complete, ID[48]
+2013/08/02 21:13:16:995  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:16:995  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:16:995  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:16:996  INFO:   EXECUTING STATE: IronPython.NewTypes.System.Object#IScriptExecState_5$5 Timeout: 00:00:02
+2013/08/02 21:13:16:996  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/08/02 21:13:16:996  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/08/02 21:13:16:996  ACTION: Return Last Command
+2013/08/02 21:13:17:058  EVENT:  Command Completed, ID[50], Command=0x60 (Return Last Command), time since last CMDCompleted: 63 ms,
+                                 0x00 : 92801C00 94   
+2013/08/02 21:13:17:059  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:059  INFO:   STATE EXITED: IronPython.NewTypes.System.Object#IScriptExecState_5$5
+2013/08/02 21:13:17:062  INFO:   EXECUTING STATE MACHINE: SMLibrary.WriteSM Timeout: 00:00:01.4360000
+2013/08/02 21:13:17:062  EVENT:  SCRIPT-EXEC:EXEC-DVT-SM - TES.Dvt.ScriptExecStateMachine, ID[10]
+2013/08/02 21:13:17:062  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineState, ID[3]
+2013/08/02 21:13:17:063  STATE:  Changing state to WriteSM.WritingState, ID[12]
+2013/08/02 21:13:17:064  ACTION: Write RAM, Address=(0x00F1C0), Length=1, Data=0x07
+2013/08/02 21:13:17:119  EVENT:  Command Completed, ID[54], Command=0x81 (Write to 16-bit Address), time since last CMDCompleted: 61 ms
+2013/08/02 21:13:17:120  EVENT:  SMLibrary.WriteSM.DoneEvent, ID[51]
+2013/08/02 21:13:17:120  STATE:  Changing state to WriteSM.IdleState, ID[6]
+2013/08/02 21:13:17:120  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:120  INFO:   STATE MACHINE EXITED: SMLibrary.WriteSM
+2013/08/02 21:13:17:120  INFO:   EXECUTING STATE: IronPython.NewTypes.System.Object#IScriptExecState_5$5 Timeout: 00:00:02
+2013/08/02 21:13:17:120  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/08/02 21:13:17:120  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/08/02 21:13:17:120  ACTION: Return Last Command
+2013/08/02 21:13:17:150  EVENT:  Command Completed, ID[56], Command=0x60 (Return Last Command), time since last CMDCompleted: 31 ms,
+                                 0x00 : 81801C00 94   
+2013/08/02 21:13:17:151  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:151  INFO:   STATE EXITED: IronPython.NewTypes.System.Object#IScriptExecState_5$5
+2013/08/02 21:13:17:152  INFO:   EXECUTING STATE MACHINE: SMLibrary.WriteSM Timeout: 00:00:01.4360000
+2013/08/02 21:13:17:152  EVENT:  SCRIPT-EXEC:EXEC-DVT-SM - TES.Dvt.ScriptExecStateMachine, ID[10]
+2013/08/02 21:13:17:152  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineState, ID[3]
+2013/08/02 21:13:17:152  STATE:  Changing state to WriteSM.WritingState, ID[13]
+2013/08/02 21:13:17:152  ACTION: Write RAM, Address=(0x00F1C0), Length=1, Data=0x07
+2013/08/02 21:13:17:196  EVENT:  Command Completed, ID[60], Command=0x81 (Write to 16-bit Address), time since last CMDCompleted: 46 ms
+2013/08/02 21:13:17:196  EVENT:  SMLibrary.WriteSM.DoneEvent, ID[57]
+2013/08/02 21:13:17:196  STATE:  Changing state to WriteSM.IdleState, ID[6]
+2013/08/02 21:13:17:196  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:196  INFO:   STATE MACHINE EXITED: SMLibrary.WriteSM
+2013/08/02 21:13:17:196  INFO:   EXECUTING STATE: IronPython.NewTypes.System.Object#IScriptExecState_5$5 Timeout: 00:00:02
+2013/08/02 21:13:17:196  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/08/02 21:13:17:196  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/08/02 21:13:17:196  ACTION: Return Last Command
+2013/08/02 21:13:17:227  EVENT:  Command Completed, ID[62], Command=0x60 (Return Last Command), time since last CMDCompleted: 31 ms,
+                                 0x00 : 81801C00 94   
+2013/08/02 21:13:17:227  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:227  INFO:   STATE EXITED: IronPython.NewTypes.System.Object#IScriptExecState_5$5
+2013/08/02 21:13:17:228  INFO:   EXECUTING STATE MACHINE: SMLibrary.WriteSM Timeout: 00:00:01.4360000
+2013/08/02 21:13:17:228  EVENT:  SCRIPT-EXEC:EXEC-DVT-SM - TES.Dvt.ScriptExecStateMachine, ID[10]
+2013/08/02 21:13:17:228  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineState, ID[3]
+2013/08/02 21:13:17:228  STATE:  Changing state to WriteSM.WritingState, ID[14]
+2013/08/02 21:13:17:228  ACTION: Write RAM, Address=(0x00F1C0), Length=1, Data=0x07
+2013/08/02 21:13:17:278  EVENT:  Command Completed, ID[66], Command=0x81 (Write to 16-bit Address), time since last CMDCompleted: 51 ms
+2013/08/02 21:13:17:278  EVENT:  SMLibrary.WriteSM.DoneEvent, ID[63]
+2013/08/02 21:13:17:278  STATE:  Changing state to WriteSM.IdleState, ID[6]
+2013/08/02 21:13:17:278  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:278  INFO:   STATE MACHINE EXITED: SMLibrary.WriteSM
+2013/08/02 21:13:17:278  INFO:   EXECUTING STATE: IronPython.NewTypes.System.Object#IScriptExecState_5$5 Timeout: 00:00:02
+2013/08/02 21:13:17:278  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/08/02 21:13:17:278  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/08/02 21:13:17:278  ACTION: Return Last Command
+2013/08/02 21:13:17:309  EVENT:  Command Completed, ID[68], Command=0x60 (Return Last Command), time since last CMDCompleted: 31 ms,
+                                 0x00 : 81801C00 94   
+2013/08/02 21:13:17:309  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:309  INFO:   STATE EXITED: IronPython.NewTypes.System.Object#IScriptExecState_5$5
+2013/08/02 21:13:17:310  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.3120000
+2013/08/02 21:13:17:310  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:17:310  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:17:310  STATE:  Changing state to ReadSM.ReadingState, ID[15]
+2013/08/02 21:13:17:310  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=SYS_ERRORS(0xF56C) Length=1
+2013/08/02 21:13:17:355  EVENT:  Command Completed, ID[72], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 46 ms, CRC32=0xE69CA3FE, Data=0xB0
+2013/08/02 21:13:17:355  EVENT:  Read Memory Complete, ID[73]
+2013/08/02 21:13:17:355  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:17:355  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:355  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:17:356  INFO:   EXECUTING STATE: IronPython.NewTypes.System.Object#IScriptExecState_5$5 Timeout: 00:00:02
+2013/08/02 21:13:17:356  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/08/02 21:13:17:356  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/08/02 21:13:17:356  ACTION: Return Last Command
+2013/08/02 21:13:17:386  EVENT:  Command Completed, ID[75], Command=0x60 (Return Last Command), time since last CMDCompleted: 31 ms,
+                                 0x00 : 82801C00 94   
+2013/08/02 21:13:17:387  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:387  INFO:   STATE EXITED: IronPython.NewTypes.System.Object#IScriptExecState_5$5
+2013/08/02 21:13:17:389  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.0780000
+2013/08/02 21:13:17:389  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:17:389  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:17:389  STATE:  Changing state to ReadSM.ReadingState, ID[16]
+2013/08/02 21:13:17:389  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=SYS_ERRORS(0xF56C) Length=1
+2013/08/02 21:13:17:432  EVENT:  Command Completed, ID[79], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 46 ms, CRC32=0xE69CA3FE, Data=0xB0
+2013/08/02 21:13:17:432  EVENT:  Read Memory Complete, ID[80]
+2013/08/02 21:13:17:432  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:17:432  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:432  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:17:433  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.0780000
+2013/08/02 21:13:17:433  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:17:433  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:17:433  STATE:  Changing state to ReadSM.ReadingState, ID[17]
+2013/08/02 21:13:17:433  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=SYS_ERRORS(0xF56C) Length=1
+2013/08/02 21:13:17:478  EVENT:  Command Completed, ID[84], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 46 ms, CRC32=0xE69CA3FE, Data=0xB0
+2013/08/02 21:13:17:478  EVENT:  Read Memory Complete, ID[85]
+2013/08/02 21:13:17:478  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:17:478  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:478  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:17:478  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.0780000
+2013/08/02 21:13:17:478  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:17:478  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:17:478  STATE:  Changing state to ReadSM.ReadingState, ID[18]
+2013/08/02 21:13:17:478  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=SYS_ERRORS(0xF56C) Length=1
+2013/08/02 21:13:17:525  EVENT:  Command Completed, ID[89], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 47 ms, CRC32=0xE69CA3FE, Data=0xB0
+2013/08/02 21:13:17:525  EVENT:  Read Memory Complete, ID[90]
+2013/08/02 21:13:17:525  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:17:525  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:525  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:17:528  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.3120000
+2013/08/02 21:13:17:528  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:17:528  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:17:528  STATE:  Changing state to ReadSM.ReadingState, ID[19]
+2013/08/02 21:13:17:528  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=SYS_ERRORS16(0xF56C) Length=2
+2013/08/02 21:13:17:571  EVENT:  Command Completed, ID[94], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 46 ms, CRC32=0x2C3F0228, Data=0xB040
+2013/08/02 21:13:17:571  EVENT:  Read Memory Complete, ID[95]
+2013/08/02 21:13:17:571  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:17:571  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:571  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:17:573  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.3120000
+2013/08/02 21:13:17:573  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:17:573  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:17:573  STATE:  Changing state to ReadSM.ReadingState, ID[20]
+2013/08/02 21:13:17:573  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=(0xFA00) Length=1
+2013/08/02 21:13:17:622  EVENT:  Command Completed, ID[99], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 51 ms, CRC32=0x4D4D9EA7, Data=0x9F
+2013/08/02 21:13:17:622  EVENT:  Read Memory Complete, ID[100]
+2013/08/02 21:13:17:622  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:17:622  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:622  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:17:622  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.3120000
+2013/08/02 21:13:17:622  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:17:622  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:17:622  STATE:  Changing state to ReadSM.ReadingState, ID[21]
+2013/08/02 21:13:17:622  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=(0xFA01) Length=1
+2013/08/02 21:13:17:668  EVENT:  Command Completed, ID[104], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 46 ms, CRC32=0xA12E6C81, Data=0x5E
+2013/08/02 21:13:17:668  EVENT:  Read Memory Complete, ID[105]
+2013/08/02 21:13:17:668  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:17:668  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:668  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:17:668  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.3120000
+2013/08/02 21:13:17:668  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:17:668  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:17:668  STATE:  Changing state to ReadSM.ReadingState, ID[22]
+2013/08/02 21:13:17:668  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=(0xFA02) Length=1
+2013/08/02 21:13:17:714  EVENT:  Command Completed, ID[109], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 46 ms, CRC32=0x4C96EFA1, Data=0xDE
+2013/08/02 21:13:17:714  EVENT:  Read Memory Complete, ID[110]
+2013/08/02 21:13:17:714  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:17:714  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:714  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:17:714  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.3120000
+2013/08/02 21:13:17:714  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:17:714  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:17:714  STATE:  Changing state to ReadSM.ReadingState, ID[23]
+2013/08/02 21:13:17:714  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=(0xFA03) Length=1
+2013/08/02 21:13:17:719  INFO:   Enabling the timestamp/interval calculations
+2013/08/02 21:13:17:720  EVENT:  Marker (Device Summary), ID[114], Timestamp=0x6E[full:110], Data[0]=0x00, Data[1]=0x40 DynamicShockPolarity=HVA_POSITIVE SystemErrorOccurred 
+2013/08/02 21:13:17:760  EVENT:  Command Completed, ID[115], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 46 ms, CRC32=0xE99C5ACA, Data=0xF9
+2013/08/02 21:13:17:760  EVENT:  Read Memory Complete, ID[116]
+2013/08/02 21:13:17:760  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:17:760  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:760  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:17:760  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.3120000
+2013/08/02 21:13:17:760  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:17:760  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:17:760  STATE:  Changing state to ReadSM.ReadingState, ID[24]
+2013/08/02 21:13:17:760  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=(0xFA04) Length=1
+2013/08/02 21:13:17:806  EVENT:  Command Completed, ID[120], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 46 ms, CRC32=0xCA453D75, Data=0x0E
+2013/08/02 21:13:17:806  EVENT:  Read Memory Complete, ID[121]
+2013/08/02 21:13:17:806  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:17:806  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:806  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:17:807  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.3120000
+2013/08/02 21:13:17:807  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:17:807  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:17:807  STATE:  Changing state to ReadSM.ReadingState, ID[25]
+2013/08/02 21:13:17:807  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=(0xFA05) Length=1
+2013/08/02 21:13:17:857  EVENT:  Command Completed, ID[125], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 51 ms, CRC32=0x6F4F881E, Data=0x29
+2013/08/02 21:13:17:857  EVENT:  Read Memory Complete, ID[126]
+2013/08/02 21:13:17:857  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:17:857  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:857  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:17:857  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.3120000
+2013/08/02 21:13:17:857  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:17:858  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:17:858  STATE:  Changing state to ReadSM.ReadingState, ID[26]
+2013/08/02 21:13:17:858  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=(0xFA06) Length=1
+2013/08/02 21:13:17:903  EVENT:  Command Completed, ID[130], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 46 ms, CRC32=0xD2F27A02, Data=0xD9
+2013/08/02 21:13:17:903  EVENT:  Read Memory Complete, ID[131]
+2013/08/02 21:13:17:903  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:17:903  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:903  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:17:903  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.3120000
+2013/08/02 21:13:17:903  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:17:904  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:17:904  STATE:  Changing state to ReadSM.ReadingState, ID[27]
+2013/08/02 21:13:17:904  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=(0xFA07) Length=1
+2013/08/02 21:13:17:949  EVENT:  Command Completed, ID[135], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 46 ms, CRC32=0xCF456A66, Data=0xC9
+2013/08/02 21:13:17:949  EVENT:  Read Memory Complete, ID[136]
+2013/08/02 21:13:17:949  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:17:949  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:949  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:17:949  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.3120000
+2013/08/02 21:13:17:949  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:17:949  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:17:949  STATE:  Changing state to ReadSM.ReadingState, ID[28]
+2013/08/02 21:13:17:949  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=(0xFA08) Length=1
+2013/08/02 21:13:17:995  EVENT:  Command Completed, ID[140], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 46 ms, CRC32=0xD3290B04, Data=0x98
+2013/08/02 21:13:17:995  EVENT:  Read Memory Complete, ID[141]
+2013/08/02 21:13:17:995  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:17:995  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:17:995  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:17:996  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.3120000
+2013/08/02 21:13:17:996  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:17:996  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:17:996  STATE:  Changing state to ReadSM.ReadingState, ID[29]
+2013/08/02 21:13:17:996  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=(0xFA09) Length=1
+2013/08/02 21:13:18:041  EVENT:  Command Completed, ID[145], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 46 ms, CRC32=0xE69CA3FE, Data=0xB0
+2013/08/02 21:13:18:041  EVENT:  Read Memory Complete, ID[146]
+2013/08/02 21:13:18:041  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:18:041  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:18:041  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:18:043  INFO:   EXECUTING STATE MACHINE: SMLibrary.ReadSM Timeout: 00:00:01.3760000
+2013/08/02 21:13:18:043  EVENT:  SCRIPT-EXEC:EXEC-SM - TES.Dvt.ScriptExecStateMachine, ID[9]
+2013/08/02 21:13:18:043  STATE:  Changing state to ScriptExecStateMachine.ExecStateMachineWithCustomExitEventsState, ID[2]
+2013/08/02 21:13:18:043  STATE:  Changing state to ReadSM.ReadingState, ID[30]
+2013/08/02 21:13:18:043  ACTION: READ_FROM_16_BIT_ADDR_WITH_CRC32, Address=(0xFA00) Length=10
+2013/08/02 21:13:18:107  EVENT:  Command Completed, ID[150], Command=0x82 (READ_FROM_16_BIT_ADDR_WITH_CRC32), time since last CMDCompleted: 66 ms, CRC32=0x3534016A,
+                                 0x00 : 9F5EDEF9 0E29D9C9 98B0  
+2013/08/02 21:13:18:107  EVENT:  Read Memory Complete, ID[151]
+2013/08/02 21:13:18:107  STATE:  Changing state to ReadSM.IdleState, ID[6]
+2013/08/02 21:13:18:107  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:18:107  INFO:   STATE MACHINE EXITED: SMLibrary.ReadSM
+2013/08/02 21:13:18:114  ACTION: Read PRB EEPROM: Address=0x80 Data=0x00
+2013/08/02 21:13:18:116  ACTION: Read PRB EEPROM: Address=0x81 Data=0x00
+2013/08/02 21:13:18:116  ACTION: Read PRB EEPROM: Address=0x82 Data=0x00
+2013/08/02 21:13:18:117  ACTION: Read PRB EEPROM: Address=0x83 Data=0x00
+2013/08/02 21:13:18:118  ACTION: Read PRB EEPROM: Address=0x84 Data=0x00
+2013/08/02 21:13:18:119  ACTION: Read PRB EEPROM: Address=0x85 Data=0x00
+2013/08/02 21:13:18:120  ACTION: Read PRB EEPROM: Address=0x86 Data=0x00
+2013/08/02 21:13:18:121  ACTION: Read PRB EEPROM: Address=0x87 Data=0x00
+2013/08/02 21:13:18:122  ACTION: Read PRB EEPROM: Address=0x88 Data=0x00
+2013/08/02 21:13:18:122  ACTION: Read PRB EEPROM: Address=0x89 Data=0x00
+2013/08/02 21:13:18:123  ACTION: Read PRB EEPROM: Address=0x8A Data=0x00
+2013/08/02 21:13:18:124  ACTION: Read PRB EEPROM: Address=0x8B Data=0x00
+2013/08/02 21:13:18:125  ACTION: Read PRB EEPROM: Address=0x8C Data=0x00
+2013/08/02 21:13:18:126  ACTION: Read PRB EEPROM: Address=0xA8 Data=0x00
+2013/08/02 21:13:18:127  ACTION: Read PRB EEPROM: Address=0xA9 Data=0x00
+2013/08/02 21:13:18:129  INFO:   EXECUTING STATE: IronPython.NewTypes.System.Object#IScriptExecState_5$5 Timeout: 00:00:02
+2013/08/02 21:13:18:129  EVENT:  SCRIPT-EXEC:EXEC-STATE - TES.Dvt.ScriptExecStateMachine, ID[11]
+2013/08/02 21:13:18:129  STATE:  Changing state to ScriptExecStateMachine.ExecState, ID[4]
+2013/08/02 21:13:18:129  ACTION: Break Link
+2013/08/02 21:13:18:388  INFO:   Enabling the timestamp/interval calculations
+2013/08/02 21:13:18:388  EVENT:  Marker (Two Second), ID[153], Timestamp=0xC3[full:195]
+2013/08/02 21:13:18:811  INFO:   Unregistering the ICD session delegates
+2013/08/02 21:13:18:811  EVENT:  Command Completed, ID[154], Command=0xE4 (Break Link)
+2013/08/02 21:13:18:971  EVENT:  Disconnected, ID[155], clean
+2013/08/02 21:13:18:971  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/08/02 21:13:18:971  INFO:   STATE EXITED: IronPython.NewTypes.System.Object#IScriptExecState_5$5
+2013/08/02 21:13:23:975  EVENT:  SCRIPT-EXEC:EXIT - TES.Dvt.ScriptExecStateMachine, ID[8]
+2013/08/02 21:13:23:976  EVENT:  TES.Dvt.ScriptExecStateMachine.DoneEvent, ID[6]
+2013/08/02 21:13:23:976  STATE:  Changing state to ScriptExecStateMachine.IdleState, ID[6]
+2013/08/02 21:13:23:976  INFO:   Terminating ScriptEngineProcedure
+2013/08/02 21:13:23:976  EVENT:  Terminate Dispatch, ID[156]
+2013/08/02 21:13:23:993  INFO:   ScriptEngineProcedure Completed
+2013/08/02 21:13:23:994  INFO:   Testcase Summary:
+2013/08/02 21:13:23:994  RESULT: Test Procedure ScriptEngineProcedure (FAILED)
+2013/08/02 21:13:23:994  INFO:   Procedure Runtime = 00:00:25
+2013/08/02 21:13:24:001  INFO:   The event dispatch thread ScriptEngineProcedure exited.

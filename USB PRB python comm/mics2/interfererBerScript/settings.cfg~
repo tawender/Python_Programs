@@ -1,0 +1,10 @@
+[Location]
+log_dir=.\logs\
+[Firmware]
+build_num=33136
+[Ports]
+oscilloscope=3
+powersupply=14
+[Sampling]
+loop_count=45
+voltage_list=[5.00]

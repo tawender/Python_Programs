@@ -1,0 +1,23 @@
+2013/07/17 20:06:34:565  INFO:   Loaded Symbol File C:\ISV System\Config\FirmwareSymbols\build178.sym for firmware Build #178
+2013/07/17 20:06:34:580  INFO:   CommunicationSystemLog properties: .\CommunicationSystem.logger.properties
+2013/07/17 20:06:34:580  INFO:   CommunicationSystemLog log       : .\logs\systemBerScriptLog 2013.07.17 20.06.34_CommunicationSystem.Log
+2013/07/17 20:06:38:338  INFO:   Setting the event sink for ScriptEngineProcedure
+2013/07/17 20:06:38:338  INFO:   Program parameters checks are enabled
+2013/07/17 20:06:38:343  INFO:   ********************************************************************************
+2013/07/17 20:06:38:343  INFO:   Starting ScriptEngineProcedure, Assembly  version 
+2013/07/17 20:06:38:347  INFO:   Config: ICD (NCommunicationSystem ver: nCommunicationSystem, Version=1.8.2.1, Culture=neutral, PublicKeyToken=56b5378c99c0bcfd; FTDI Driver ver: 2.08.24.0; PRB FPGA ver: 7)
+2013/07/17 20:06:38:347  INFO:   Setting the radio board transmit power to level 0x7.
+2013/07/17 20:06:38:350  INFO:   Radio board power level set to 7.
+2013/07/17 20:06:38:351  INFO:   ECG Timeout Interval set to 10 seconds.
+2013/07/17 20:06:38:351  STATE:  Changing state to ScriptExecStateMachine.WaitForNextCmdState, ID[1]
+2013/07/17 20:06:38:352  INFO:   FwDvtSystem Started the event processing thread
+2013/07/17 20:06:38:373  EVENT:  SCRIPT-EXEC:EXIT - TES.Dvt.ScriptExecStateMachine, ID[8]
+2013/07/17 20:06:38:374  INFO:   Terminating ScriptEngineProcedure
+2013/07/17 20:06:38:374  EVENT:  Terminate Dispatch, ID[15]
+2013/07/17 20:06:38:375  EVENT:  TES.Dvt.ScriptExecStateMachine.DoneEvent, ID[6]
+2013/07/17 20:06:38:375  STATE:  Changing state to ScriptExecStateMachine.IdleState, ID[6]
+2013/07/17 20:06:38:382  INFO:   ScriptEngineProcedure Completed
+2013/07/17 20:06:38:383  INFO:   Testcase Summary:
+2013/07/17 20:06:38:383  RESULT: Test Procedure ScriptEngineProcedure (FAILED)
+2013/07/17 20:06:38:383  INFO:   Procedure Runtime = 00:00:00
+2013/07/17 20:06:38:389  INFO:   The event dispatch thread ScriptEngineProcedure exited.
