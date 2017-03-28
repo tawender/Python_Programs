@@ -93,9 +93,9 @@ class sensor:
 
    _os_ms = [0, 1, 2, 4, 8, 16]
 
-   def __init__(self, pi, sampling=OVER_SAMPLE_1, interface=I2C,
+   def __init__(self, pi, sampling=OVER_SAMPLE_1, interface=SPI,
                    bus=1, address=0x76,
-                   channel=0, baud=10000000, flags=0):
+                   channel=0, baud=50000, flags=0):
       """
       Instantiate with the Pi.
 
@@ -355,7 +355,6 @@ class sensor:
 if __name__ == "__main__":
 
    import time
-   import BME280
    import pigpio
 
    pi = pigpio.pi()
@@ -363,7 +362,7 @@ if __name__ == "__main__":
    if not pi.connected:
       exit(0)
 
-   s = BME280.sensor(pi)
+   s = sensor(pi)
 
    stop = time.time() + 60
 
