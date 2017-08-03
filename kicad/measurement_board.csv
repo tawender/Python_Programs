@@ -1,0 +1,99 @@
+Reference, Value, Footprint, Datasheet, description, supplier, supplier pn, manufacturer, manufacturer pn
+U12,MSP430G2955,footprints_on_Cdrive:VQFN40,,IC MCU 16BIT 56KB FLASH 40VQFN,digikey,296-35703-1-ND,Texas Instruments,MSP430G2955IRHA40R
+R4,?,footprints_on_Cdrive:0603,, ,digikey,22,Yageo, 
+U2,TPS73133,footprints_on_Cdrive:SOT23-5,,IC REG LDO 3.3V 0.15A SOT23-5,digikey,296-32553-1-ND ,Texas Instruments,TPS73133DBVR 
+C4,0.47uF,footprints_on_Cdrive:0603,,CAP CER 0.47UF 10V X5R 0603 ,digikey,1276-1898-1-ND ,Samsung,CL10A474KP8NNNC  
+C2,DNI,footprints_on_Cdrive:0603,,do not install,NA,NA,NA,NA
+C10,DNI,footprints_on_Cdrive:0603,,do not install,NA,NA,NA,NA
+U3,74CBTLV3253,footprints_on_Cdrive:DHVQFN16,, IC MUX/DEMUX DUAL 1OF4 DHVQFN16 ,digikey,568-5422-1-ND,NXP Semiconductors,74CBTLV3253BQ-115
+Q1,Si1101X,footprints_on_Cdrive:SOT23,,MOSFET P-CH 12V SC-89 ,digikey,SI1011X-T1-GE3CT-ND ,Vishay,SI1011X-T1-GE3 
+U7,MCP4921,footprints_on_Cdrive:MSOP-8,, ICDAC 12BIT SNGL W/SPI 8MSOP ,digikey, MCP4921T-E/MSCT-ND ,Microchip Technology,MCP4921T-E/MS 
+U6,AD8603,footprints_on_Cdrive:SOT23-5,, IC OPAMP GP 400KHZ RRO TSOT23-5 ,digikey,AD8603AUJZREEL7CT-ND ,Analog Devices,AD8603AUJZ-REEL7 
+C9,51pF,footprints_on_Cdrive:0603,, CAP CER 51PF 50V C0G/NP0 0603 ,digikey, 490-1420-1-ND ,Murata,GRM1885C1H510JA01D
+U5,TPS73125,footprints_on_Cdrive:SOT23-5,, IC REG LDO 2.5V 0.15A SOT23-5 ,digikey, 296-15803-1-ND ,Texas Instruments, TPS73125DBVT 
+U9,TLV1G125,footprints_on_Cdrive:SOT23-5,, IC LV SINGLE FET BUS SW SOT-23-5 ,digikey, 296-9109-1-ND ,Texas Instruments,SN74CBTLV1G125DBVR
+TP2,TP_SMT,footprints_on_Cdrive:TP_SMT.02,
+P2,CONN_02X15,footprints_on_Cdrive:Pin_Header_Straight_2x15_Pitch2.54mm,,CONN HEADER B/A 30POS VERT DUAL SMT,digikey,A107235-ND ,TE,2-146134-1 
+P3,CONN_02X13,footprints_on_Cdrive:Pin_Header_Straight_2x13_Pitch2.54mm,,CONN RECEPT 30POS .100 VERT DUAL ,digikey,A26494-ND,TE,1-534998-5 
+TP5,header_pin,footprints_on_Cdrive:Header_Pin_Rnd,
+U19,QS4A110,footprints_on_Cdrive:QSOP-24,,IC SWITCH 5PST 24QSOP,digikey,800-1776-5-ND,IDT,QS4A110QG
+U20,QS4A110,footprints_on_Cdrive:QSOP-24,,IC SWITCH 5PST 24QSOP,digikey,800-1776-5-ND,IDT,QS4A110QG
+U14,TLV1G125,footprints_on_Cdrive:SOT23-5,, IC LV SINGLE FET BUS SW SOT-23-5 ,digikey, 296-9109-1-ND ,Texas Instruments,SN74CBTLV1G125DBVR
+U1,NX3L4051,footprints_on_Cdrive:TSSOP16,,IC ANALOG SWITCH 8CH 16TSSOP ,digikey, 568-12393-1-ND ,NXP, NX3L4051PW-118 
+U4,NX3L4051,footprints_on_Cdrive:TSSOP16,,IC ANALOG SWITCH 8CH 16TSSOP ,digikey, 568-12393-1-ND ,NXP, NX3L4051PW-118 
+U8,NX3L4051,footprints_on_Cdrive:TSSOP16,,IC ANALOG SWITCH 8CH 16TSSOP ,digikey, 568-12393-1-ND ,NXP, NX3L4051PW-118 
+U11,NX3L4051,footprints_on_Cdrive:TSSOP16,,IC ANALOG SWITCH 8CH 16TSSOP ,digikey, 568-12393-1-ND ,NXP, NX3L4051PW-118 
+U17,NX3L4051,footprints_on_Cdrive:TSSOP16,,IC ANALOG SWITCH 8CH 16TSSOP ,digikey, 568-12393-1-ND ,NXP, NX3L4051PW-118 
+U18,NX3L4051,footprints_on_Cdrive:TSSOP16,,IC ANALOG SWITCH 8CH 16TSSOP ,digikey, 568-12393-1-ND ,NXP, NX3L4051PW-118 
+R14,DNI,footprints_on_Cdrive:0603,, , , , , 
+C31,1.1nF,footprints_on_Cdrive:0603,, CAP CER 1100PF 50V C0G/NP0 0603 ,digikey, 490-1452-1-ND ,Murata,GRM1885C1H112JA01D 
+P4,CONN_02X05,footprints_on_Cdrive:header_2x5_idc,,CONN HEADER VERT 10POS .100 15AU ,digikey, AHK10H-ND,TE Connectivity, 5499922-1 
+U16,AD8293,footprints_on_Cdrive:SOT23-8,, IC OPAMP INSTR 500HZ RRO SOT23-8 ,digikey, AD8293G160ARJZ-R7CT-ND ,Analog Devices Inc., AD8293G160ARJZ-R7 
+P5,CONN_02X05,footprints_on_Cdrive:header_2x5_idc,
+U15,MCP4921,footprints_on_Cdrive:MSOP-8,, ICDAC 12BIT SNGL W/SPI 8MSOP ,digikey, MCP4921T-E/MSCT-ND ,Microchip Technology,MCP4921T-E/MS 
+U13,AD8603,footprints_on_Cdrive:SOT23-5,, IC OPAMP GP 400KHZ RRO TSOT23-5 ,digikey,AD8603AUJZREEL7CT-ND ,Analog Devices,AD8603AUJZ-REEL7 
+R10,1K,footprints_on_Cdrive:0603,, RES SMD 1K OHM 1% 1/10W 0603 ,digikey, 311-1.00KHRCT-ND ,Yageo,RC0603FR-071KLL 
+R9,10ohm 0.1%,footprints_on_Cdrive:0805,, RES SMD 10 OHM 0.1% 1/4W 0805 ,digikey, A110351CT-ND,TE Connectivity, 2-1625868-7 
+C27,39nF,footprints_on_Cdrive:0603,, CAP CER 0.039UF 16V X7R 0603 ,digikey, 399-9078-1-ND ,Kemet, C0603C393K4RACTU 
+U10,TLV1G125,footprints_on_Cdrive:SOT23-5,, IC LV SINGLE FET BUS SW SOT-23-5 ,digikey, 296-9109-1-ND ,Texas Instruments,SN74CBTLV1G125DBVR
+R11,100k,footprints_on_Cdrive:0603,, RES SMD 100K OHM 1% 1/10W 0603 ,digikey, 311-100KHRCT-ND ,Yageo,RC0603FR-07100KL 
+R12,18k,footprints_on_Cdrive:0603,, RES SMD 18K OHM 1% 1/10W 0603 ,digikey, 311-18.0KHRCT-ND ,Yageo,RC0603FR-0718KL 
+R13,DNI,footprints_on_Cdrive:0603,, , , , , 
+R3,?,footprints_on_Cdrive:0603,, ,digikey, ,Yageo, 
+R1,?,footprints_on_Cdrive:0603,, ,digikey, ,Yageo, 
+R2,?,footprints_on_Cdrive:0603,, ,digikey, ,Yageo, 
+U21,TLV1G125,footprints_on_Cdrive:SOT23-5,, IC LV SINGLE FET BUS SW SOT-23-5 ,digikey, 296-9109-1-ND ,Texas Instruments,SN74CBTLV1G125DBVR
+U22,TLV1G125,footprints_on_Cdrive:SOT23-5,, IC LV SINGLE FET BUS SW SOT-23-5 ,digikey, 296-9109-1-ND ,Texas Instruments,SN74CBTLV1G125DBVR
+C1,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C6,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C13,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C20,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C26,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C28,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C19,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C24,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C33,0.1uF,Resistors_SMD:R_0603_HandSoldering,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C34,0.1uF,Resistors_SMD:R_0603_HandSoldering,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C30,0.1uF,Resistors_SMD:R_0603_HandSoldering,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C32,0.1uF,Resistors_SMD:R_0603_HandSoldering,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C3,0.47uF,footprints_on_Cdrive:0603,,CAP CER 0.47UF 10V X5R 0603 ,digikey,1276-1898-1-ND ,Samsung,CL10A474KP8NNNC  
+C11,0.47uF,footprints_on_Cdrive:0603,,CAP CER 0.47UF 10V X5R 0603 ,digikey,1276-1898-1-ND ,Samsung,CL10A474KP8NNNC  
+C12,0.47uF,footprints_on_Cdrive:0603,,CAP CER 0.47UF 10V X5R 0603 ,digikey,1276-1898-1-ND ,Samsung,CL10A474KP8NNNC  
+TP1,TP_SMT,footprints_on_Cdrive:TP_SMT.02,
+TP8,TP_SMT,footprints_on_Cdrive:TP_SMT.02,
+TP9,TP_SMT,footprints_on_Cdrive:TP_SMT.02,
+TP10,TP_SMT,footprints_on_Cdrive:TP_SMT.02,
+TP12,TP_SMT,footprints_on_Cdrive:TP_SMT.02,
+TP4,TP_SMT,footprints_on_Cdrive:TP_SMT.02,
+C16,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C17,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+R15,47K,footprints_on_Cdrive:0603,,RES SMD 47K OHM 1% 1/10W 0603 ,digikey, 311-47.0KHRCT-ND ,Yageo,RC0603FR-0747KL
+C21,10uF,footprints_on_Cdrive:0603,,CAP CER 10UF 6.3V X5R 0603,digikey, 490-3896-1-ND ,Murata,GRM188R60J106ME47D 
+C22,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C7,10uF,footprints_on_Cdrive:0603,,CAP CER 10UF 6.3V X5R 0603,digikey, 490-3896-1-ND ,Murata,GRM188R60J106ME47D 
+C8,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C25,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C23,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+R5,1K,footprints_on_Cdrive:0603,, RES SMD 1K OHM 1% 1/10W 0603 ,digikey, 311-1.00KHRCT-ND ,Yageo,RC0603FR-071KLL 
+C15,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C14,1.1nF,footprints_on_Cdrive:0603,, CAP CER 1100PF 50V C0G/NP0 0603 ,digikey, 490-1452-1-ND ,Murata,GRM1885C1H112JA01D 
+R7,100k,footprints_on_Cdrive:0603,, RES SMD 100K OHM 1% 1/10W 0603 ,digikey, 311-100KHRCT-ND ,Yageo,RC0603FR-07100KL 
+C18,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+R6,1K,footprints_on_Cdrive:0603,, RES SMD 1K OHM 1% 1/10W 0603 ,digikey, 311-1.00KHRCT-ND ,Yageo,RC0603FR-071KLL 
+C5,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C35,10uF,footprints_on_Cdrive:0603,,CAP CER 10UF 6.3V X5R 0603,digikey, 490-3896-1-ND ,Murata,GRM188R60J106ME47D 
+U23,AD7683,footprints_on_Cdrive:RM-8,, IC ADC 16BIT SAR 100KSPS 8MSOP ,digikey,AD7683ARMZRL7CT-ND,Analog Devices,AD7683ARMZRL7
+C36,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+C37,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+R8,1K,footprints_on_Cdrive:0603,, RES SMD 1K OHM 1% 1/10W 0603 ,digikey, 311-1.00KHRCT-ND ,Yageo,RC0603FR-071KLL 
+C38,1nF,footprints_on_Cdrive:0603,,CAP CER 1000PF 16V X7R 0603,digikey, 399-7835-1-ND ,Kemet,C0603C102K4RACTU 
+TP16,header_pin,footprints_on_Cdrive:Header_Pin_Rnd,
+Q2,2N7002,footprints_on_Cdrive:SOT23,, MOSFET N-CH 60V 115MA SOT23-3 ,digikey, 2N7002-FDICT-ND ,Diodes Inc.,2N7002-7-F 
+R16,47K,footprints_on_Cdrive:0603,,RES SMD 47K OHM 1% 1/10W 0603 ,digikey, 311-47.0KHRCT-ND ,Yageo,RC0603FR-0747KL
+P1,10-Pin Flex Conn,footprints_on_Cdrive:WM6745-FPC,,CONN_FFC_FPC_10POS_0.50MM_R/A,digikey,WM6745CT-ND,Molex,0512811094
+C29,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+R17,0 ohm,footprints_on_Cdrive:0402,, RES SMD 0.0OHM JUMPER 1/16W 0402 ,digikey, 311-0.0JRCT-ND ,Yageo, RC0402JR-070RL 
+R18,DNI,footprints_on_Cdrive:0402,, RES SMD 0.0OHM JUMPER 1/16W 0402 ,digikey, 311-0.0JRCT-ND ,Yageo, RC0402JR-070RL 
+C39,10pF,footprints_on_Cdrive:0402,, CAP CER 10PF 50V C0G/NP0 0402 ,digikey, 490-5921-1-ND ,Murata, GRM1555C1H100JA01D 
+C40,0.1uF,footprints_on_Cdrive:0603,, CAP CER 0.1UF 16V X7R 0603 ,digikey, 490-1532-1-ND ,AVX Corporation, GRM188R71C104KA01D 
+TP3,TP_SMT,footprints_on_Cdrive:TP_SMT.02,
